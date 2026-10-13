@@ -1,0 +1,447 @@
+import { w } from "/$bunfs/root/chunk-4d2n28cn.js";
+import { s, n, EG } from "/$bunfs/root/chunk-8524cxt8.js";
+import { P, Z, y, N } from "/$bunfs/root/chunk-j9ep7722.js";
+import { Ze } from "/$bunfs/root/chunk-z47a2vff.js";
+import { Sr } from "/$bunfs/root/chunk-m52bdn6c.js";
+import { Fr } from "/$bunfs/root/chunk-972pd37y.js";
+import { G } from "/$bunfs/root/chunk-8eystn8t.js";
+import { Ve } from "/$bunfs/root/chunk-wff73y2a.js";
+import { be } from "/$bunfs/root/chunk-s3tnbfvt.js";
+import { _e } from "/$bunfs/root/chunk-1wksey0w.js";
+import { eve } from "/$bunfs/root/chunk-pdgnwnr8.js";
+import { Kin } from "/$bunfs/root/chunk-tmrtnnjz.js";
+import { fo } from "/$bunfs/root/chunk-p78rzsw0.js";
+import { es } from "/$bunfs/root/chunk-yn3m5287.js";
+import { ut } from "/$bunfs/root/chunk-wy1471a2.js";
+import { e, r } from "/$bunfs/root/chunk-vybw69ke.js";
+import { cge, dge } from "/$bunfs/root/chunk-f6apsa64.js";
+import { te } from "/$bunfs/root/chunk-z5hwtxs9.js";
+import { S } from "/$bunfs/root/chunk-cj4xndke.js";
+N();
+function inputFilter(l) {
+    return l.replace(/[\r\n]/g, "");
+}
+const options = [
+    {
+        value: "yes-session",
+        label: "Yes, for this session"
+    },
+    {
+        value: "yes-remember",
+        label: "Yes, and remember this directory"
+    },
+    {
+        value: "no",
+        label: "No"
+    }
+];
+function O() {
+    let R = w(1);
+    let i;
+    if (R[0] === S) {
+        i = e(n, {
+            dimColor: true,
+            children: "Claude Code will be able to read files in this directory and make edits when auto-accept edits is on."
+        });
+        R[0] = i;
+    } else {
+        i = R[0];
+    }
+    return i;
+}
+function Y(R) {
+    let d = w(5);
+    let { path } = R;
+    let a;
+    if (d[0] !== path) {
+        a = e(n, {
+            color: "permission",
+            children: path
+        });
+        d[0] = path;
+        d[1] = a;
+    } else {
+        a = d[1];
+    }
+    let p;
+    if (d[2] === S) {
+        p = e(O, {});
+        d[2] = p;
+    } else {
+        p = d[2];
+    }
+    let t;
+    if (d[3] !== a) {
+        t = r(s, {
+            flexDirection: "column",
+            gap: 1,
+            children: [
+                a,
+                p
+            ]
+        });
+        d[3] = a;
+        d[4] = t;
+    } else {
+        t = d[4];
+    }
+    return t;
+}
+function q(R) {
+    let m = w(16);
+    let { value, onChange, cursorOffset, onChangeCursorOffset, onSubmit, error, suggestions, selectedSuggestion } = R;
+    let E;
+    if (m[0] === S) {
+        E = e(n, {
+            children: "Enter the path to the directory:"
+        });
+        m[0] = E;
+    } else {
+        E = m[0];
+    }
+    let f;
+    if (m[1] !== cursorOffset || m[2] !== onChange || m[3] !== onChangeCursorOffset || m[4] !== onSubmit || m[5] !== value) {
+        f = e(s, {
+            borderDimColor: true,
+            borderStyle: "round",
+            marginTop: 1,
+            paddingLeft: 1,
+            children: e(Sr, {
+                showCursor: true,
+                focus: true,
+                placeholder: `Directory path${te.ellipsis}`,
+                value,
+                onChange,
+                onSubmit,
+                columns: 80,
+                cursorOffset,
+                onChangeCursorOffset,
+                inputFilter,
+                disableCursorMovementForUpDownKeys: true
+            })
+        });
+        m[1] = cursorOffset;
+        m[2] = onChange;
+        m[3] = onChangeCursorOffset;
+        m[4] = onSubmit;
+        m[5] = value;
+        m[6] = f;
+    } else {
+        f = m[6];
+    }
+    let v;
+    if (m[7] !== selectedSuggestion || m[8] !== suggestions) {
+        v = suggestions.length > 0 && e(s, {
+            marginBottom: 1,
+            children: e(eve, {
+                suggestions,
+                selectedSuggestion,
+                noPad: true
+            })
+        });
+        m[7] = selectedSuggestion;
+        m[8] = suggestions;
+        m[9] = v;
+    } else {
+        v = m[9];
+    }
+    let o;
+    if (m[10] !== error) {
+        o = e(es, {
+            error
+        });
+        m[10] = error;
+        m[11] = o;
+    } else {
+        o = m[11];
+    }
+    let F;
+    if (m[12] !== f || m[13] !== v || m[14] !== o) {
+        F = r(s, {
+            flexDirection: "column",
+            children: [
+                E,
+                f,
+                v,
+                o
+            ]
+        });
+        m[12] = f;
+        m[13] = v;
+        m[14] = o;
+        m[15] = F;
+    } else {
+        F = m[15];
+    }
+    return F;
+}
+function vXe(R) {
+    let o = w(38);
+    let { onAddDirectory, onAlreadyAccessible, onCancel, permissionContext, directoryPath } = R;
+    let C = Fr();
+    let [c, k] = y("");
+    let [m, E] = y(0);
+    let [f, v] = y(null);
+    let F;
+    if (o[0] === S) {
+        F = [];
+        o[0] = F;
+    } else {
+        F = o[0];
+    }
+    let [l, ge] = y(F);
+    let [D, K] = y(0);
+    let de;
+    if (o[1] !== C) {
+        de = async (pe)=>{
+            if (!pe) {
+                ge([]);
+                K(0);
+                return;
+            }
+            let et = await Kin(C, pe);
+            ge(et);
+            K(0);
+        };
+        o[1] = C;
+        o[2] = de;
+    } else {
+        de = o[2];
+    }
+    let T = EG(de, 100);
+    let me;
+    let fe;
+    if (o[3] !== T || o[4] !== c) {
+        me = ()=>{
+            T(c);
+        };
+        fe = [
+            c,
+            T
+        ];
+        o[3] = T;
+        o[4] = c;
+        o[5] = me;
+        o[6] = fe;
+    } else {
+        me = o[5];
+        fe = o[6];
+    }
+    P(me, fe);
+    let he;
+    if (o[7] === S) {
+        he = (tt)=>{
+            let ye = `${tt.id}/`;
+            k(ye);
+            E(ye.length);
+            v(null);
+        };
+        o[7] = he;
+    } else {
+        he = o[7];
+    }
+    let ot = he;
+    let Se;
+    if (o[8] !== onAddDirectory || o[9] !== onAlreadyAccessible || o[10] !== permissionContext) {
+        Se = async (rt)=>{
+            let x = await cge(rt, permissionContext);
+            if (x.resultType === "success") {
+                onAddDirectory(x.absolutePath, false);
+                return;
+            }
+            if (x.resultType === "alreadyInWorkingDirectory" && !x.isExactMatch && onAlreadyAccessible?.(x)) {
+                return;
+            }
+            v(dge(x));
+        };
+        o[8] = onAddDirectory;
+        o[9] = onAlreadyAccessible;
+        o[10] = permissionContext;
+        o[11] = Se;
+    } else {
+        Se = o[11];
+    }
+    let onSubmit = Se;
+    let Ce;
+    if (o[12] === S) {
+        Ce = {
+            context: "Settings"
+        };
+        o[12] = Ce;
+    } else {
+        Ce = o[12];
+    }
+    Ze("confirm:no", onCancel, Ce);
+    let ve;
+    if (o[13] !== D || o[14] !== l) {
+        ve = (g)=>{
+            if (l.length > 0) {
+                if (g.name === "tab") {
+                    g.preventDefault();
+                    let we = l[D];
+                    if (we) {
+                        ot(we);
+                    }
+                    return;
+                }
+                if (g.name === "up" || g.ctrl && g.name === "p") {
+                    g.preventDefault();
+                    K((De)=>{
+                        if (De <= 0) {
+                            return l.length - 1;
+                        }
+                        return De - 1;
+                    });
+                    return;
+                }
+                if (g.name === "down" || g.ctrl && g.name === "n") {
+                    g.preventDefault();
+                    K((xe)=>{
+                        if (xe >= l.length - 1) {
+                            return 0;
+                        }
+                        return xe + 1;
+                    });
+                    return;
+                }
+            }
+        };
+        o[13] = D;
+        o[14] = l;
+        o[15] = ve;
+    } else {
+        ve = o[15];
+    }
+    let onKeyDown = ve;
+    let Ae;
+    if (o[16] !== directoryPath || o[17] !== onAddDirectory || o[18] !== onCancel) {
+        Ae = (nt)=>{
+            if (!directoryPath) {
+                return;
+            }
+            kt: switch(nt){
+                case "yes-session":
+                    {
+                        onAddDirectory(directoryPath, false);
+                        break kt;
+                    }
+                case "yes-remember":
+                    {
+                        onAddDirectory(directoryPath, true);
+                        break kt;
+                    }
+                case "no":
+                    {
+                        onCancel();
+                    }
+            }
+        };
+        o[16] = directoryPath;
+        o[17] = onAddDirectory;
+        o[18] = onCancel;
+        o[19] = Ae;
+    } else {
+        Ae = o[19];
+    }
+    let onChange = Ae;
+    let inputGuide;
+    if (o[20] !== directoryPath) {
+        inputGuide = directoryPath ? undefined : r(be, {
+            children: [
+                e(G, {
+                    chord: "tab",
+                    action: "complete"
+                }),
+                e(G, {
+                    chord: "enter",
+                    action: "add"
+                }),
+                e(ut, {
+                    action: "confirm:no",
+                    context: "Settings",
+                    fallback: "Esc",
+                    description: "cancel"
+                })
+            ]
+        });
+        o[20] = directoryPath;
+        o[21] = inputGuide;
+    } else {
+        inputGuide = o[21];
+    }
+    let U;
+    if (o[22] !== m || o[23] !== c || o[24] !== directoryPath || o[25] !== f || o[26] !== onChange || o[27] !== onSubmit || o[28] !== D || o[29] !== l) {
+        U = directoryPath ? r(s, {
+            flexDirection: "column",
+            gap: 1,
+            children: [
+                e(Y, {
+                    path: directoryPath
+                }),
+                e(Ve, {
+                    options,
+                    onChange,
+                    onCancel: ()=>onChange("no")
+                })
+            ]
+        }) : r(s, {
+            flexDirection: "column",
+            gap: 1,
+            children: [
+                e(O, {}),
+                e(q, {
+                    value: c,
+                    onChange: k,
+                    cursorOffset: m,
+                    onChangeCursorOffset: E,
+                    onSubmit,
+                    error: f,
+                    suggestions: l,
+                    selectedSuggestion: D
+                })
+            ]
+        });
+        o[22] = m;
+        o[23] = c;
+        o[24] = directoryPath;
+        o[25] = f;
+        o[26] = onChange;
+        o[27] = onSubmit;
+        o[28] = D;
+        o[29] = l;
+        o[30] = U;
+    } else {
+        U = o[30];
+    }
+    let V;
+    if (o[31] !== onCancel || o[32] !== inputGuide || o[33] !== U) {
+        V = e(_e, {
+            title: "Add directory to workspace",
+            onCancel,
+            color: "permission",
+            isCancelActive: false,
+            inputGuide,
+            children: U
+        });
+        o[31] = onCancel;
+        o[32] = inputGuide;
+        o[33] = U;
+        o[34] = V;
+    } else {
+        V = o[34];
+    }
+    let Oe;
+    if (o[35] !== onKeyDown || o[36] !== V) {
+        Oe = e(fo, {
+            onKeyDown,
+            children: V
+        });
+        o[35] = onKeyDown;
+        o[36] = V;
+        o[37] = Oe;
+    } else {
+        Oe = o[37];
+    }
+    return Oe;
+}
+export { vXe };

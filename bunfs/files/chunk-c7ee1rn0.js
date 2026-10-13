@@ -1,0 +1,12 @@
+// @bun @bytecode
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.296
+import{K}from"/$bunfs/root/chunk-ctt36bn8.js";import{Pgr}from"/$bunfs/root/chunk-18a8x2hz.js";import{X_e}from"/$bunfs/root/chunk-eb0vnwc4.js";import{aa,gT}from"/$bunfs/root/chunk-kasbfbhj.js";import{TM,xIn}from"/$bunfs/root/chunk-1k3a7x55.js";function DX(r){if(X_e())Pgr(TM(r).map(([,t])=>xIn(t)),()=>gT(aa(K())))}
+export{DX};

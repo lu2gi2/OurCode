@@ -1,0 +1,11 @@
+// @bun @bytecode
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.296
+import{Me}from"/$bunfs/root/chunk-b97fvbrv.js";import{SXo,Gnr,zVt,GVt,o0s,s0s,i0s,PXo}from"/$bunfs/root/chunk-kasbfbhj.js";import{Xl}from"/$bunfs/root/chunk-mhg15z8n.js";function g(e,t){let n=e.subagentType===t.agent.agentType?t.agent:t.agents.find((o)=>o.agentType===e.subagentType);if(n!==void 0)return{agent:n};let p=t.agents.map((o)=>o.agentType),s=p.length>0?`available: ${p.join(", ")}`:"none is available";return{deny:`a hook's subagentType '${e.subagentType}' names no agent this call can dispatch (${s})`}}var m=(e)=>({tool_use_id:e.tool_use_id,prompt:e.prompt,description:e.description,subagentType:e.agent.agentType,provider:SXo(e.agent),model:e.model,parentModel:e.parentModel,...e.parentAgentId!==void 0&&{parentAgentId:e.parentAgentId},permissionMode:e.permissionMode,background:e.background,fork:e.fork,...e.isTeammate===!0&&{isTeammate:!0},...e.workflow!==void 0&&{workflow:e.workflow},name:e.name,cwd:e.cwd});var d=(e)=>({started:({agentId:t,model:r,teammateId:n})=>e.done({model:r,agentId:t,...n!==void 0&&{teammateId:n}}),[Symbol.dispose]:e[Symbol.dispose]});var c=Object.freeze({started:()=>{return},[Symbol.dispose]:()=>{return}});async function W9n(e){let{agent:t,agents:r,signal:n,origin:p}=e,s=m(e);if(!Xl("agent.spawn"))return{spawn:s,agent:t,starting:c};let o=GVt(i0s),i=await zVt(o,PXo({signal:n,origin:p,core:{"agent.spawn":Gnr(o)}}).agent.spawn(s));if(!i.arrived)return o0s({result:i.answered,input:s,signal:n});let f=i.arrived;s0s({input:s,spawn:f});let a=g(f,{agent:t,agents:r});if(a.deny!==void 0)return o.failed(new Me(a.deny)),a;return{spawn:f,agent:a.agent,starting:d(o)}}export{W9n};

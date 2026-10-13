@@ -1,0 +1,541 @@
+[
+ {
+  "module": "chunk-fav4x1s3.js",
+  "offset": 49255,
+  "name": "hd",
+  "user_facing": null,
+  "resolved_name": "memory_write"
+ },
+ {
+  "module": "chunk-7aeb6f08.js",
+  "offset": 30182,
+  "name": "va",
+  "user_facing": null,
+  "resolved_name": "StructuredOutput"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 734594,
+  "name": "Xt",
+  "user_facing": null,
+  "resolved_name": "Policy"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 763501,
+  "name": "co",
+  "user_facing": "Search",
+  "resolved_name": "Failed to load usage data"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 769755,
+  "name": "Jr",
+  "user_facing": "Search",
+  "resolved_name": "Grep"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 780513,
+  "name": "Pm",
+  "user_facing": null,
+  "resolved_name": "local_serial"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 938088,
+  "name": "s",
+  "user_facing": null,
+  "resolved_name": "inputJSONSchema"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 1946752,
+  "name": "pr",
+  "user_facing": null,
+  "resolved_name": "WebCryptoAPI"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 2637858,
+  "name": "xM",
+  "user_facing": "MCP Wait For Servers",
+  "resolved_name": "WaitForMcpServers"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 3541115,
+  "name": "rt",
+  "user_facing": null,
+  "resolved_name": "CCR agent tokens cannot call this route"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 4160199,
+  "name": "ht",
+  "user_facing": null,
+  "resolved_name": "Edit"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 4175237,
+  "name": "Zi",
+  "user_facing": "Edit Notebook",
+  "resolved_name": "NotebookEdit"
+ },
+ {
+  "module": "chunk-kasbfbhj.js",
+  "offset": 4332722,
+  "name": "Be",
+  "user_facing": null,
+  "resolved_name": "files"
+ },
+ {
+  "module": "chunk-amw6mwbm.js",
+  "offset": 15246,
+  "name": "Pl",
+  "user_facing": "Monitor",
+  "resolved_name": "Monitor"
+ },
+ {
+  "module": "chunk-tn5qaff8.js",
+  "offset": 6436,
+  "name": "fu",
+  "user_facing": null,
+  "resolved_name": "ExitPlanMode"
+ },
+ {
+  "module": "chunk-hm8wabr7.js",
+  "offset": 3651,
+  "name": "Ew",
+  "user_facing": null,
+  "resolved_name": "SubagentHandback"
+ },
+ {
+  "module": "chunk-8j298gya.js",
+  "offset": 45450,
+  "name": "yt",
+  "user_facing": null,
+  "resolved_name": "Agent"
+ },
+ {
+  "module": "chunk-m0s4hfby.js",
+  "offset": 7258,
+  "name": "Ak",
+  "user_facing": null,
+  "resolved_name": "EnterPlanMode"
+ },
+ {
+  "module": "chunk-v55arm1d.js",
+  "offset": 13050,
+  "name": "Jo",
+  "user_facing": null,
+  "resolved_name": "IDPCommunicationErrorException"
+ },
+ {
+  "module": "chunk-m4wqczd4.js",
+  "offset": 2625,
+  "name": "o",
+  "user_facing": "listMcpResources",
+  "resolved_name": "tool"
+ },
+ {
+  "module": "chunk-m4wqczd4.js",
+  "offset": 9594,
+  "name": "f",
+  "user_facing": "readMcpResourceDir",
+  "resolved_name": "resource_type"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 28066,
+  "name": "HD",
+  "user_facing": null,
+  "resolved_name": "ReadNotifications"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 33724,
+  "name": "Qye",
+  "user_facing": null,
+  "resolved_name": "ShowOnboardingRolePicker"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 36583,
+  "name": "Jye",
+  "user_facing": "Stop Task",
+  "resolved_name": "OfferChromeSetup"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 42392,
+  "name": "Kf",
+  "user_facing": null,
+  "resolved_name": "SendUserMessage"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 46447,
+  "name": "wa",
+  "user_facing": null,
+  "resolved_name": "ScheduleWakeup"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 53558,
+  "name": "Af",
+  "user_facing": "Web Search",
+  "resolved_name": "WebSearch"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 61709,
+  "name": "eR",
+  "user_facing": "Code review",
+  "resolved_name": "ReportFindings"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 72538,
+  "name": "Lx",
+  "user_facing": "TestingPermission",
+  "resolved_name": "TodoWrite"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 85313,
+  "name": "Uo",
+  "user_facing": null,
+  "resolved_name": "SendFeedback"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 92156,
+  "name": "Yg",
+  "user_facing": null,
+  "resolved_name": "GetTask"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 107020,
+  "name": "L$",
+  "user_facing": "LSP",
+  "resolved_name": "LSP"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 115822,
+  "name": "wW",
+  "user_facing": "refreshMcpTools",
+  "resolved_name": "RefreshMcpTools"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 122608,
+  "name": "o",
+  "user_facing": null,
+  "resolved_name": "tool"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 140262,
+  "name": "Ek",
+  "user_facing": "TaskCreate",
+  "resolved_name": "TaskCreate"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 146765,
+  "name": "$A",
+  "user_facing": "TaskUpdate",
+  "resolved_name": "TaskUpdate"
+ },
+ {
+  "module": "chunk-sfjcyk7w.js",
+  "offset": 151615,
+  "name": "ZC",
+  "user_facing": "TaskList",
+  "resolved_name": "TaskList"
+ },
+ {
+  "module": "chunk-p5525etb.js",
+  "offset": 97395,
+  "name": "Ct",
+  "user_facing": "PowerShell",
+  "resolved_name": "Remote tool calling"
+ },
+ {
+  "module": "chunk-ghqw89a3.js",
+  "offset": 10829,
+  "name": "e",
+  "user_facing": null,
+  "resolved_name": "reason"
+ },
+ {
+  "module": "chunk-ghqw89a3.js",
+  "offset": 17324,
+  "name": "_Le",
+  "user_facing": null,
+  "resolved_name": "SuggestPluginInstall"
+ },
+ {
+  "module": "chunk-ghqw89a3.js",
+  "offset": 21574,
+  "name": "k8t",
+  "user_facing": null,
+  "resolved_name": "SuggestSkills"
+ },
+ {
+  "module": "chunk-ntghhmcb.js",
+  "offset": 7767,
+  "name": "TZe",
+  "user_facing": "FetchInboxMessage",
+  "resolved_name": "FetchInboxMessage"
+ },
+ {
+  "module": "chunk-tkdb70xb.js",
+  "offset": 5116,
+  "name": "ke",
+  "user_facing": null,
+  "resolved_name": "ObserverReport"
+ },
+ {
+  "module": "chunk-m9ryp3qy.js",
+  "offset": 4268,
+  "name": "ii",
+  "user_facing": null,
+  "resolved_name": "AWS_REGION"
+ },
+ {
+  "module": "chunk-6daq93ej.js",
+  "offset": 1552,
+  "name": "\"mcp\"",
+  "user_facing": "mcp",
+  "resolved_name": "mcp"
+ },
+ {
+  "module": "chunk-fbrtns93.js",
+  "offset": 47306,
+  "name": "J0e",
+  "user_facing": "Publish plugin",
+  "resolved_name": "PublishPlugin"
+ },
+ {
+  "module": "chunk-tmrtnnjz.js",
+  "offset": 214006,
+  "name": "h",
+  "user_facing": null,
+  "resolved_name": "fallback"
+ },
+ {
+  "module": "chunk-pvw881kj.js",
+  "offset": 14977,
+  "name": "e",
+  "user_facing": null,
+  "resolved_name": "reason"
+ },
+ {
+  "module": "chunk-cqasyxnh.js",
+  "offset": 40690,
+  "name": "Git",
+  "user_facing": null,
+  "resolved_name": "AppifactRepl"
+ },
+ {
+  "module": "chunk-5hfrp7j5.js",
+  "offset": 6786,
+  "name": "o",
+  "user_facing": "ListAgents",
+  "resolved_name": "tool"
+ },
+ {
+  "module": "chunk-gdtjwt8n.js",
+  "offset": 14713,
+  "name": "e",
+  "user_facing": null,
+  "resolved_name": "reason"
+ },
+ {
+  "module": "chunk-zrd265kc.js",
+  "offset": 15142,
+  "name": "sm",
+  "user_facing": null,
+  "resolved_name": "netezza"
+ },
+ {
+  "module": "chunk-dpfeshp3.js",
+  "offset": 25959,
+  "name": "X",
+  "user_facing": null,
+  "resolved_name": "Projects"
+ },
+ {
+  "module": "chunk-8d9hxesq.js",
+  "offset": 14599,
+  "name": "Xx",
+  "user_facing": null,
+  "resolved_name": "EndConversation"
+ },
+ {
+  "module": "chunk-xkmctf5g.js",
+  "offset": 52781,
+  "name": "Gn",
+  "user_facing": "SendMessage",
+  "resolved_name": "cedar_ember"
+ },
+ {
+  "module": "chunk-tpwwxyw4.js",
+  "offset": 23280,
+  "name": "ene",
+  "user_facing": "SendFile",
+  "resolved_name": "SendFile"
+ },
+ {
+  "module": "chunk-vfcpfefy.js",
+  "offset": 6466,
+  "name": "xzt",
+  "user_facing": null,
+  "resolved_name": "ListConnectors"
+ },
+ {
+  "module": "chunk-4xyzrj1s.js",
+  "offset": 9830,
+  "name": "__",
+  "user_facing": null,
+  "resolved_name": "SendUserFile"
+ },
+ {
+  "module": "chunk-dwbt5wj9.js",
+  "offset": 25771,
+  "name": "ere",
+  "user_facing": null,
+  "resolved_name": "propose_skills"
+ },
+ {
+  "module": "chunk-wygp9s4p.js",
+  "offset": 7415,
+  "name": "tMn",
+  "user_facing": null,
+  "resolved_name": "ProposeGoal"
+ },
+ {
+  "module": "chunk-13m6fqf8.js",
+  "offset": 6603,
+  "name": "jx",
+  "user_facing": "PushNotification",
+  "resolved_name": "PushNotification"
+ },
+ {
+  "module": "chunk-9g7gfs7x.js",
+  "offset": 18447,
+  "name": "l3t",
+  "user_facing": null,
+  "resolved_name": "DesignSync"
+ },
+ {
+  "module": "chunk-hgq6z0f4.js",
+  "offset": 25804,
+  "name": "v",
+  "user_facing": null,
+  "resolved_name": "scalarEnums"
+ },
+ {
+  "module": "chunk-y04e1q5q.js",
+  "offset": 6793,
+  "name": "zu",
+  "user_facing": null,
+  "resolved_name": "CronCreate"
+ },
+ {
+  "module": "chunk-ehs4epbg.js",
+  "offset": 6189,
+  "name": "Z0e",
+  "user_facing": null,
+  "resolved_name": "CronList"
+ },
+ {
+  "module": "chunk-xvew39ra.js",
+  "offset": 6181,
+  "name": "iis",
+  "user_facing": null,
+  "resolved_name": "self_hosted_runner_get_pool"
+ },
+ {
+  "module": "chunk-xvew39ra.js",
+  "offset": 9055,
+  "name": "lis",
+  "user_facing": null,
+  "resolved_name": "self_hosted_runner_list_sessions"
+ },
+ {
+  "module": "chunk-xvew39ra.js",
+  "offset": 10046,
+  "name": "ais",
+  "user_facing": null,
+  "resolved_name": "self_hosted_runner_list_runners"
+ },
+ {
+  "module": "chunk-xvew39ra.js",
+  "offset": 11474,
+  "name": "cis",
+  "user_facing": null,
+  "resolved_name": "self_hosted_runner_list_secrets"
+ },
+ {
+  "module": "chunk-xvew39ra.js",
+  "offset": 12756,
+  "name": "dis",
+  "user_facing": null,
+  "resolved_name": "self_hosted_runner_read_health"
+ },
+ {
+  "module": "chunk-xvew39ra.js",
+  "offset": 15155,
+  "name": "IIn",
+  "user_facing": null,
+  "resolved_name": "self_hosted_runner_requeue_session"
+ },
+ {
+  "module": "chunk-xvew39ra.js",
+  "offset": 17090,
+  "name": "PIn",
+  "user_facing": null,
+  "resolved_name": "self_hosted_runner_spawn_local"
+ },
+ {
+  "module": "chunk-5pvna5wz.js",
+  "offset": 16975,
+  "name": "N$",
+  "user_facing": null,
+  "resolved_name": "RemoteTrigger"
+ },
+ {
+  "module": "chunk-rh113v7v.js",
+  "offset": 6182,
+  "name": "Czt",
+  "user_facing": null,
+  "resolved_name": "SearchMcpRegistry"
+ },
+ {
+  "module": "chunk-d13zg1yg.js",
+  "offset": 6180,
+  "name": "Rzt",
+  "user_facing": null,
+  "resolved_name": "SuggestConnectors"
+ },
+ {
+  "module": "chunk-cxyhsvfp.js",
+  "offset": 97561,
+  "name": "y",
+  "user_facing": null,
+  "resolved_name": "none"
+ },
+ {
+  "module": "chunk-2rbegc0n.js",
+  "offset": 128301,
+  "name": "y",
+  "user_facing": null,
+  "resolved_name": "none"
+ }
+]

@@ -1,0 +1,12 @@
+// @bun @bytecode
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.296
+import{d}from"/$bunfs/root/chunk-wkmq9ht0.js";import{t}from"/$bunfs/root/chunk-bd805sh6.js";import{wDt,rCo}from"/$bunfs/root/chunk-kgp7t7yx.js";import{e6e,$Un,tt,Lyo,SZt,mOt,AEr,l1,gOt,jT,Fn,k}from"/$bunfs/root/chunk-0ycjphb5.js";import{ePt}from"/$bunfs/root/chunk-j5p659br.js";var m="tengu_log_datadog_events",f="tengu_quizzical_giraffe",h=new Set(["tengu_started","tengu_oauth_success","tengu_oauth_token_refresh_lock_acquiring","tengu_oauth_token_refresh_starting","tengu_oauth_token_refresh_success","tengu_oauth_token_refresh_failure","tengu_oauth_token_refresh_race_recovered","tengu_oauth_refresh_token_cleared_on_disk","tengu_api_error","tengu_feature_bad","tengu_feature_sad"]);function p(){if(mOt("datadog"))return!1;try{return k(m,!1)}catch{return!1}}function _(e){try{e6e(tt())}catch{}return $Un(e)}function g(e,n){if(!h.has(e))return n;try{let{value:o,source:a}=Fn(f,!1),r=a==="fallback"||a==="disabled";return{...n,[f]:d(r?"unset":o===!0?"on":"off")}}catch{return n}}function E(e){return e||l1()}function c(e,n,o,a){let r=a();if(!E(r))return;let i=g(e,_(n)),s=o!==null?{...i,sample_rate:o}:i;if(r)ePt(e,wDt(s));gOt(e,s)}var l=!1;function v(e,n,o){if(l){t(`logEvent reentered while collecting metadata \u2014 dropped ${e}. A getEventMetadata dependency (model/betas/auth) called logEvent synchronously; defer it (queueMicrotask) or move it out of the metadata path.`,{level:"error"});return}l=!0;try{let a=AEr(e);if(a===0)return;if(Lyo()){c(e,n,a,o);return}let r=()=>{l=!0;try{c(e,n,a,o)}finally{l=!1}};SZt().then(r,r)}finally{l=!1}}async function y(e,n,o){let a=AEr(e);if(a===0)return;if(!Lyo())await SZt();let r=o();if(!E(r))return;let i=g(e,_(n)),s=a!==null?{...i,sample_rate:a}:i,u=[];if(r)u.push(ePt(e,wDt(s)));u.push(jT(e,s)),await Promise.all(u)}function oX(){rCo(S(p))}function S(e){return{logEvent:(n,o)=>v(n,o,e),logEventAsync:(n,o)=>y(n,o,e)}}
+export{oX};

@@ -1,0 +1,527 @@
+import "/$bunfs/root/chunk-wkmq9ht0.js";
+import "/$bunfs/root/chunk-m1rt7wpr.js";
+import "/$bunfs/root/chunk-dn762950.js";
+import "/$bunfs/root/chunk-j27d47mr.js";
+import { Lg } from "/$bunfs/root/chunk-ctt36bn8.js";
+import "/$bunfs/root/chunk-fcerdfs3.js";
+import "/$bunfs/root/chunk-jtpfgrzr.js";
+import "/$bunfs/root/chunk-xgw72tt1.js";
+import "/$bunfs/root/chunk-kgp7t7yx.js";
+import { f } from "/$bunfs/root/chunk-04d4ftnx.js";
+import "/$bunfs/root/chunk-6kc68p18.js";
+import "/$bunfs/root/chunk-s7bhz6qz.js";
+import "/$bunfs/root/chunk-dp4xqs6t.js";
+import "/$bunfs/root/chunk-x0qpydt2.js";
+import "/$bunfs/root/chunk-bd805sh6.js";
+import "/$bunfs/root/chunk-24agvrd9.js";
+import { I, Tr } from "/$bunfs/root/chunk-qch5xj2a.js";
+import "/$bunfs/root/chunk-etbngzss.js";
+import "/$bunfs/root/chunk-p9frg3mj.js";
+import "/$bunfs/root/chunk-yq147k4z.js";
+import "/$bunfs/root/chunk-ezr23nse.js";
+import "/$bunfs/root/chunk-0ycjphb5.js";
+import "/$bunfs/root/chunk-066dgc2r.js";
+import "/$bunfs/root/chunk-rkw8s9xd.js";
+import { w } from "/$bunfs/root/chunk-4d2n28cn.js";
+import "/$bunfs/root/chunk-rjfz3g63.js";
+import "/$bunfs/root/chunk-se8vehhp.js";
+import "/$bunfs/root/chunk-ytkshq2j.js";
+import "/$bunfs/root/chunk-n1z3wrvm.js";
+import "/$bunfs/root/chunk-5k7wva7c.js";
+import "/$bunfs/root/chunk-sawpz2mr.js";
+import "/$bunfs/root/chunk-k7dkeqsc.js";
+import "/$bunfs/root/chunk-cgpqvjrr.js";
+import "/$bunfs/root/chunk-x47nahfr.js";
+import "/$bunfs/root/chunk-h6pppnx2.js";
+import "/$bunfs/root/chunk-6dwnw6av.js";
+import { inn } from "/$bunfs/root/chunk-qk3m4n8a.js";
+import "/$bunfs/root/chunk-52bcnmbr.js";
+import "/$bunfs/root/chunk-6gk7mpsm.js";
+import "/$bunfs/root/chunk-r3z1chqx.js";
+import "/$bunfs/root/chunk-6bjtvbt8.js";
+import "/$bunfs/root/chunk-wew3321y.js";
+import "/$bunfs/root/chunk-63xa24b4.js";
+import "/$bunfs/root/chunk-7mawjt4q.js";
+import "/$bunfs/root/chunk-w1n7t02f.js";
+import "/$bunfs/root/chunk-3fj60qgx.js";
+import "/$bunfs/root/chunk-3yz9zdww.js";
+import "/$bunfs/root/chunk-2d9a83dh.js";
+import "/$bunfs/root/chunk-c56kpkt7.js";
+import "/$bunfs/root/chunk-tchztk88.js";
+import "/$bunfs/root/chunk-z0brrd3r.js";
+import "/$bunfs/root/chunk-h7cbghgp.js";
+import { rn, Lr } from "/$bunfs/root/chunk-223dyewd.js";
+import "/$bunfs/root/chunk-zwxj12s4.js";
+import "/$bunfs/root/chunk-9dn6gg6j.js";
+import "/$bunfs/root/chunk-1692wahf.js";
+import "/$bunfs/root/chunk-gc7ea4xt.js";
+import "/$bunfs/root/chunk-craerjpn.js";
+import "/$bunfs/root/chunk-03gkt7r5.js";
+import "/$bunfs/root/chunk-nj0630nv.js";
+import "/$bunfs/root/chunk-n1fq1c8e.js";
+import "/$bunfs/root/chunk-9fa34ggx.js";
+import "/$bunfs/root/chunk-55x53sfe.js";
+import "/$bunfs/root/chunk-xbsy70c7.js";
+import "/$bunfs/root/chunk-ph7a449e.js";
+import "/$bunfs/root/chunk-hz24p3zh.js";
+import "/$bunfs/root/chunk-vpp1psvz.js";
+import "/$bunfs/root/chunk-bckbp4r1.js";
+import "/$bunfs/root/chunk-qbpgcqdd.js";
+import "/$bunfs/root/chunk-pw6z2cbs.js";
+import "/$bunfs/root/chunk-75wzvwyz.js";
+import "/$bunfs/root/chunk-t0b6khh6.js";
+import "/$bunfs/root/chunk-74djrymf.js";
+import "/$bunfs/root/chunk-d2sd20y7.js";
+import "/$bunfs/root/chunk-pp3y3t61.js";
+import "/$bunfs/root/chunk-mqgsnx6k.js";
+import "/$bunfs/root/chunk-xb9cceab.js";
+import "/$bunfs/root/chunk-peahjaep.js";
+import "/$bunfs/root/chunk-6g4165br.js";
+import "/$bunfs/root/chunk-231n9cft.js";
+import "/$bunfs/root/chunk-6s83kxfy.js";
+import "/$bunfs/root/chunk-0sgn6snt.js";
+import "/$bunfs/root/chunk-2321ytcf.js";
+import "/$bunfs/root/chunk-1ej05ybf.js";
+import "/$bunfs/root/chunk-mvz09dzd.js";
+import "/$bunfs/root/chunk-k3tkc302.js";
+import "/$bunfs/root/chunk-jynzk4xv.js";
+import "/$bunfs/root/chunk-tw5t5h13.js";
+import "/$bunfs/root/chunk-wrn3nvp5.js";
+import "/$bunfs/root/chunk-sk5bs87n.js";
+import "/$bunfs/root/chunk-fnj5y75n.js";
+import "/$bunfs/root/chunk-nb5ge4vq.js";
+import "/$bunfs/root/chunk-vqyxznfw.js";
+import "/$bunfs/root/chunk-rk838m7w.js";
+import { s, n, Di } from "/$bunfs/root/chunk-8524cxt8.js";
+import "/$bunfs/root/chunk-va6abnm5.js";
+import { y, N } from "/$bunfs/root/chunk-j9ep7722.js";
+import "/$bunfs/root/chunk-4nfvaqps.js";
+import "/$bunfs/root/chunk-jyn472pw.js";
+import "/$bunfs/root/chunk-mb842220.js";
+import "/$bunfs/root/chunk-my4c1mw2.js";
+import "/$bunfs/root/chunk-1eajkkr7.js";
+import "/$bunfs/root/chunk-j5p659br.js";
+import "/$bunfs/root/chunk-0ev62b0n.js";
+import "/$bunfs/root/chunk-xmhf4s4k.js";
+import "/$bunfs/root/chunk-9kgj8k7e.js";
+import "/$bunfs/root/chunk-wmhgfdy3.js";
+import "/$bunfs/root/chunk-avb6ma1z.js";
+import "/$bunfs/root/chunk-4ban11rz.js";
+import "/$bunfs/root/chunk-n2p0n845.js";
+import "/$bunfs/root/chunk-p2nmcfaz.js";
+import "/$bunfs/root/chunk-46as0mn8.js";
+import { be } from "/$bunfs/root/chunk-s3tnbfvt.js";
+import "/$bunfs/root/chunk-2mjaqpws.js";
+import "/$bunfs/root/chunk-wvwcne5b.js";
+import "/$bunfs/root/chunk-z47a2vff.js";
+import "/$bunfs/root/chunk-cmf2ckg9.js";
+import "/$bunfs/root/chunk-w72c4p0f.js";
+import "/$bunfs/root/chunk-yphmh99q.js";
+import { _e } from "/$bunfs/root/chunk-1wksey0w.js";
+import { G } from "/$bunfs/root/chunk-8eystn8t.js";
+import "/$bunfs/root/chunk-86meyjxt.js";
+import "/$bunfs/root/chunk-dzxgwxyz.js";
+import "/$bunfs/root/chunk-8kbdmpwx.js";
+import "/$bunfs/root/chunk-ddvfb1p1.js";
+import "/$bunfs/root/chunk-3my1j42p.js";
+import { V } from "/$bunfs/root/chunk-zby5bms5.js";
+import "/$bunfs/root/chunk-9qns2dz5.js";
+import { dt } from "/$bunfs/root/chunk-xg9ned06.js";
+import "/$bunfs/root/chunk-tn496ms6.js";
+import "/$bunfs/root/chunk-ssn8w7cj.js";
+import { mo } from "/$bunfs/root/chunk-4wvwjbc4.js";
+import "/$bunfs/root/chunk-d0t2hmxp.js";
+import "/$bunfs/root/chunk-qy8kbd4m.js";
+import "/$bunfs/root/chunk-2kj77ctk.js";
+import "/$bunfs/root/chunk-wy1471a2.js";
+import "/$bunfs/root/chunk-0v20st7x.js";
+import { e, r } from "/$bunfs/root/chunk-vybw69ke.js";
+import "/$bunfs/root/chunk-d1aahbgc.js";
+import "/$bunfs/root/chunk-bnmvn3bs.js";
+import "/$bunfs/root/chunk-eamkhb9v.js";
+import "/$bunfs/root/chunk-9fm17gv5.js";
+import "/$bunfs/root/chunk-wtmtca98.js";
+import "/$bunfs/root/chunk-cg7f88dh.js";
+import "/$bunfs/root/chunk-gw1f0xa7.js";
+import "/$bunfs/root/chunk-4j5kjctm.js";
+import "/$bunfs/root/chunk-z5hwtxs9.js";
+import "/$bunfs/root/chunk-28f6aa40.js";
+import { JRt, vit, Ido, DLn, Eit, kit } from "/$bunfs/root/chunk-0g49c63m.js";
+import "/$bunfs/root/chunk-ghreee2m.js";
+import "/$bunfs/root/chunk-fbhagmpx.js";
+import "/$bunfs/root/chunk-2b1rbkfn.js";
+import "/$bunfs/root/chunk-f0v3xmb1.js";
+import "/$bunfs/root/chunk-chd251pa.js";
+import "/$bunfs/root/chunk-wtrd0hw3.js";
+import "/$bunfs/root/chunk-v214ecah.js";
+import "/$bunfs/root/chunk-9nfq6p43.js";
+import "/$bunfs/root/chunk-77t63btp.js";
+import "/$bunfs/root/chunk-yp41169e.js";
+import "/$bunfs/root/chunk-2dp0fzyb.js";
+import "/$bunfs/root/chunk-pj42g5eb.js";
+import "/$bunfs/root/chunk-tfc1vf2h.js";
+import "/$bunfs/root/chunk-6cee9jwv.js";
+import "/$bunfs/root/chunk-yngqe5v3.js";
+import "/$bunfs/root/chunk-nnawdxg4.js";
+import "/$bunfs/root/chunk-svqqgdca.js";
+import "/$bunfs/root/chunk-dze6yaxw.js";
+import "/$bunfs/root/chunk-m6z3m7rx.js";
+import "/$bunfs/root/chunk-tybndaby.js";
+import "/$bunfs/root/chunk-79wfew46.js";
+import { S, Sn } from "/$bunfs/root/chunk-cj4xndke.js";
+N();
+function Y(et) {
+    return et.activeGoal;
+}
+function Z(at) {
+    return at + 1;
+}
+function x(p) {
+    let o = w(38);
+    let { messages, onDone } = p;
+    let t = V(Y);
+    let [, u] = y(0);
+    let D;
+    if (o[0] === S) {
+        D = ()=>u(Z);
+        o[0] = D;
+    } else {
+        D = o[0];
+    }
+    Di(D, t ? 1000 : null);
+    if (t) {
+        const b = Date.now() - t.setAt;
+        let g;
+        if (o[1] !== b) {
+            g = rn(b, {
+                mostSignificantOnly: true
+            });
+            o[1] = b;
+            o[2] = g;
+        } else {
+            g = o[2];
+        }
+        let H = g;
+        const m = Lg() - t.tokensAtStart;
+        let h;
+        if (o[3] !== m) {
+            h = Lr(m);
+            o[3] = m;
+            o[4] = h;
+        } else {
+            h = o[4];
+        }
+        let tt = h;
+        const k = `running ${H}`;
+        let _;
+        if (o[5] !== t.iterations) {
+            _ = t.iterations > 0 && `${t.iterations} ${I(t.iterations, "turn")}`;
+            o[5] = t.iterations;
+            o[6] = _;
+        } else {
+            _ = o[6];
+        }
+        const L = `${tt} tokens`;
+        let B;
+        if (o[7] !== k || o[8] !== _ || o[9] !== L) {
+            B = [
+                k,
+                _,
+                L
+            ].filter(Boolean);
+            o[7] = k;
+            o[8] = _;
+            o[9] = L;
+            o[10] = B;
+        } else {
+            B = o[10];
+        }
+        let ot = B;
+        const title = `${inn} Goal active`;
+        const X = ot.join(" · ");
+        let F;
+        if (o[11] === S) {
+            F = r(be, {
+                children: [
+                    e(n, {
+                        children: "/goal clear to stop early"
+                    }),
+                    e(G, {
+                        chord: "escape",
+                        action: "dismiss"
+                    })
+                ]
+            });
+            o[11] = F;
+        } else {
+            F = o[11];
+        }
+        let M;
+        if (o[12] !== t.condition) {
+            M = e(C, {
+                label: "Goal",
+                children: t.condition
+            });
+            o[12] = t.condition;
+            o[13] = M;
+        } else {
+            M = o[13];
+        }
+        let O;
+        if (o[14] !== t.lastReason) {
+            O = t.lastReason ? e(C, {
+                label: "Last check",
+                children: Tr(t.lastReason.trim())
+            }) : null;
+            o[14] = t.lastReason;
+            o[15] = O;
+        } else {
+            O = o[15];
+        }
+        let R;
+        if (o[16] !== M || o[17] !== O) {
+            R = r(s, {
+                flexDirection: "column",
+                children: [
+                    M,
+                    O
+                ]
+            });
+            o[16] = M;
+            o[17] = O;
+            o[18] = R;
+        } else {
+            R = o[18];
+        }
+        let P;
+        if (o[19] !== onDone || o[20] !== X || o[21] !== R) {
+            P = e(_e, {
+                title,
+                subtitle: X,
+                onCancel: onDone,
+                inputGuide: F,
+                children: R
+            });
+            o[19] = onDone;
+            o[20] = X;
+            o[21] = R;
+            o[22] = P;
+        } else {
+            P = o[22];
+        }
+        return P;
+    }
+    let b;
+    if (o[23] !== messages || o[24] !== onDone) {
+        b = Sn;
+        Rt: {
+            let l = Ido(messages);
+            if (l) {
+                let T = [];
+                if (l.durationMs !== undefined) {
+                    T.push(rn(l.durationMs, {
+                        mostSignificantOnly: true
+                    }));
+                }
+                if (l.iterations !== undefined) {
+                    T.push(`${l.iterations} ${I(l.iterations, "turn")}`);
+                }
+                if (l.tokens !== undefined) {
+                    T.push(`${Lr(l.tokens)} tokens`);
+                }
+                let title;
+                if (o[26] === S) {
+                    title = r(n, {
+                        children: [
+                            e(dt, {
+                                status: "success",
+                                withSpace: true
+                            }),
+                            "Goal achieved"
+                        ]
+                    });
+                    o[26] = title;
+                } else {
+                    title = o[26];
+                }
+                const m = T.join(" · ");
+                let h;
+                if (o[27] === S) {
+                    h = r(be, {
+                        children: [
+                            e(n, {
+                                children: "/goal <condition> to set another"
+                            }),
+                            e(G, {
+                                chord: "escape",
+                                action: "dismiss"
+                            })
+                        ]
+                    });
+                    o[27] = h;
+                } else {
+                    h = o[27];
+                }
+                let k;
+                if (o[28] !== l) {
+                    k = e(C, {
+                        label: "Goal",
+                        children: l.condition
+                    });
+                    o[28] = l;
+                    o[29] = k;
+                } else {
+                    k = o[29];
+                }
+                let _;
+                if (o[30] !== onDone || o[31] !== m || o[32] !== k) {
+                    _ = e(_e, {
+                        title,
+                        subtitle: m,
+                        color: "success",
+                        onCancel: onDone,
+                        inputGuide: h,
+                        children: k
+                    });
+                    o[30] = onDone;
+                    o[31] = m;
+                    o[32] = k;
+                    o[33] = _;
+                } else {
+                    _ = o[33];
+                }
+                b = _;
+                break Rt;
+            }
+        }
+        o[23] = messages;
+        o[24] = onDone;
+        o[25] = b;
+    } else {
+        b = o[25];
+    }
+    if (b !== Sn) {
+        return b;
+    }
+    let g;
+    let m;
+    if (o[34] === S) {
+        g = e(G, {
+            chord: "escape",
+            action: "dismiss"
+        });
+        m = e(mo, {
+            hint: "/goal <condition> to set one",
+            children: "No goal set"
+        });
+        o[34] = g;
+        o[35] = m;
+    } else {
+        g = o[34];
+        m = o[35];
+    }
+    let h;
+    if (o[36] !== onDone) {
+        h = e(_e, {
+            title: "Goal",
+            onCancel: onDone,
+            inputGuide: g,
+            children: m
+        });
+        o[36] = onDone;
+        o[37] = h;
+    } else {
+        h = o[37];
+    }
+    return h;
+}
+function C(p) {
+    let t = w(7);
+    let { label, children } = p;
+    let u;
+    if (t[0] !== label) {
+        u = e(s, {
+            flexShrink: 0,
+            children: r(n, {
+                dimColor: true,
+                children: [
+                    label,
+                    ": "
+                ]
+            })
+        });
+        t[0] = label;
+        t[1] = u;
+    } else {
+        u = t[1];
+    }
+    let o;
+    if (t[2] !== children) {
+        o = e(s, {
+            flexGrow: 1,
+            children: e(n, {
+                wrap: "wrap",
+                children
+            })
+        });
+        t[2] = children;
+        t[3] = o;
+    } else {
+        o = t[3];
+    }
+    let D;
+    if (t[4] !== u || t[5] !== o) {
+        D = r(s, {
+            flexDirection: "row",
+            children: [
+                u,
+                o
+            ]
+        });
+        t[4] = u;
+        t[5] = o;
+        t[6] = D;
+    } else {
+        D = t[6];
+    }
+    return D;
+}
+export const call = async (p, c, a)=>{
+    let t = a.trim();
+    if (t === "") {
+        return e(x, {
+            messages: c.messages,
+            onDone: ()=>p(undefined, {
+                    display: "skip"
+                })
+        });
+    }
+    if (vit(t)) {
+        let o = kit(c);
+        p(o === null ? "No goal set" : `Goal cleared: ${o}`, {
+            display: "system"
+        });
+        return null;
+    }
+    if (t.length > JRt) {
+        f("goal_set", "too_long");
+        p(`Goal condition is limited to ${JRt} characters (got ${t.length})`, {
+            display: "system"
+        });
+        return null;
+    }
+    let u = Eit(t, c);
+    if (u !== null) {
+        p(u, {
+            display: "system"
+        });
+        return null;
+    }
+    p(`Goal set: ${t}`, {
+        shouldQuery: true,
+        metaMessages: [
+            DLn(t)
+        ]
+    });
+    return null;
+};

@@ -1,0 +1,11 @@
+// @bun @bytecode
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.296
+import{pSt,tke,WMe,i6r,Xer}from"/$bunfs/root/chunk-4svhb6tt.js";import"/$bunfs/root/chunk-qfg5yea5.js";import"/$bunfs/root/chunk-0w84e1m6.js";import"/$bunfs/root/chunk-78511nt1.js";import"/$bunfs/root/chunk-sfgejbsr.js";import"/$bunfs/root/chunk-1ej05ybf.js";import"/$bunfs/root/chunk-pj42g5eb.js";import"/$bunfs/root/chunk-r3z1chqx.js";import"/$bunfs/root/chunk-5k7wva7c.js";import"/$bunfs/root/chunk-9fa34ggx.js";import"/$bunfs/root/chunk-c56kpkt7.js";import"/$bunfs/root/chunk-7mawjt4q.js";import"/$bunfs/root/chunk-04d4ftnx.js";import"/$bunfs/root/chunk-kgp7t7yx.js";import"/$bunfs/root/chunk-bd805sh6.js";import"/$bunfs/root/chunk-qch5xj2a.js";import"/$bunfs/root/chunk-24agvrd9.js";import"/$bunfs/root/chunk-ctt36bn8.js";import"/$bunfs/root/chunk-fcerdfs3.js";import"/$bunfs/root/chunk-dn762950.js";import"/$bunfs/root/chunk-6kc68p18.js";import"/$bunfs/root/chunk-xgw72tt1.js";import"/$bunfs/root/chunk-m1rt7wpr.js";import"/$bunfs/root/chunk-wkmq9ht0.js";import"/$bunfs/root/chunk-jtpfgrzr.js";import"/$bunfs/root/chunk-j27d47mr.js";export{pSt as INBOX_FILE_ID_PATTERN,i6r as fetchSessionInboxMessage,tke as foldSenderDisplayBrackets,WMe as inboxSenderProvenanceCaption,Xer as renderInboxContentEnvelope};

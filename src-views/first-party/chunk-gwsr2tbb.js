@@ -1,0 +1,1 @@
+../../src/chunk-gwsr2tbb.js

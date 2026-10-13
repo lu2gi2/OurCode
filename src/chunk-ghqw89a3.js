@@ -1,0 +1,857 @@
+import { d } from "/$bunfs/root/chunk-wkmq9ht0.js";
+import { Ye, Ke, l } from "/$bunfs/root/chunk-m1rt7wpr.js";
+import "/$bunfs/root/chunk-dn762950.js";
+import "/$bunfs/root/chunk-j27d47mr.js";
+import "/$bunfs/root/chunk-ctt36bn8.js";
+import "/$bunfs/root/chunk-fcerdfs3.js";
+import { qa } from "/$bunfs/root/chunk-jtpfgrzr.js";
+import "/$bunfs/root/chunk-xgw72tt1.js";
+import "/$bunfs/root/chunk-kgp7t7yx.js";
+import { g, m, f } from "/$bunfs/root/chunk-04d4ftnx.js";
+import { _, t } from "/$bunfs/root/chunk-bd805sh6.js";
+import "/$bunfs/root/chunk-6kc68p18.js";
+import "/$bunfs/root/chunk-24agvrd9.js";
+import { ne } from "/$bunfs/root/chunk-qch5xj2a.js";
+import { p } from "/$bunfs/root/chunk-5k7wva7c.js";
+import "/$bunfs/root/chunk-s7bhz6qz.js";
+import { a } from "/$bunfs/root/chunk-dp4xqs6t.js";
+import "/$bunfs/root/chunk-x0qpydt2.js";
+import "/$bunfs/root/chunk-etbngzss.js";
+import "/$bunfs/root/chunk-p9frg3mj.js";
+import "/$bunfs/root/chunk-9fa34ggx.js";
+import "/$bunfs/root/chunk-craerjpn.js";
+import "/$bunfs/root/chunk-xb9cceab.js";
+import { Gt } from "/$bunfs/root/chunk-0ycjphb5.js";
+import "/$bunfs/root/chunk-h6pppnx2.js";
+import "/$bunfs/root/chunk-sawpz2mr.js";
+import "/$bunfs/root/chunk-6dwnw6av.js";
+import "/$bunfs/root/chunk-qk3m4n8a.js";
+import "/$bunfs/root/chunk-se8vehhp.js";
+import { JY, BGn, xZ } from "/$bunfs/root/chunk-x47nahfr.js";
+import "/$bunfs/root/chunk-52bcnmbr.js";
+import "/$bunfs/root/chunk-k7dkeqsc.js";
+import "/$bunfs/root/chunk-6gk7mpsm.js";
+import "/$bunfs/root/chunk-r3z1chqx.js";
+import "/$bunfs/root/chunk-6bjtvbt8.js";
+import "/$bunfs/root/chunk-wew3321y.js";
+import "/$bunfs/root/chunk-63xa24b4.js";
+import "/$bunfs/root/chunk-7mawjt4q.js";
+import "/$bunfs/root/chunk-n1z3wrvm.js";
+import "/$bunfs/root/chunk-w1n7t02f.js";
+import "/$bunfs/root/chunk-3fj60qgx.js";
+import "/$bunfs/root/chunk-3yz9zdww.js";
+import "/$bunfs/root/chunk-2d9a83dh.js";
+import "/$bunfs/root/chunk-c56kpkt7.js";
+import "/$bunfs/root/chunk-tchztk88.js";
+import "/$bunfs/root/chunk-z0brrd3r.js";
+import "/$bunfs/root/chunk-h7cbghgp.js";
+import "/$bunfs/root/chunk-223dyewd.js";
+import "/$bunfs/root/chunk-zwxj12s4.js";
+import "/$bunfs/root/chunk-9dn6gg6j.js";
+import "/$bunfs/root/chunk-1692wahf.js";
+import "/$bunfs/root/chunk-gc7ea4xt.js";
+import "/$bunfs/root/chunk-03gkt7r5.js";
+import "/$bunfs/root/chunk-nj0630nv.js";
+import "/$bunfs/root/chunk-n1fq1c8e.js";
+import "/$bunfs/root/chunk-55x53sfe.js";
+import "/$bunfs/root/chunk-xbsy70c7.js";
+import "/$bunfs/root/chunk-ph7a449e.js";
+import "/$bunfs/root/chunk-hz24p3zh.js";
+import "/$bunfs/root/chunk-vpp1psvz.js";
+import "/$bunfs/root/chunk-bckbp4r1.js";
+import "/$bunfs/root/chunk-peahjaep.js";
+import "/$bunfs/root/chunk-qbpgcqdd.js";
+import "/$bunfs/root/chunk-t0b6khh6.js";
+import "/$bunfs/root/chunk-74djrymf.js";
+import "/$bunfs/root/chunk-6g4165br.js";
+import "/$bunfs/root/chunk-231n9cft.js";
+import { wS, dC, QV } from "/$bunfs/root/chunk-pp3y3t61.js";
+import { wo } from "/$bunfs/root/chunk-6s83kxfy.js";
+import "/$bunfs/root/chunk-d2sd20y7.js";
+import "/$bunfs/root/chunk-0sgn6snt.js";
+import "/$bunfs/root/chunk-mvz09dzd.js";
+import "/$bunfs/root/chunk-k3tkc302.js";
+import "/$bunfs/root/chunk-1ej05ybf.js";
+import "/$bunfs/root/chunk-jynzk4xv.js";
+import "/$bunfs/root/chunk-tw5t5h13.js";
+import "/$bunfs/root/chunk-wrn3nvp5.js";
+import "/$bunfs/root/chunk-sk5bs87n.js";
+import "/$bunfs/root/chunk-fnj5y75n.js";
+import "/$bunfs/root/chunk-pw6z2cbs.js";
+import "/$bunfs/root/chunk-75wzvwyz.js";
+import "/$bunfs/root/chunk-mqgsnx6k.js";
+import "/$bunfs/root/chunk-2321ytcf.js";
+import "/$bunfs/root/chunk-bmzhpr9h.js";
+import { Xce } from "/$bunfs/root/chunk-9fvky64k.js";
+import { pQ, IAe, j5t, BMn, W5t, yB, aLe } from "/$bunfs/root/chunk-j0a4vbkp.js";
+import "/$bunfs/root/chunk-45f0zf8d.js";
+import "/$bunfs/root/chunk-4521ay78.js";
+import "/$bunfs/root/chunk-ye049grx.js";
+import "/$bunfs/root/chunk-ytkshq2j.js";
+import "/$bunfs/root/chunk-jfcrjtbk.js";
+import "/$bunfs/root/chunk-dck8836g.js";
+import { It, Kt } from "/$bunfs/root/chunk-4r6b8efh.js";
+import "/$bunfs/root/chunk-tvg3w9xe.js";
+import "/$bunfs/root/chunk-tn496ms6.js";
+import "/$bunfs/root/chunk-ssn8w7cj.js";
+import "/$bunfs/root/chunk-7y9jhgf9.js";
+import "/$bunfs/root/chunk-4jkyvhbj.js";
+import "/$bunfs/root/chunk-e0hrcpx7.js";
+import "/$bunfs/root/chunk-f41czxrs.js";
+import "/$bunfs/root/chunk-tf8026s8.js";
+import "/$bunfs/root/chunk-0c6rtmqc.js";
+import "/$bunfs/root/chunk-nb5ge4vq.js";
+import "/$bunfs/root/chunk-s7aawpq2.js";
+import "/$bunfs/root/chunk-qjzjr1ys.js";
+import { hqr, Yze } from "/$bunfs/root/chunk-mx5fkmrg.js";
+import { Pzt } from "/$bunfs/root/chunk-jz5kr804.js";
+import "/$bunfs/root/chunk-4298waas.js";
+import { vMe } from "/$bunfs/root/chunk-j1wj48wh.js";
+import "/$bunfs/root/chunk-p0252qjr.js";
+import "/$bunfs/root/chunk-pp9kr3hb.js";
+import { HKe, aus, _Le, k8t, Fmr, lus } from "/$bunfs/root/chunk-5m0r2zve.js";
+import "/$bunfs/root/chunk-0g49c63m.js";
+import "/$bunfs/root/chunk-n2j724xe.js";
+import "/$bunfs/root/chunk-8fa0475h.js";
+import "/$bunfs/root/chunk-ghreee2m.js";
+import "/$bunfs/root/chunk-b7w13qrv.js";
+import "/$bunfs/root/chunk-4r70ar86.js";
+import "/$bunfs/root/chunk-tsamgvyd.js";
+import "/$bunfs/root/chunk-fbhagmpx.js";
+import "/$bunfs/root/chunk-pjqd7qee.js";
+import "/$bunfs/root/chunk-f0v3xmb1.js";
+import "/$bunfs/root/chunk-chd251pa.js";
+import "/$bunfs/root/chunk-wtrd0hw3.js";
+import "/$bunfs/root/chunk-v214ecah.js";
+import "/$bunfs/root/chunk-9nfq6p43.js";
+import "/$bunfs/root/chunk-77t63btp.js";
+import "/$bunfs/root/chunk-yp41169e.js";
+import "/$bunfs/root/chunk-2dp0fzyb.js";
+import "/$bunfs/root/chunk-pj42g5eb.js";
+import { o, M, T, u, De, _t, U } from "/$bunfs/root/chunk-smx21d0k.js";
+import "/$bunfs/root/chunk-tfc1vf2h.js";
+import "/$bunfs/root/chunk-6cee9jwv.js";
+import "/$bunfs/root/chunk-yngqe5v3.js";
+import "/$bunfs/root/chunk-nnawdxg4.js";
+import "/$bunfs/root/chunk-svqqgdca.js";
+import "/$bunfs/root/chunk-dze6yaxw.js";
+import "/$bunfs/root/chunk-m6z3m7rx.js";
+import "/$bunfs/root/chunk-tybndaby.js";
+import "/$bunfs/root/chunk-79wfew46.js";
+import { D } from "/$bunfs/root/chunk-tb7m3r21.js";
+const L = p(()=>_t({
+        id: o(),
+        name: o(),
+        display_name: o().nullish(),
+        description: o().nullish(),
+        enabled: M().nullish(),
+        presents_as: o().nullish(),
+        installation_preference: o().nullish()
+    }));
+const ge = p(()=>u({
+        results: T(L())
+    }));
+class k extends Error {
+    constructor(e){
+        super(e);
+        this.name = "PluginSkillSearchUnavailableError";
+    }
+}
+const timeout = 15000;
+const N = "/api/oauth/organizations/:orgUUID/plugins/search";
+const z = "/api/oauth/organizations/:orgUUID/skills/search";
+const pe = "/api/oauth/organizations/:orgUUID/plugins/";
+async function W(e, n, s, i) {
+    if (!wS("allow_plugin_skill_search")) {
+        let r = dC("allow_plugin_skill_search");
+        m(e, r === "org_denied" || r === "latched" ? "policy_denied" : r === "unregistered" ? "policy_mirror_unregistered" : r === "route_missing" ? "policy_route_missing" : "policy_cache_miss");
+        throw new k(QV("allow_plugin_skill_search", "Plugin and skill search", "is") ?? "Plugin and skill search is unavailable right now; please try again.");
+    }
+    if (n && await IAe(s, i) === "skip_no_scope") {
+        t("[plugin-skill-search] degraded to empty: no user:plugins scope in this session", {
+            level: "error"
+        });
+        f(e, "no_plugins_scope");
+        return "skip";
+    }
+    return "send";
+}
+async function X(e, keywords, s, i) {
+    let r = e === z ? "skill_search" : "plugin_search";
+    if (await W(r, e === N, s, i) === "skip") {
+        return [];
+    }
+    let h = e === N && a.CLAUDE_CODE_CCR_SURFACE === "tag";
+    let c = await Gt.post(e, h ? {
+        keywords,
+        included_default_marketplaces: [
+            "claude-tag-plugins"
+        ]
+    } : {
+        keywords
+    }, {
+        auth: "teleport-org",
+        timeout,
+        signal: s,
+        credentials: i
+    });
+    if (!c.ok) {
+        throw Error(c.reason === "no-auth" ? "Not authenticated with a claude.ai account." : `search route unavailable: ${c.reason}`);
+    }
+    if (c.status >= 400) {
+        let y = BMn().safeParse(c.data);
+        let b = y.success ? `search route ${c.status} ${y.data.error.type ?? "error_envelope_no_type"}${y.data.error.message ? `: ${y.data.error.message}` : ""}` : `search route ${c.status}`;
+        if (y.success && (c.status === 403 || c.status === 404 && y.data.error.type === "not_found_error")) {
+            t(`[plugin-skill-search] degraded to empty: ${b}`, {
+                level: "error"
+            });
+            f(r, "not_entitled");
+            return [];
+        }
+        throw Error(b);
+    }
+    let S = ge().safeParse(c.data);
+    if (!S.success) {
+        throw Error("malformed search response");
+    }
+    g(e === z ? "skill_search" : "plugin_search");
+    return S.data.results;
+}
+async function J(e, signal, credentials) {
+    let i = D(e).filter(Xce);
+    if (i.length === 0) {
+        return {
+            found: [],
+            unchecked: [],
+            skippedNoScope: false
+        };
+    }
+    if (await W("plugin_suggest", true, signal, credentials) === "skip") {
+        return {
+            found: [],
+            unchecked: i,
+            skippedNoScope: true
+        };
+    }
+    let found = [];
+    let h = [];
+    await Promise.all(i.map(async (c)=>{
+        try {
+            let S = await Gt.get(`${pe}${encodeURIComponent(c)}`, {
+                auth: "teleport-org",
+                timeout,
+                signal,
+                credentials
+            });
+            if (!S.ok) {
+                t(`[plugin-skill-search] plugin detail not sent: ${S.reason}`);
+                h.push(c);
+                return;
+            }
+            if (S.status >= 400) {
+                if (!(BMn().safeParse(S.data).success && S.status === 404)) {
+                    t(`[plugin-skill-search] plugin detail for ${c} returned HTTP ${S.status}`, {
+                        level: "error"
+                    });
+                    h.push(c);
+                }
+                return;
+            }
+            let y = L().safeParse(S.data);
+            if (!y.success || y.data.id !== c) {
+                t(`[plugin-skill-search] plugin detail for ${c} did not parse as that plugin`, {
+                    level: "error"
+                });
+                h.push(c);
+                return;
+            }
+            found.push(y.data);
+        } catch (error) {
+            if (Ke(error) || signal?.aborted) {
+                throw error;
+            }
+            t(`[plugin-skill-search] plugin detail for ${c} failed: ${l(error)}`, {
+                level: "error"
+            });
+            h.push(c);
+        }
+    }));
+    return {
+        found,
+        unchecked: h,
+        skippedNoScope: false
+    };
+}
+async function run(e, n, s) {
+    return X(N, e, n, s);
+}
+async function run_1(e, n, s) {
+    return X(z, e, n, s);
+}
+function x(e, error) {
+    t(`[plugin-skill-search] ${e} failed: ${l(error)}`, {
+        level: "error"
+    });
+    m(e === "plugin" ? "plugin_search" : "skill_search", "fetch_failed");
+}
+async function v(e, n, s) {
+    if (!yB(e)) {
+        return null;
+    }
+    if (pQ()) {
+        return [];
+    }
+    let i = await qa(aLe.of(e).fetch(), n, ()=>new Ye("plugin manifest read aborted"));
+    if (!i.ok) {
+        m(s, "manifest_failed");
+        throw new k(`manifest ${i.reason}`);
+    }
+    return i.plugins;
+}
+const Q = p(()=>T(o().min(1).max(64)).min(1).max(8).describe("Keyword phrases describing the user's intent."));
+const P = p(()=>u({
+        results: T(L())
+    }));
+function mapToolResultToToolResultBlockParam(e, n) {
+    return {
+        tool_use_id: n,
+        type: "tool_result",
+        content: _(e)
+    };
+}
+function I(e) {
+    return (e.keywords ?? []).join(", ");
+}
+function Z(e) {
+    return e.contextLabel ?? "";
+}
+const he = p(()=>De({
+        keywords: T(o().min(1).max(64)).max(8).optional().describe("Optional filter; omit to list everything.")
+    }));
+function ee(e, keywords) {
+    let s = e.toLowerCase();
+    return keywords.some((i)=>s.includes(i.toLowerCase()));
+}
+function me(e, keywords) {
+    if (!keywords?.length) {
+        return e;
+    }
+    return e.filter((s)=>ee(s.name, keywords) || (s.description ? ee(s.description, keywords) : false));
+}
+function se(e) {
+    return Kt({
+        name: e.name,
+        searchHint: `list ${e.subject}`,
+        backgrounding: "never",
+        maxResultSizeChars: 50000,
+        shouldDefer: true,
+        get inputSchema () {
+            return he();
+        },
+        get outputSchema () {
+            return P();
+        },
+        isEnabled: Yze,
+        isConcurrencySafe: ()=>true,
+        isReadOnly: ()=>true,
+        description: async ()=>`List ${e.subject}, optionally filtered by keyword.`,
+        prompt: async ()=>e.prompt,
+        create (n) {
+            return {
+                async call (s, i) {
+                    let r = await e.fetch(i.signal, n.credentials, n.session);
+                    if (e.recordsCatalogRows) {
+                        n.toolState.get(vMe).remember(r);
+                    }
+                    return {
+                        data: {
+                            results: me(r, s.keywords)
+                        }
+                    };
+                }
+            };
+        },
+        mapToolResultToToolResultBlockParam,
+        renderToolUseMessage: I
+    });
+}
+const subject = "the plugins enabled on the user's claude.ai account (not plugins installed locally, such as with /plugin; in a channel session, the plugins the channel has)";
+const G = se({
+    name: Fmr,
+    subject,
+    recordsCatalogRows: true,
+    async fetch (e, n, s) {
+        let i = await v(s, e, "plugin_list");
+        if (i !== null) {
+            g("plugin_list");
+            return i.map((h)=>({
+                    id: h.id,
+                    name: h.name,
+                    description: h.description || null,
+                    enabled: true
+                }));
+        }
+        let r = await W5t({
+            signal: e,
+            credentials: n
+        });
+        if (!r.success) {
+            if (j5t(r)) {
+                t(`[plugin-skill-list] degraded to empty: list-plugins ${r.status ?? r.kind} ${r.error}`, {
+                    level: "error"
+                });
+                f("plugin_list", r.kind === "no_scope" ? "no_plugins_scope" : "not_entitled");
+                return [];
+            }
+            m("plugin_list", "fetch_failed");
+            throw new k(r.error);
+        }
+        g("plugin_list");
+        return r.plugins.map((h)=>({
+                id: h.pluginId,
+                name: h.name,
+                description: h.description || null,
+                enabled: true,
+                ...h.presentsAs && {
+                    presents_as: h.presentsAs
+                }
+            }));
+    },
+    prompt: `List ${subject}. Call this when the user asks what plugins they have, or to confirm what was installed after a SuggestPluginInstall card. Pass keywords to filter to a topic; omit to list all. To suggest a plugin they do NOT have yet, use SearchPlugins, then SuggestPluginInstall when it is among your tools; otherwise relay the relevant results in text instead.`
+});
+const H = se({
+    name: lus,
+    subject: "the user's enabled claude.ai skills",
+    async fetch (e, n) {
+        let s = await Pzt({
+            credentials: n
+        });
+        if (!s.success) {
+            if (j5t(s)) {
+                t(`[plugin-skill-list] degraded to empty: list-skills ${s.status ?? s.kind} ${s.error}`, {
+                    level: "error"
+                });
+                f("skill_list", "not_entitled");
+                return [];
+            }
+            m("skill_list", "fetch_failed");
+            throw new k(s.error);
+        }
+        g("skill_list");
+        return s.skills.map((i)=>({
+                id: i.skillId,
+                name: i.name,
+                description: i.description || null,
+                enabled: true
+            }));
+    },
+    prompt: "List the user's enabled claude.ai skills. Call this when the user asks what skills they have. Pass keywords to filter to a topic; omit to list all. To recommend skills they do NOT have yet, use SuggestSkills when it is among your tools; otherwise use SearchSkills and relay the relevant results in text instead."
+});
+const j = p(()=>U([
+        "user_asked",
+        "proactive"
+    ]));
+const oe = p(()=>j().optional().describe("How this suggestion started: 'user_asked' or 'proactive'."));
+const fe = p(()=>De({
+        pluginId: o().min(1).max(256),
+        pluginName: o().min(1).max(256),
+        description: o().max(1024),
+        skills: T(u({
+            name: o().max(256),
+            description: o().max(1024).optional()
+        })).max(32).optional()
+    }));
+const Se = p(()=>De({
+        contextLabel: o().max(128).describe("Short header tying the suggestion to the user request."),
+        plugins: T(fe()).min(1).max(16).describe("Plugins sourced from SearchPlugins results."),
+        trigger: oe()
+    }));
+const ke = p(()=>u({
+        contextLabel: o(),
+        plugins: T(u({
+            pluginId: o(),
+            pluginName: o(),
+            description: o()
+        })),
+        note: o(),
+        trigger: j().optional()
+    }));
+const ye = `Render an inline plugin install card. Call this after SearchPlugins returns relevant results \u2014 source pluginId, pluginName, description, and skills from those results. The card handles all UI; do not describe the plugins in text.
+
+Do NOT call this if the suggestion is not relevant, you are unsure it would help, or you already rendered one this conversation and the user did not engage.`;
+const _e = `Render an inline card of plugins the user can add to claude.ai, taken from ${HKe} results. The card handles all install UI; do not describe the plugins in text.
+
+Offer one when the task is the kind a plugin could take over or make repeatable (deploys, reviews against a team process, or the ticket, data and document workflows a user's org may have packaged as plugins) and nothing enabled covers it; the user does not need to ask about plugins. Also when they ask for plugin recommendations. First call ${HKe} with keywords drawn from the task, then pass the relevant results here: pluginId from each result's id, pluginName from its name, description as returned. Set trigger ('proactive' when you initiated this from task context, 'user_asked' when they asked). Use ${Fmr} for plugins they already have.
+
+After the card, continue the task. Example: "ship this to staging" and a deploy plugin that is not enabled \u2192 contextLabel "For your deploys".
+
+Do NOT call this for one-off questions you can answer directly, when you are unsure a plugin would help, when ${HKe} returned nothing relevant (then continue the task without mentioning the search), or if you already rendered a plugin or skill suggestion this conversation and the user didn't engage.`;
+const we = "Plugin card rendered. The user enables the plugin out of band — call ListPlugins on follow-up to discover what was actually installed.";
+const be = "No card was rendered: none of the suggested pluginIds could be verified as plugins in the user's claude.ai catalog. Pass pluginId values exactly as SearchPlugins returns them and never guess ids; if you have no SearchPlugins result to draw from, call SearchPlugins first or continue without a card. Do not mention this to the user.";
+function Pe(counts) {
+    if (counts.unknown && !counts.carded && !counts.skills && !counts.unchecked) {
+        return be;
+    }
+    let n = [
+        counts.carded ? we : "The card did not render."
+    ];
+    if (counts.unknown) {
+        n.push(`(${counts.unknown} suggested id(s) not in the user's catalog were dropped; do not name them in text.)`);
+    }
+    if (counts.skills) {
+        n.push(`(${counts.skills} suggested id(s) are skills, not plugins \u2014 surface them with ${k8t} instead.)`);
+    }
+    if (counts.unchecked) {
+        n.push(`(${counts.unchecked} suggested id(s) could not be checked right now and were left off the card; continue without them and do not name them in text.)`);
+    }
+    return n.join(" ");
+}
+const Te = 256;
+const Ee = 1024;
+function Ie(e, n, s = new Set) {
+    let plugins = [];
+    let counts = {
+        carded: 0,
+        unknown: 0,
+        skills: 0,
+        unchecked: 0
+    };
+    for (let h of e.plugins){
+        let c = n.get(h.pluginId);
+        let S = c?.display_name || c?.name;
+        if (!c || !S) {
+            counts[s.has(h.pluginId) ? "unchecked" : "unknown"]++;
+            continue;
+        }
+        if (c.presents_as === "skill") {
+            counts.skills++;
+            continue;
+        }
+        if (c.installation_preference === "not_available") {
+            counts.unknown++;
+            continue;
+        }
+        counts.carded++;
+        plugins.push({
+            pluginId: h.pluginId,
+            pluginName: ne(S, Te),
+            description: ne(c.description ?? "", Ee)
+        });
+    }
+    return {
+        contextLabel: e.contextLabel,
+        plugins,
+        note: Pe(counts),
+        trigger: e.trigger,
+        counts
+    };
+}
+const F = Kt({
+    name: _Le,
+    searchHint: "render a plugin install card",
+    backgrounding: "never",
+    maxResultSizeChars: 50000,
+    get shouldDefer () {
+        return !loadedUpFront();
+    },
+    get inputSchema () {
+        return Se();
+    },
+    get outputSchema () {
+        return ke();
+    },
+    isEnabled: Yze,
+    isConcurrencySafe: ()=>true,
+    isReadOnly: ()=>true,
+    description: async ()=>"Render an inline plugin install card from SearchPlugins results.",
+    prompt: async ()=>{
+        if (loadedUpFront()) {
+            return _e;
+        }
+        return ye;
+    },
+    create (e) {
+        return {
+            async call (n, s) {
+                let i = e.toolState.get(vMe);
+                let r = n.plugins.map((w)=>w.pluginId).filter((w)=>i.get(w) === undefined);
+                let h = new Set;
+                let c = false;
+                if (r.length > 0 && xe()) {
+                    let w = await J(r, s.signal, e.credentials);
+                    i.remember(w.found);
+                    h = new Set(w.unchecked);
+                    c = w.skippedNoScope;
+                }
+                let { counts, ...rest } = Ie(n, i, h);
+                let b = {
+                    carded_count: counts.carded,
+                    unknown_count: counts.unknown,
+                    skill_count: counts.skills,
+                    unchecked_count: counts.unchecked,
+                    uncached_count: r.length,
+                    ...n.trigger && {
+                        trigger: d(n.trigger)
+                    }
+                };
+                if (!c) {
+                    if (counts.unchecked > 0 && counts.carded === 0) {
+                        f("plugin_suggest", "catalog_unchecked", b);
+                    } else {
+                        g("plugin_suggest", b);
+                    }
+                }
+                return {
+                    data: rest
+                };
+            }
+        };
+    },
+    mapToolResultToToolResultBlockParam (e, n) {
+        return {
+            tool_use_id: n,
+            type: "tool_result",
+            content: _(e)
+        };
+    },
+    renderToolUseMessage: Z
+});
+const Re = "tengu_saddle_lantern";
+function A() {
+    return import.meta.require("/$bunfs/root/chunk-jv24m4k2.js");
+}
+function ie() {
+    return A().getFeatureValueWithSource_CACHED_MAY_BE_STALE(Re, false);
+}
+var Le = "tengu_gentle_frost";
+var Oe = "tengu_sorted_truffle";
+function xe() {
+    return A().getFeatureValue_SESSION_PINNED(Oe, true);
+}
+var ve = "tengu_sequential_summit";
+function le() {
+    return (xZ() || JY() && A().getFeatureValue_SESSION_PINNED(ve, false)) && !BGn();
+}
+function loadedUpFront() {
+    return le() && A().getFeatureValue_SESSION_PINNED(Le, false);
+}
+function re() {
+    return le() && Ce();
+}
+function Ce() {
+    let e = wo();
+    e.suggestRolloutEnabled ??= ie().value;
+    return e.suggestRolloutEnabled;
+}
+function Ae() {
+    let e = wo();
+    if (e.suggestRolloutEnabled === undefined) {
+        let { value, source } = ie();
+        if (source === "fallback") {
+            return value;
+        }
+        e.suggestRolloutEnabled = value;
+    }
+    return e.suggestRolloutEnabled;
+}
+hqr(Ae);
+const Ne = p(()=>De({
+        keywords: T(o().min(1).max(64)).min(1).max(8).describe("Topic keywords from the user's request."),
+        contextLabel: o().max(128).optional(),
+        trigger: oe()
+    }));
+const ze = p(()=>P().extend({
+        trigger: j().optional()
+    }));
+const B = Kt({
+    name: k8t,
+    searchHint: "render addable claude.ai skills by keyword",
+    backgrounding: "never",
+    maxResultSizeChars: 50000,
+    get shouldDefer () {
+        return !re();
+    },
+    get inputSchema () {
+        return Ne();
+    },
+    get outputSchema () {
+        return ze();
+    },
+    isEnabled: Yze,
+    isConcurrencySafe: ()=>true,
+    isReadOnly: ()=>true,
+    description: async ()=>"Render a card of standalone skills the user can add (not yet enabled).",
+    prompt: async ()=>{
+        if (re()) {
+            return `Render a card of standalone skills the user can add \u2014 org, shared, or Anthropic skills not yet enabled.
+
+Call this when the task is one a skill could make repeatable \u2014 drafting in a house style, reviews against a playbook, a recurring workflow \u2014 and nothing enabled covers it; the user does not need to ask about skills. Also when they ask for recommendations, or when ListSkills returned zero matches. Use ListSkills for skills they already have.
+
+Do NOT call this for one-off questions you can answer directly, when you are unsure a skill would help, or if you already rendered a suggestion this conversation and the user didn't engage.
+
+Pass keywords drawn from the task itself, and set trigger ('proactive' when you initiated this from task context, 'user_asked' when they asked). If the result is empty and the trigger was proactive, continue the task without mentioning that you searched; if the user asked, tell them you found nothing new to add.`;
+        }
+        return `Render a card of standalone skills the user can add \u2014 org, shared, or Anthropic skills not yet enabled. Use when the user asks you to recommend skills, asks for skills for a domain they have nothing enabled for, or when ListSkills returned zero matches. Use ListSkills instead for skills they already have.
+
+Always pass keywords from the user's request (you may set trigger: 'user_asked'). The result may be empty.`;
+    },
+    create (e) {
+        return {
+            async call (n, s) {
+                try {
+                    return {
+                        data: {
+                            results: (await run_1(n.keywords, s.signal, e.credentials)).filter((h)=>h.enabled !== true),
+                            trigger: n.trigger
+                        }
+                    };
+                } catch (error) {
+                    if (Ke(error) || s.signal.aborted) {
+                        throw error;
+                    }
+                    if (error instanceof k) {
+                        throw error;
+                    }
+                    x("skill", error);
+                    throw new k("Skill search is unavailable right now; please try again.");
+                }
+            }
+        };
+    },
+    mapToolResultToToolResultBlockParam,
+    renderToolUseMessage: I
+});
+const Ue = p(()=>De({
+        keywords: Q()
+    }));
+function ae(e) {
+    return Kt({
+        name: e.name,
+        searchHint: `discover claude.ai ${e.noun}s by keyword`,
+        backgrounding: "never",
+        maxResultSizeChars: 50000,
+        get shouldDefer () {
+            return !(e.loadedUpFront?.() ?? false);
+        },
+        get inputSchema () {
+            return Ue();
+        },
+        get outputSchema () {
+            return P();
+        },
+        isEnabled: Yze,
+        isConcurrencySafe: ()=>true,
+        isReadOnly: ()=>true,
+        description: async ()=>e.description,
+        prompt: async ({ tools })=>{
+            let e_upFrontPrompt = e.upFrontPrompt;
+            if (e_upFrontPrompt !== undefined && e.loadedUpFront?.() && tools.some((i)=>It(i, e_upFrontPrompt.requiresTool))) {
+                return e_upFrontPrompt.text;
+            }
+            return e.prompt;
+        },
+        create (n) {
+            return {
+                async call (s, i) {
+                    try {
+                        let [r, h] = await Promise.all([
+                            e.run(s.keywords, i.signal, n.credentials),
+                            e.noun === "plugin" ? v(n.session, i.signal, "plugin_search") : null
+                        ]);
+                        if (e.noun === "plugin") {
+                            n.toolState.get(vMe).remember(r);
+                        }
+                        if (h === null) {
+                            return {
+                                data: {
+                                    results: r
+                                }
+                            };
+                        }
+                        let c = new Set(h.map((S)=>S.id));
+                        return {
+                            data: {
+                                results: r.map((S)=>({
+                                        ...S,
+                                        enabled: c.has(S.id)
+                                    }))
+                            }
+                        };
+                    } catch (error) {
+                        if (Ke(error) || i.signal.aborted) {
+                            throw error;
+                        }
+                        if (error instanceof k) {
+                            throw error;
+                        }
+                        x(e.noun, error);
+                        throw new k(`${e.noun} search is unavailable right now; please try again.`);
+                    }
+                }
+            };
+        },
+        mapToolResultToToolResultBlockParam,
+        renderToolUseMessage: I
+    });
+}
+const ue = "Search the user's claude.ai plugin catalog by keyword. Call this when a plugin (slash command, skill bundle, hook, or agent) from the user's org catalog might help complete the task.";
+const ce = `Examples:
+- "use the deploy plugin" \u2192 keywords ["deploy"]
+- "is there something for linting?" \u2192 keywords ["lint", "format", "code quality"]`;
+const de = "Returns a ranked list with id, name, description, and whether the plugin is already enabled for this session (in a channel session, whether the channel has it). When results fit and SuggestPluginInstall is among your tools, call it to render the install card; otherwise relay the relevant results in text instead. If nothing relevant, proceed without mentioning that you searched.";
+const prompt = `${ue}
+
+${ce}
+
+${de}`;
+const text = `${ue} The user does not need to name a plugin: search when the task depends on their team's own process, systems or data and nothing you already have, the project's own scripts included, covers it.
+
+${ce}
+- "ship this to staging" \u2192 keywords ["deploy", "release", "staging"]
+- "review this contract against our playbook" \u2192 keywords ["legal", "contract", "playbook"]
+- "which deals close this week?" \u2192 keywords ["sales", "pipeline", "crm"]
+
+Do not search unasked for one-off questions or tasks you can handle directly ("explain this regex", "fix this typo"), or after the user ignored a suggestion in this conversation.
+
+${de}`;
+const K = ae({
+    name: HKe,
+    noun: "plugin",
+    run,
+    loadedUpFront,
+    description: "Search the user's claude.ai plugin catalog by keyword to find plugins that might help complete the task.",
+    prompt,
+    upFrontPrompt: {
+        text,
+        requiresTool: _Le
+    }
+});
+const q = ae({
+    name: aus,
+    noun: "skill",
+    run: run_1,
+    description: "Search the user's claude.ai skills by keyword to find skills that might help complete the task.",
+    prompt: `Search the user's claude.ai skills by keyword. Call this when a skill (a reference document or instruction set the user has uploaded or enabled) might help complete the task.
+
+Examples:
+- "follow the team's PR guidelines" \u2192 keywords ["pr", "review", "guidelines"]
+- "export this as a slide deck" \u2192 keywords ["pptx", "slides", "presentation"]
+
+Returns a ranked list with id, name, description, and whether the skill is enabled. When results fit and SuggestSkills is among your tools, call it to render the add card; otherwise relay the relevant results in text instead. If nothing relevant, proceed without mentioning that you searched.`
+});
+export const PLUGIN_SKILL_SAFE_TOOL_NAMES = [
+    K.name,
+    q.name,
+    F.name,
+    B.name,
+    G.name,
+    H.name
+];
+export const PLUGIN_SKILL_TOOLS = [
+    K,
+    q,
+    F,
+    B,
+    G,
+    H
+];

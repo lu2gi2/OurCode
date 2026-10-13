@@ -1,0 +1,12 @@
+// @bun @bytecode
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.296
+import{nU}from"/$bunfs/root/chunk-bd805sh6.js";import{MO}from"/$bunfs/root/chunk-svqqgdca.js";var LAo=new Set(["http","https","ws","wss","ftp"]);function _q(t){t=t.replace(/^[\x00-\x20]+/,"").replace(/[\t\n\r]/g,"");let n=t.indexOf("://");if(n===-1)return!1;let r=t.slice(n+3),s=t.slice(0,n).toLowerCase();if(LAo.has(s)){let o=r.match(/^[/\\]+/)?.[0]??"";if(o.includes("\\"))return!0;r=r.slice(o.length)}let e=r.search(/[/?#]/);return(e===-1?r:r.slice(0,e)).includes("\\")}var nr="github.com",NAo=[`git@${nr}:`,`ssh://git@${nr}/`],m=[`https://${nr}`,`https://${nr}/`,nr],x=`users.noreply.${nr}`,a="https://api.github.com",u=/[:/\\?#@\s]/,s8e=/^(?!\.{1,2}$)[a-z0-9.-]+$/,oon=/^(?!\.{1,2}$)[a-zA-Z0-9._-]+$/;function _C(t){let n=c(t.replace(/[\t\n\r]/g,"").toLowerCase());if(n===""||u.test(n))return n;try{let r=new URL(`https://${n}`);if(r.username!==""||r.password!==""||r.port!==""||r.pathname!=="/"||r.search!==""||r.hash!=="")return n;return c(r.hostname)}catch{return n}}var i8e=MO(function(n){let r=_C(n);while(r.startsWith("www."))r=r.slice(4);return r},(t)=>t,50);function lDt(t,n){return i8e(t)===n}function ho(t){return lDt(t,nr)}function Rse(t,n){if(!t||!n)return!1;let r=_C(t);return r!==""&&r===_C(n)}function TZ(t){return ho(t)?a:`https://${t}/api/v3`}function VIs(t){return ho(t)?`${a}/graphql`:`https://${t}/api/graphql`}function i(t){return/[%\x00-\x1f\x7f-\u{10FFFF}]/u.test(t)}function bq(t){if(nU(t))return!0;if(t.includes("://")){if(_q(t))return!0;try{let e=new URL(t);if(e.protocol==="http:"||e.protocol==="https:")return!1;return i(e.hostname)}catch{return!0}}let n=t.indexOf(":"),r=t.indexOf("@");if(n>=0&&r>n)return!0;let s=t.match(/^(?:[^@]+@)?([^:]+):/)?.[1];return s?i(s):!1}function c(t){let n=t.length;while(n>0&&t[n-1]===".")n--;return t.slice(0,n)}
+export{LAo,_q,nr,NAo,s8e,oon,_C,i8e,lDt,ho,Rse,TZ,VIs,bq};

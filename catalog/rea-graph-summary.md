@@ -1,0 +1,425 @@
+# REA application-graph summary (first-party modules)
+
+Evidence files aggregated: 12
+
+## Statistics
+- text_bytes_read: 29,169,836
+- visited_ast_nodes: 6,503,784
+- findings: 131,088
+- relevant_files: 518
+- parsed_javascript_files: 517
+- nested_asar_containers: 0
+- invalid_utf8_files: 0
+- modules: 0
+- parse_failures: 0
+
+## Application graph node kinds
+- javascript-module: 84,097
+- javascript-asset: 518
+- endpoint: 375
+- unknown: 258
+- artifact: 12
+- worker: 3
+- storage: 2
+
+## Application graph edge relations
+- imports: 94,516
+- exposes: 14,790
+- contains: 1,168
+- calls: 343
+- loads: 3
+- persists_to: 2
+
+## Semantic node kinds
+- expression: 582,075
+- call-site: 124,331
+- binding: 104,292
+- function: 46,015
+- return-site: 44,712
+- parameter: 43,760
+- property-slot: 43,400
+- task: 4,994
+- literal: 3,880
+- promise: 1,733
+- boundary: 686
+- module: 293
+- event: 255
+- listener: 246
+- config-source: 213
+- timer: 134
+- resource: 42
+- stdio: 11
+- child-process: 11
+- request: 9
+- signal: 8
+
+## Semantic relations
+- reads: 253,521
+- aliases: 244,683
+- captures: 133,416
+- defines: 130,949
+- reads-property: 57,508
+- returns-to-call: 42,428
+- calls: 24,946
+- argument-to-parameter: 21,855
+- writes: 13,170
+- writes-property: 6,713
+- awaits: 5,531
+- creates-promise: 1,733
+- spreads: 1,527
+- destructures: 1,521
+- coerces: 443
+- parses: 242
+- chains: 224
+- registers-listener: 188
+- reads-environment: 182
+- detaches-task: 181
+- returns-task: 172
+- schedules-timer: 134
+- owns: 96
+- cancels-timer: 85
+- dispatches-candidate: 60
+- removes-listener: 43
+- acquires: 42
+- releases: 37
+- aggregates: 36
+- defaults: 18
+- overrides: 18
+- supplies-request-field: 11
+- spawns: 11
+- connects-stdio: 11
+- reads-config: 10
+- listens-error: 9
+- constructs-request: 9
+- forwards-signal: 8
+- supplies-env: 6
+- supplies-argv: 6
+- listens-exit: 6
+- reads-argv: 3
+- validates: 1
+
+## Unknown families (explicit static gaps)
+- object-flow: 295,462
+- call-flow: 197,045
+- data-flow: 144,010
+- promise-ownership: 6,434
+- boundary: 361
+- timer: 265
+- event: 241
+- configuration: 175
+- child-process: 146
+- request: 144
+- resource-lifecycle: 137
+- closure: 135
+
+## endpoint (361 distinct)
+- `route: relay  (property:route)` ×4
+- `route: hooks  (property:path)` ×3
+- `route: enabledPlugins  (property:path)` ×2
+- `route: policyHelpers  (property:path)` ×2
+- `route: managedMcpServers  (property:path)` ×2
+- `network: api_request_sent  (call:o.get)` ×1
+- `network: main_after_run  (call:p.get)` ×1
+- `network: system_message_yielded  (call:o.get)` ×1
+- `network: /api/claude_code/skills  (call:Gt.get)` ×1
+- `network: flagged  (call:Qt.get)` ×1
+- `network: query_started  (call:o.get)` ×1
+- `network: turn_start  (call:o.get)` ×1
+- `network: summary  (call:r.delete)` ×1
+- `network: defaultBranchIfKnown  (call:cache.get)` ×1
+- `network: defaultBranch  (call:get)` ×1
+- `network: Stop  (call:get)` ×1
+- `network: head  (call:get)` ×1
+- `network: remoteUrl  (call:get)` ×1
+- `network: first_chunk  (call:o.get)` ×1
+- `network: client_id  (call:h.delete)` ×1
+- `network: branch  (call:get)` ×1
+- `network: synchronizedOutput  (call:get)` ×1
+- `network: client_secret  (call:h.delete)` ×1
+- `network: kittyGraphics  (call:u.get)` ×1
+- `network: X-Amz-Algorithm  (call:h.get)` ×1
+- `network: X-Amz-Credential  (call:h.get)` ×1
+- `network: console.lock  (call:hc.get)` ×1
+- `network: programStatus  (call:u.get)` ×1
+- `network: CLAUDE_CODE_SIMPLE  (call:e.env.get)` ×1
+- `network: extendedKeys  (call:u.get)` ×1
+- `network: CLAUDE_CODE_RESTRICT_PERSONAL_CONFIG  (call:K.delete)` ×1
+- `network: CLAUDE_CODE_DISABLE_ATTACHMENTS  (call:e.env.get)` ×1
+- `network: console.level  (call:hc.get)` ×1
+- `network: mousePixels  (call:u.get)` ×1
+- `network: HOME  (call:e.env.get)` ×1
+- `network: CLAUDE_CODE_RESTRICTED  (call:K.delete)` ×1
+- `route: .github/workflows/claude.yml  (property:path)` ×1
+- `network: USERPROFILE  (call:e.env.get)` ×1
+- `network: /v1/ultrareview/preflight  (call:Gt.get)` ×1
+- `network: kittyKeyboard  (call:u.get)` ×1
+- `route: .github/workflows/claude-code-review.yml  (property:path)` ×1
+- `route: experimental  (property:path)` ×1
+- `route: description  (property:path)` ×1
+- `network: 8  (call:r.delete)` ×1
+- `route: capabilities  (property:path)` ×1
+- `route: name  (property:path)` ×1
+- `route: plugins  (property:path)` ×1
+- `network: 1  (call:r.delete)` ×1
+- `network: 3  (call:r.delete)` ×1
+- `route: metadata  (property:path)` ×1
+- `network: 2  (call:r.delete)` ×1
+- `network: CLAUDE_CODE_FORCE_TIP_ID  (call:r.env.get)` ×1
+- `route: author  (property:path)` ×1
+- `route: frontmatter  (property:path)` ×1
+- `network: 5  (call:r.delete)` ×1
+- `route: allowed-tools  (property:path)` ×1
+- `network: 4  (call:r.delete)` ×1
+- `route: shell  (property:path)` ×1
+- `route: directory  (property:path)` ×1
+- `route: json  (property:path)` ×1
+- `network: USER_TYPE  (call:r.env.get)` ×1
+- `network: REPLY  (call:r.get)` ×1
+- `route: modules  (property:path)` ×1
+- `network: 9  (call:r.delete)` ×1
+- `route: version  (property:path)` ×1
+- `network: fg  (call:r.delete)` ×1
+- `route: root  (property:path)` ×1
+- `route: file  (property:path)` ×1
+- `route: binaries  (property:path)` ×1
+- `network: bg  (call:r.delete)` ×1
+- `network: 7  (call:r.delete)` ×1
+- `network: 6  (call:r.delete)` ×1
+- `network: runs  (call:n.get)` ×1
+- `network: co_last_ts  (call:r.get)` ×1
+- `network: co_target  (call:r.get)` ×1
+- `network: warm_rc  (call:o.get)` ×1
+- `network: yielded  (call:r.get)` ×1
+- `network: last_duration_s  (call:n.get)` ×1
+- `network: last_ok_ts  (call:n.get)` ×1
+- `network: policySettings  (call:perSource.delete)` ×1
+
+## sem:boundary (9 distinct)
+- `String` ×267
+- `safeParse` ×174
+- `Number` ×77
+- `Boolean` ×69
+- `parse` ×51
+- `parseInt` ×29
+- `JSON.parse` ×17
+- `parseFloat` ×1
+- `validate` ×1
+
+## sem:child-process (4 distinct)
+- `spawn` ×8
+- `/bin/launchctl` ×1
+- `tail` ×1
+- `git` ×1
+
+## sem:config-source (104 distinct)
+- `environment` ×29
+- `CLAUDE_CONFIG_DIR` ×14
+- `CCR_SPAWN_TIMESTAMP_MS` ×9
+- `file` ×8
+- `1` ×4
+- `BROWSER` ×4
+- `GITHUB_ENV` ×4
+- `CLAUDE_CODE_ENTRYPOINT` ×3
+- `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` ×3
+- `CLAUDE_AGENT_SDK_VERSION` ×3
+- `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB` ×3
+- `CLAUDE_CODE_ENABLE_TELEMETRY` ×3
+- `CLAUDE_CODE_ENVIRONMENT_KIND` ×3
+- `PATH` ×3
+- `CLAUDE_CODE_BRIDGE_SESSION_ID` ×2
+- `ZELLIJ` ×2
+- `MCP_CLIENT_SECRET` ×2
+- `DISABLE_ERROR_REPORTING` ×2
+- `CLAUDE_CODE_CLASSIFIER_SUMMARY` ×2
+- `unknown` ×2
+- `BUGHUNTER_DEV_BUNDLE_B64` ×2
+- `CLAUDE_CODE_MESSAGING_SOCKET` ×2
+- `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA` ×2
+- `ANTHROPIC_DEFAULT_OPUS_MODEL_NAME` ×2
+- `CLAUDE_BG_SOCKET_TOKENS_PATH` ×2
+- `DISABLE_TELEMETRY` ×2
+- `DO_NOT_TRACK` ×2
+- `ANTHROPIC_DEFAULT_HAIKU_MODEL` ×2
+- `ANTHROPIC_DEFAULT_OPUS_MODEL_DESCRIPTION` ×2
+- `DISABLE_INSTALLATION_CHECKS` ×2
+- `CLAUDE_CODE_COORDINATOR_EXTRA_TOOLS` ×2
+- `CLAUDE_BRIDGE_REATTACH_GROUPING` ×2
+- `CLAUDE_BRIDGE_REATTACH_SESSION` ×2
+- `CLAUDE_BRIDGE_REATTACH_SEQ` ×2
+- `GITHUB_EVENT_PATH` ×2
+- `ANTHROPIC_ORGANIZATION_ID` ×2
+- `GITHUB_ACTION_PATH` ×2
+- `ANTHROPIC_FEDERATION_RULE_ID` ×2
+- `GITHUB_WORKSPACE` ×2
+- `CLAUDE_CODE_OAUTH_CLIENT_ID` ×2
+- `HTTPS_PROXY` ×2
+- `PATHEXT` ×2
+- `OSTYPE` ×2
+- `/proc/self/cgroup` ×2
+- `BUGHUNTER_FLEET_SIZE` ×1
+- `CLAUDE_CODE_ATTRIBUTION_HEADER` ×1
+- `INTELLIJ_TERMINAL_COMMAND_BLOCKS` ×1
+- `CLAUDE_CODE_SPAWN_TIMESTAMP_MS` ×1
+- `CURSOR_TRACE_ID` ×1
+- `INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED` ×1
+- `BASH_MAX_OUTPUT_LENGTH` ×1
+- `CLAUDE_CODE_OAUTH_TOKEN` ×1
+- `CLAUDE_CODE_RESTRICTED` ×1
+- `CLAUDE_CODE_SUPERVISED` ×1
+- `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR` ×1
+- `CLAUDE_CODE_SIMPLE` ×1
+- `NODE_OPTIONS` ×1
+- `CLAUDE_CODE_PROJECT_DIR_NAME` ×1
+- `CLAUDE_CODE_SAFE_MODE` ×1
+- `BETA_TRACING_ENDPOINT` ×1
+- `ENABLE_ENHANCED_TELEMETRY_BETA` ×1
+- `LOCALAPPDATA` ×1
+- `CLAUDE_CODE_USE_FOUNDRY` ×1
+- `CLAUDE_CODE_USE_MANTLE` ×1
+- `CLAUDE_CODE_USE_ANTHROPIC_GOOGLE_CLOUD` ×1
+- `NoDefaultCurrentDirectoryInExePath` ×1
+- `CLAUDE_CODE_USE_BEDROCK` ×1
+- `CLAUDE_CODE_USE_VERTEX` ×1
+- `CLAUDE_CODE_USE_ANTHROPIC_AWS` ×1
+- `SDK_NATIVE_BIN` ×1
+- `claude` ×1
+- `CLAUDE_BG_RV_AUTH` ×1
+- `CLAUDE_BG_RENDEZVOUS_SOCK` ×1
+- `CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE` ×1
+- `CLAUDE_BRIDGE_REATTACH_OWNER_ORG` ×1
+- `GITHUB_ACTIONS` ×1
+- `CLAUDE_BRIDGE_REATTACH_OUTBOUND_ONLY` ×1
+- `CLAUDE_BRIDGE_REATTACH_OWNER_ACCT` ×1
+- `CLAUDE_BRIDGE_REATTACH_NO_BACKFILL` ×1
+- `CLAUDE_CODE_COORDINATOR_MODE` ×1
+
+## sem:event (12 distinct)
+- `error` ×50
+- `event` ×40
+- `exit` ×29
+- `close` ×25
+- `data` ×24
+- `line` ×6
+- `end` ×5
+- `drain` ×3
+- `add` ×2
+- `open` ×1
+- `spawn` ×1
+- `ready` ×1
+
+## sem:request (1 distinct)
+- `fetch` ×9
+
+## sem:resource (5 distinct)
+- `open` ×23
+- `connect` ×9
+- `createWriteStream` ×4
+- `openSync` ×4
+- `createReadStream` ×2
+
+## sem:signal (2 distinct)
+- `SIGTERM` ×5
+- `SIGKILL` ×3
+
+## sem:stdio (5 distinct)
+- `array` ×5
+- `ignore` ×3
+- `inherit` ×1
+- `dynamic` ×1
+- `default` ×1
+
+## sem:timer (3 distinct)
+- `setTimeout` ×103
+- `setInterval` ×21
+- `setImmediate` ×10
+
+## storage (2 distinct)
+- `local-storage: call:nn.localStorage.getItem  (call:nn.localStorage.getItem)` ×1
+- `local-storage: call:nn.localStorage.setItem  (call:nn.localStorage.setItem)` ×1
+
+## unknown (258 distinct)
+- `static-parse-scope: analyze-javascript-source:chunk-2ya7enrh.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-2r3ctt5w.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-2rbegc0n.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-37ayvsv6.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-3385vyk4.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-2z08cpnr.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-3ezz7100.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-3411v2q1.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-2ysh4tzf.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-3ezz7100.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-2ny1jtpy.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-2g53h5zc.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-33t6wyph.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-3gafw66q.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-37ayvsv6.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-3385vyk4.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-3411v2q1.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-3gafw66q.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-2rbegc0n.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-38fr02qr.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-38x4akaf.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-2d9a83dh.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-2ny1jtpy.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-2ysh4tzf.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-2jm70p05.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-3djwgd8v.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-3259venz.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-34mwf4jf.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-38x4akaf.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-33t6wyph.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-38fr02qr.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-34mwf4jf.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-36vfr393.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-3djwgd8v.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-4nfvaqps.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-6fb685xp.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-6dwnw6av.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-5ghn2enc.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-6exaxxzn.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-5f95gmxb.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-5hvq3mzf.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-5pvna5wz.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-56ry1691.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-6c9jy00t.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-506nf0t9.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-5eqja8yr.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-4ssez7mj.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-62d2d3kv.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-5s4qvyjz.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-6exaxxzn.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-55x53sfe.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-55x53sfe.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-60kbh4e8.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-4ssybdn9.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-5s4qvyjz.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-66wzxkyc.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-6b4khzmf.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-6dwnw6av.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-52fke4xs.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-506nf0t9.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-6b4khzmf.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-5eqja8yr.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-6c9jy00t.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-4xyzrj1s.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-56ry1691.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-662j4g3d.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-4xyzrj1s.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-62d2d3kv.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-5pvna5wz.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-5vwnqjtz.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-6fb685xp.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-662j4g3d.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-5f95gmxb.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-53bavyda.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-5b86mw09.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-4ssybdn9.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-4ssez7mj.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-5vwnqjtz.js` ×1
+- `static-parse-scope: project-javascript-application:chunk-5b86mw09.js` ×1
+- `static-parse-scope: analyze-javascript-source:chunk-5wfthjyk.js` ×1
+
+## worker (3 distinct)
+- `worker: new Worker(n)` ×1
+- `worker: new Worker(oe)` ×1
+- `worker: new Worker(e,vGt(s,n,r))` ×1

@@ -1,0 +1,8 @@
+
+String dump of section '.comment':
+  [     0]  Linker: Debian LLD 23.1.2
+  [    1a]  GCC: (Ubuntu 13.1.0-8ubuntu1~20.04.2) 13.1.0
+  [    47]  Debian clang version 23.1.2 (++20260920034005+85ac56026243-1~exp1~20260920034024.76)
+  [    9c]  rustc version 1.100.0-nightly (574ff7d98 2026-09-14)
+  [    d1]  Ubuntu clang version 23.1.2 (++20260910043923+069ef0e7cb36-1~exp1~20260910043934.72)
+

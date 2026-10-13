@@ -1,0 +1,12 @@
+// @bun @bytecode
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.296
+import{we,Vl,WR,F8e,jO,jn}from"/$bunfs/root/chunk-ctt36bn8.js";import{On}from"/$bunfs/root/chunk-xgw72tt1.js";var n={ccr:{controlChannel:!0,modelCatalog:!0,setPermissionMode:!0,sessionRecord:!0,fanout:!0,presence:!0,catchupReplay:!0,bashExec:!0,fileRead:!0},ssh:{controlChannel:!0,modelCatalog:!0,setPermissionMode:!0,sessionRecord:!1,fanout:!1,presence:!1,catchupReplay:!1,bashExec:!1,fileRead:!0},direct:{controlChannel:!1,modelCatalog:!1,setPermissionMode:!1,sessionRecord:!1,fanout:!1,presence:!1,catchupReplay:!1,bashExec:!1,fileRead:!1}};var yRr={isRemoteMode:!1};function vr(){return jO().remote}var PGn="Stopped waiting for the remote \u2014 the command may still complete there";function Mt(){return jn()||vr()!==null}function rwe(e,o){return Mt()?o:e}function al(){let e=vr();return e?.caps?.controlChannel===!0&&!e.viewerOnly}function IGn(){return!1}function rA(e){return vr()?.caps?.[e]===!0}function _Rr(e,o){return o&&!(e.isRemoteMode&&e.viewerOnly)}function a(e){return Promise.reject(Error(`sendControlRequest not yet wired for ${e} transport`))}function bRr(e,o,r,s){if(!o.isRemoteMode)return yRr;return{kind:e,isRemoteMode:!0,viewerOnly:r,caps:n[e],sessionId:s,sendMessage:o.sendMessage,cancelRequest:o.cancelRequest,cancelHeldMessages:o.cancelHeldMessages??(()=>!1),disconnect:o.disconnect,sendControlRequest:o.sendControlRequest??(()=>a(e))}}import{AsyncLocalStorage as l}from"async_hooks";var t=new l;function Wm(e,o){return t.run({cwd:On(e)},o)}function pPe(e,o){return Wm(e??se(),o)}function CZ(){return t.getStore()!==void 0}function lon(e){let o=t.getStore();if(o)o.cwd=On(e);else F8e(e)}function con(){return t.getStore()?.cwd??WR()}function df(){if(t.getStore()?.cwd===void 0&&Vl()===null)return null;return se()}function se(){try{return con()}catch{return we()}}function SRr(){return!CZ()&&Mt()?void 0:se()}
+export{yRr,vr,PGn,Mt,rwe,al,IGn,rA,_Rr,bRr,Wm,pPe,CZ,lon,con,df,se,SRr};

@@ -1,0 +1,304 @@
+import { Gr } from "/$bunfs/root/chunk-0ycjphb5.js";
+import "/$bunfs/root/chunk-dn762950.js";
+import "/$bunfs/root/chunk-j27d47mr.js";
+import "/$bunfs/root/chunk-ctt36bn8.js";
+import "/$bunfs/root/chunk-fcerdfs3.js";
+import "/$bunfs/root/chunk-wkmq9ht0.js";
+import "/$bunfs/root/chunk-m1rt7wpr.js";
+import "/$bunfs/root/chunk-jtpfgrzr.js";
+import "/$bunfs/root/chunk-xgw72tt1.js";
+import "/$bunfs/root/chunk-6kc68p18.js";
+import "/$bunfs/root/chunk-s7bhz6qz.js";
+import "/$bunfs/root/chunk-dp4xqs6t.js";
+import "/$bunfs/root/chunk-x0qpydt2.js";
+import "/$bunfs/root/chunk-bd805sh6.js";
+import "/$bunfs/root/chunk-24agvrd9.js";
+import "/$bunfs/root/chunk-qch5xj2a.js";
+import "/$bunfs/root/chunk-etbngzss.js";
+import "/$bunfs/root/chunk-p9frg3mj.js";
+import "/$bunfs/root/chunk-2d9a83dh.js";
+import "/$bunfs/root/chunk-kgp7t7yx.js";
+import "/$bunfs/root/chunk-04d4ftnx.js";
+import "/$bunfs/root/chunk-c56kpkt7.js";
+import "/$bunfs/root/chunk-7mawjt4q.js";
+import "/$bunfs/root/chunk-tchztk88.js";
+import "/$bunfs/root/chunk-z0brrd3r.js";
+import "/$bunfs/root/chunk-h7cbghgp.js";
+import "/$bunfs/root/chunk-h6pppnx2.js";
+import "/$bunfs/root/chunk-wew3321y.js";
+import "/$bunfs/root/chunk-223dyewd.js";
+import "/$bunfs/root/chunk-w1n7t02f.js";
+import "/$bunfs/root/chunk-3fj60qgx.js";
+import "/$bunfs/root/chunk-n1z3wrvm.js";
+import "/$bunfs/root/chunk-zwxj12s4.js";
+import "/$bunfs/root/chunk-3yz9zdww.js";
+import "/$bunfs/root/chunk-se8vehhp.js";
+import "/$bunfs/root/chunk-63xa24b4.js";
+import { p } from "/$bunfs/root/chunk-5k7wva7c.js";
+import "/$bunfs/root/chunk-x47nahfr.js";
+import { da } from "/$bunfs/root/chunk-xb9cceab.js";
+import "/$bunfs/root/chunk-craerjpn.js";
+import "/$bunfs/root/chunk-6gk7mpsm.js";
+import "/$bunfs/root/chunk-fnj5y75n.js";
+import "/$bunfs/root/chunk-9dn6gg6j.js";
+import "/$bunfs/root/chunk-qk3m4n8a.js";
+import "/$bunfs/root/chunk-52bcnmbr.js";
+import "/$bunfs/root/chunk-k7dkeqsc.js";
+import "/$bunfs/root/chunk-r3z1chqx.js";
+import "/$bunfs/root/chunk-6bjtvbt8.js";
+import "/$bunfs/root/chunk-1692wahf.js";
+import "/$bunfs/root/chunk-gc7ea4xt.js";
+import "/$bunfs/root/chunk-03gkt7r5.js";
+import "/$bunfs/root/chunk-nj0630nv.js";
+import "/$bunfs/root/chunk-n1fq1c8e.js";
+import "/$bunfs/root/chunk-hz24p3zh.js";
+import "/$bunfs/root/chunk-sawpz2mr.js";
+import "/$bunfs/root/chunk-6dwnw6av.js";
+import "/$bunfs/root/chunk-9fa34ggx.js";
+import "/$bunfs/root/chunk-55x53sfe.js";
+import "/$bunfs/root/chunk-xbsy70c7.js";
+import "/$bunfs/root/chunk-ph7a449e.js";
+import "/$bunfs/root/chunk-vpp1psvz.js";
+import "/$bunfs/root/chunk-bckbp4r1.js";
+import "/$bunfs/root/chunk-qbpgcqdd.js";
+import "/$bunfs/root/chunk-pw6z2cbs.js";
+import "/$bunfs/root/chunk-75wzvwyz.js";
+import "/$bunfs/root/chunk-t0b6khh6.js";
+import "/$bunfs/root/chunk-74djrymf.js";
+import "/$bunfs/root/chunk-d2sd20y7.js";
+import "/$bunfs/root/chunk-pp3y3t61.js";
+import "/$bunfs/root/chunk-mqgsnx6k.js";
+import "/$bunfs/root/chunk-peahjaep.js";
+import "/$bunfs/root/chunk-6g4165br.js";
+import "/$bunfs/root/chunk-231n9cft.js";
+import "/$bunfs/root/chunk-6s83kxfy.js";
+import "/$bunfs/root/chunk-0sgn6snt.js";
+import "/$bunfs/root/chunk-2321ytcf.js";
+import "/$bunfs/root/chunk-1ej05ybf.js";
+import "/$bunfs/root/chunk-mvz09dzd.js";
+import "/$bunfs/root/chunk-k3tkc302.js";
+import "/$bunfs/root/chunk-jynzk4xv.js";
+import "/$bunfs/root/chunk-tw5t5h13.js";
+import "/$bunfs/root/chunk-wrn3nvp5.js";
+import "/$bunfs/root/chunk-sk5bs87n.js";
+import { xie } from "/$bunfs/root/chunk-88j0mx70.js";
+import { iI, GOe, RWr } from "/$bunfs/root/chunk-pytdy9pt.js";
+import "/$bunfs/root/chunk-dck8836g.js";
+import { Kt } from "/$bunfs/root/chunk-4r6b8efh.js";
+import "/$bunfs/root/chunk-tvg3w9xe.js";
+import "/$bunfs/root/chunk-tn496ms6.js";
+import "/$bunfs/root/chunk-ssn8w7cj.js";
+import "/$bunfs/root/chunk-7y9jhgf9.js";
+import "/$bunfs/root/chunk-4jkyvhbj.js";
+import "/$bunfs/root/chunk-e0hrcpx7.js";
+import "/$bunfs/root/chunk-f41czxrs.js";
+import "/$bunfs/root/chunk-tf8026s8.js";
+import "/$bunfs/root/chunk-0c6rtmqc.js";
+import "/$bunfs/root/chunk-nb5ge4vq.js";
+import "/$bunfs/root/chunk-s7aawpq2.js";
+import "/$bunfs/root/chunk-qjzjr1ys.js";
+import { AB } from "/$bunfs/root/chunk-6kvd67n5.js";
+import "/$bunfs/root/chunk-0g49c63m.js";
+import "/$bunfs/root/chunk-n2j724xe.js";
+import "/$bunfs/root/chunk-8fa0475h.js";
+import "/$bunfs/root/chunk-ghreee2m.js";
+import "/$bunfs/root/chunk-b7w13qrv.js";
+import "/$bunfs/root/chunk-4r70ar86.js";
+import "/$bunfs/root/chunk-tsamgvyd.js";
+import "/$bunfs/root/chunk-fbhagmpx.js";
+import "/$bunfs/root/chunk-f0v3xmb1.js";
+import "/$bunfs/root/chunk-chd251pa.js";
+import "/$bunfs/root/chunk-wtrd0hw3.js";
+import "/$bunfs/root/chunk-v214ecah.js";
+import "/$bunfs/root/chunk-9nfq6p43.js";
+import { ka } from "/$bunfs/root/chunk-5mfg4ngf.js";
+import "/$bunfs/root/chunk-77t63btp.js";
+import "/$bunfs/root/chunk-yp41169e.js";
+import { Bo } from "/$bunfs/root/chunk-2dp0fzyb.js";
+import "/$bunfs/root/chunk-pj42g5eb.js";
+import { o, oe, u, _t } from "/$bunfs/root/chunk-smx21d0k.js";
+import "/$bunfs/root/chunk-tfc1vf2h.js";
+import "/$bunfs/root/chunk-6cee9jwv.js";
+import "/$bunfs/root/chunk-yngqe5v3.js";
+import "/$bunfs/root/chunk-nnawdxg4.js";
+import "/$bunfs/root/chunk-svqqgdca.js";
+import "/$bunfs/root/chunk-dze6yaxw.js";
+import "/$bunfs/root/chunk-m6z3m7rx.js";
+import "/$bunfs/root/chunk-tybndaby.js";
+import "/$bunfs/root/chunk-79wfew46.js";
+const d = "enable__mcp__claude-in-chrome";
+const E = "enable__mcp__remote-devices__Claude_Browser";
+const y = "enable__mcp__remote-devices__computer";
+const h = "request_computer";
+const S = "Enable Claude in Chrome, the Claude extension in the Chrome browser on the user's own computer, for this conversation. If you already have tools whose names contain claude-in-chrome__ or Claude_in_Chrome__, use those directly instead of calling this. Otherwise call it once, before any other Claude in Chrome tool, when the user asks you to do something in their browser or on a website that needs their own sign-in, or explicitly asks for Claude in Chrome. Do not call it for questions you can answer from the conversation or with web search, or merely because a request mentions a website.";
+const w = "Enable Claude in Chrome, the Claude extension in the Chrome browser on the user's own computer, for this conversation. If you already have tools whose names contain claude-in-chrome__ or Claude_in_Chrome__, use those directly instead of calling this. Otherwise call it once, before any other Claude in Chrome tool, when the user asks you to do something in their browser or on a website that needs their own sign-in, when a step in a skill or task the user asked you to carry out needs their browser or such a website, or when the user explicitly asks for Claude in Chrome. If the tools it turns on, or the tools for files on that computer, are missing from your tool list, calling it is how they are added, possibly a turn later. Do not call it for questions you can answer from the conversation or with web search, or merely because a request mentions a website.";
+const T = "Enable the browser built into the Claude desktop app on the user's computer for this conversation. If you already have tools whose names contain Claude_Browser__, use those directly instead of calling this. Otherwise call it once, before any other Claude app browser tool, when the user asks you to do something in the Claude app's own browser or on a website that needs their own sign-in, or explicitly asks for that browser. Do not call it for questions you can answer from the conversation or with web search, or merely because a request mentions a website.";
+const C = "Enable the browser built into the Claude desktop app on the user's computer for this conversation. If you already have tools whose names contain Claude_Browser__, use those directly instead of calling this. Otherwise call it once, before any other Claude app browser tool, when the user asks you to do something in the Claude app's own browser or on a website that needs their own sign-in, when a step in a skill or task the user asked you to carry out needs that browser or such a website, or when the user explicitly asks for that browser. If the tools it turns on, or the tools for files on that computer, are missing from your tool list, calling it is how they are added, possibly a turn later. Do not call it for questions you can answer from the conversation or with web search, or merely because a request mentions a website.";
+const l = {
+    type: "object",
+    properties: {
+        task: {
+            type: "string",
+            description: "Optional: what you are about to do in the browser, in one or two sentences."
+        }
+    },
+    additionalProperties: false
+};
+const f = "Claude in Chrome needs no enabling: if it is connected, its tools are already here as the tools whose names contain claude-in-chrome or Claude_in_Chrome, and you can use them now. If you have no such tools but do have tools whose names contain Claude_Browser, use those instead; if you have neither, tell the user that Chrome on their computer is not connected and continue with what you can do here.";
+const O = "The Claude desktop app's built-in browser needs no enabling: if it is connected, its tools are already here as the tools whose names contain Claude_Browser, and you can use them now. If you have no such tools but do have tools whose names contain claude-in-chrome or Claude_in_Chrome, use those instead; if you have neither, tell the user that the browser in their Claude desktop app is not connected and continue with what you can do here.";
+const b = "Enable computer use on the user's own computer for this conversation, so you can see its screen and work in its applications (take screenshots, click, type, scroll, open apps). If you already have tools whose names start with mcp__remote-devices__computer_, use those directly instead of calling this. Otherwise call it once, before any other computer-use tool, when the user asks you to do something in an application on their computer, or explicitly asks you to use their computer or their screen. Do not call it for questions you can answer from the conversation or with web search, for work that only needs their web browser, or merely because a request mentions an application.";
+const R = "Enable computer use on the user's own computer for this conversation, so you can see its screen and work in its applications (take screenshots, click, type, scroll, open apps). If you already have tools whose names start with mcp__remote-devices__computer_, use those directly instead of calling this. Otherwise call it once, before any other computer-use tool, when the user asks you to do something in an application on their computer, when a step in a skill or task the user asked you to carry out needs an application on their computer, or when the user explicitly asks you to use their computer or their screen. If the tools it turns on, or the tools for files on that computer, are missing from your tool list, calling it is how they are added, possibly a turn later. Do not call it for questions you can answer from the conversation or with web search, for work that only needs their web browser, or merely because a request mentions an application.";
+const B = {
+    type: "object",
+    properties: {
+        task: {
+            type: "string",
+            description: "Optional: what you are about to do on the computer, in one or two sentences."
+        }
+    },
+    additionalProperties: false
+};
+const U = "The computer-use tools are the mcp__remote-devices__computer_ tools you have here; there is no separate enable step. Try the user's request with them now, asking for access to the applications you need first, the way those tools describe. Don't tell the user their computer is connected until a call to one of them has succeeded; if calls keep not responding, the Claude app on the user's computer isn't answering: it may be closed or the computer asleep. Tell the user that, ask them to open the Claude app on that computer, and carry on with what you can do here. If you have no such tools here, tell the user that computer use isn't available on their computer right now and that the Claude app on that computer may show why under Settings → This computer → Computer use, then continue with what you can do here. Don't say a permission was denied unless a result says so.";
+const N = `If the request is about files or folders on the user's computer and you have device tools here (loaded or through tool search), such as mcp__${da}__device_list_dir, use them for that part; if it is and you have none, tell the user that files on their computer can't be reached right now.`;
+const g = "Does nothing. This tool cannot connect a computer here. Tools whose names start with mcp__remote-devices__, if you have any, run on the user's computer; use whichever of them fits the task.";
+const I = "This call did not connect a computer, and no tool here can. Tools whose names start with mcp__remote-devices__, if you have any, run on the user's computer; use whichever of them fits the task. Otherwise carry on with the tools you have here, and if the task needs the user's computer, tell the user so.";
+const message = `This chat isn't linked to a computer, and no tool here can link one, including ${h} and the tools whose names start with enable__. That is a normal state, not an outage or a connection problem, so while you have no tools that run on the user's computer there is no point looking or waiting for them. Tell the user it isn't linked in one or two plain sentences, in their language and without tool names, then do the task another way with the tools you have here if you can. For example: "I can't do that from here, because this chat isn't linked to a computer. If you have the Claude desktop app on a computer, opening this chat there and sending a message can link it." Say nothing about what you could do once it is linked, and suggest no other steps or settings. If the user later says they did that, use the tools that run on their computer if you now have any (their names start with mcp__${da}__ or mcp__${ka}__); otherwise say only that it still isn't linked.`;
+const x = p(()=>_t({
+        task: oe().optional()
+    }));
+const H = p(()=>u({
+        message: o()
+    }));
+function c({ description, sharedDescription, result }) {
+    if (sharedDescription === undefined || Gr("tengu_peaceful_leaf", false) !== true) {
+        return {
+            description,
+            result
+        };
+    }
+    return {
+        description: sharedDescription,
+        result: `${result} ${N}`
+    };
+}
+function n({ name, label, description, sharedDescription, result, inputJSONSchema, endsRelayOnCall }) {
+    let a = {
+        description,
+        sharedDescription,
+        result
+    };
+    return Kt({
+        name,
+        backgrounding: "never",
+        maxResultSizeChars: 10000,
+        async description () {
+            return c(a).description;
+        },
+        async prompt () {
+            return c(a).description;
+        },
+        get inputSchema () {
+            return x();
+        },
+        inputJSONSchema,
+        get outputSchema () {
+            return H();
+        },
+        userFacingName () {
+            return label;
+        },
+        shouldDefer: true,
+        isEnabled () {
+            return xie() !== null;
+        },
+        isConcurrencySafe () {
+            return true;
+        },
+        isReadOnly () {
+            return true;
+        },
+        toAutoClassifierInput () {
+            return "";
+        },
+        renderToolUseMessage () {
+            return null;
+        },
+        create (t) {
+            return {
+                async call (_, { parentMessage }) {
+                    if (!(t.tools.some((i)=>A(i.name)) || t.mcpClients().some((i)=>A(Bo(i.name))))) {
+                        return {
+                            data: {
+                                message
+                            }
+                        };
+                    }
+                    let m = iI();
+                    if (endsRelayOnCall && t.agentId === undefined && m.status === "active") {
+                        if (m.marker.automation_tools !== true) {
+                            GOe("device_tool_requested", "main", name);
+                        } else if (RWr(name, parentMessage?.message.id) === "repeat") {
+                            GOe("device_tool_request_repeated", "main", name);
+                        }
+                    }
+                    return {
+                        data: {
+                            message: c(a).result
+                        }
+                    };
+                }
+            };
+        },
+        mapToolResultToToolResultBlockParam (t, tool_use_id) {
+            return {
+                tool_use_id,
+                type: "tool_result",
+                content: t.message
+            };
+        }
+    });
+}
+const q = n({
+    name: d,
+    label: "Claude in Chrome",
+    description: S,
+    sharedDescription: w,
+    result: f,
+    inputJSONSchema: l,
+    endsRelayOnCall: true
+});
+const J = n({
+    name: E,
+    label: "Browser",
+    description: T,
+    sharedDescription: C,
+    result: O,
+    inputJSONSchema: l,
+    endsRelayOnCall: true
+});
+const W = n({
+    name: y,
+    label: "Computer use",
+    description: b,
+    sharedDescription: R,
+    result: U,
+    inputJSONSchema: B,
+    endsRelayOnCall: true
+});
+const z = n({
+    name: h,
+    label: "Your computer",
+    description: g,
+    result: I,
+    endsRelayOnCall: false
+});
+export const ENABLE_STUB_TOOLS = [
+    q,
+    J,
+    W,
+    z
+];
+var j = Bo(da);
+function A(e) {
+    return e.startsWith(j) || AB(e);
+}

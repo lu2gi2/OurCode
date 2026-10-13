@@ -1,0 +1,297 @@
+import { $e } from "/$bunfs/root/chunk-se8vehhp.js";
+import { mt } from "/$bunfs/root/chunk-63xa24b4.js";
+import "/$bunfs/root/chunk-dn762950.js";
+import "/$bunfs/root/chunk-j27d47mr.js";
+import "/$bunfs/root/chunk-ctt36bn8.js";
+import "/$bunfs/root/chunk-fcerdfs3.js";
+import "/$bunfs/root/chunk-wkmq9ht0.js";
+import "/$bunfs/root/chunk-m1rt7wpr.js";
+import "/$bunfs/root/chunk-jtpfgrzr.js";
+import "/$bunfs/root/chunk-xgw72tt1.js";
+import "/$bunfs/root/chunk-bd805sh6.js";
+import "/$bunfs/root/chunk-6kc68p18.js";
+import "/$bunfs/root/chunk-24agvrd9.js";
+import { I } from "/$bunfs/root/chunk-qch5xj2a.js";
+import "/$bunfs/root/chunk-etbngzss.js";
+import "/$bunfs/root/chunk-n1z3wrvm.js";
+import "/$bunfs/root/chunk-z0brrd3r.js";
+import "/$bunfs/root/chunk-7mawjt4q.js";
+import "/$bunfs/root/chunk-s7bhz6qz.js";
+import "/$bunfs/root/chunk-dp4xqs6t.js";
+import "/$bunfs/root/chunk-x0qpydt2.js";
+import "/$bunfs/root/chunk-p9frg3mj.js";
+import "/$bunfs/root/chunk-h7cbghgp.js";
+import "/$bunfs/root/chunk-h6pppnx2.js";
+import "/$bunfs/root/chunk-kgp7t7yx.js";
+import "/$bunfs/root/chunk-04d4ftnx.js";
+import "/$bunfs/root/chunk-t0b6khh6.js";
+import { lw } from "/$bunfs/root/chunk-zfnrt9d9.js";
+import "/$bunfs/root/chunk-9xenmz7v.js";
+import "/$bunfs/root/chunk-1ej05ybf.js";
+import "/$bunfs/root/chunk-0ycjphb5.js";
+import "/$bunfs/root/chunk-2d9a83dh.js";
+import "/$bunfs/root/chunk-c56kpkt7.js";
+import "/$bunfs/root/chunk-tchztk88.js";
+import "/$bunfs/root/chunk-wew3321y.js";
+import "/$bunfs/root/chunk-223dyewd.js";
+import "/$bunfs/root/chunk-w1n7t02f.js";
+import "/$bunfs/root/chunk-3fj60qgx.js";
+import "/$bunfs/root/chunk-zwxj12s4.js";
+import "/$bunfs/root/chunk-3yz9zdww.js";
+import "/$bunfs/root/chunk-5k7wva7c.js";
+import "/$bunfs/root/chunk-x47nahfr.js";
+import "/$bunfs/root/chunk-xb9cceab.js";
+import "/$bunfs/root/chunk-craerjpn.js";
+import "/$bunfs/root/chunk-6gk7mpsm.js";
+import "/$bunfs/root/chunk-fnj5y75n.js";
+import "/$bunfs/root/chunk-9dn6gg6j.js";
+import "/$bunfs/root/chunk-qk3m4n8a.js";
+import "/$bunfs/root/chunk-52bcnmbr.js";
+import "/$bunfs/root/chunk-k7dkeqsc.js";
+import "/$bunfs/root/chunk-r3z1chqx.js";
+import "/$bunfs/root/chunk-6bjtvbt8.js";
+import "/$bunfs/root/chunk-1692wahf.js";
+import "/$bunfs/root/chunk-gc7ea4xt.js";
+import "/$bunfs/root/chunk-03gkt7r5.js";
+import "/$bunfs/root/chunk-nj0630nv.js";
+import "/$bunfs/root/chunk-n1fq1c8e.js";
+import "/$bunfs/root/chunk-hz24p3zh.js";
+import "/$bunfs/root/chunk-sawpz2mr.js";
+import "/$bunfs/root/chunk-6dwnw6av.js";
+import "/$bunfs/root/chunk-9fa34ggx.js";
+import "/$bunfs/root/chunk-55x53sfe.js";
+import "/$bunfs/root/chunk-xbsy70c7.js";
+import "/$bunfs/root/chunk-ph7a449e.js";
+import "/$bunfs/root/chunk-vpp1psvz.js";
+import "/$bunfs/root/chunk-bckbp4r1.js";
+import "/$bunfs/root/chunk-qbpgcqdd.js";
+import "/$bunfs/root/chunk-pw6z2cbs.js";
+import "/$bunfs/root/chunk-75wzvwyz.js";
+import "/$bunfs/root/chunk-74djrymf.js";
+import "/$bunfs/root/chunk-d2sd20y7.js";
+import "/$bunfs/root/chunk-pp3y3t61.js";
+import "/$bunfs/root/chunk-mqgsnx6k.js";
+import "/$bunfs/root/chunk-peahjaep.js";
+import "/$bunfs/root/chunk-6g4165br.js";
+import "/$bunfs/root/chunk-231n9cft.js";
+import "/$bunfs/root/chunk-6s83kxfy.js";
+import "/$bunfs/root/chunk-0sgn6snt.js";
+import "/$bunfs/root/chunk-2321ytcf.js";
+import "/$bunfs/root/chunk-mvz09dzd.js";
+import "/$bunfs/root/chunk-k3tkc302.js";
+import "/$bunfs/root/chunk-jynzk4xv.js";
+import "/$bunfs/root/chunk-tw5t5h13.js";
+import "/$bunfs/root/chunk-wrn3nvp5.js";
+import "/$bunfs/root/chunk-sk5bs87n.js";
+import "/$bunfs/root/chunk-nb5ge4vq.js";
+import "/$bunfs/root/chunk-n4gsaesa.js";
+import { NAe, EE, X2, J2 } from "/$bunfs/root/chunk-fff9dfxd.js";
+import "/$bunfs/root/chunk-j8rm3ydc.js";
+import { $c as proto, v0e, PTt, xD } from "/$bunfs/root/chunk-ghmnmzfd.js";
+import { Jm } from "/$bunfs/root/chunk-6y5cf93g.js";
+import { $9 } from "/$bunfs/root/chunk-6s0c3g6w.js";
+import { Sje, Zmt } from "/$bunfs/root/chunk-8q10swh6.js";
+import { oI, Iie } from "/$bunfs/root/chunk-5an6yk4w.js";
+import "/$bunfs/root/chunk-jn6evvyh.js";
+import "/$bunfs/root/chunk-4n16n64p.js";
+import "/$bunfs/root/chunk-f0v3xmb1.js";
+import "/$bunfs/root/chunk-chd251pa.js";
+import "/$bunfs/root/chunk-wtrd0hw3.js";
+import "/$bunfs/root/chunk-v214ecah.js";
+import "/$bunfs/root/chunk-9nfq6p43.js";
+import "/$bunfs/root/chunk-77t63btp.js";
+import "/$bunfs/root/chunk-yp41169e.js";
+import "/$bunfs/root/chunk-2dp0fzyb.js";
+import "/$bunfs/root/chunk-pj42g5eb.js";
+import "/$bunfs/root/chunk-tfc1vf2h.js";
+import "/$bunfs/root/chunk-6cee9jwv.js";
+import "/$bunfs/root/chunk-yngqe5v3.js";
+import "/$bunfs/root/chunk-nnawdxg4.js";
+import "/$bunfs/root/chunk-svqqgdca.js";
+import "/$bunfs/root/chunk-dze6yaxw.js";
+import "/$bunfs/root/chunk-m6z3m7rx.js";
+import "/$bunfs/root/chunk-tybndaby.js";
+import { O } from "/$bunfs/root/chunk-79wfew46.js";
+import { F } from "/$bunfs/root/chunk-tb7m3r21.js";
+import { readFile, stat } from "fs/promises";
+export async function getBgDaemonStatus(e) {
+    let r = await lw(1, e).catch(()=>null);
+    let logPath = r?.logPath ?? Iie();
+    let [n, a, o, i, serviceInstalled, configuredWorkers] = await Promise.all([
+        Jm({
+            op: "ping",
+            proto
+        }, {
+            timeoutMs: 1000
+        }).catch((l)=>({
+                ok: false,
+                code: "ENOCONN",
+                error: String(l)
+            })),
+        xD({
+            silent: true
+        }, e),
+        S(e),
+        v(logPath, e),
+        $9().catch(()=>false),
+        y(oI(), e)
+    ]);
+    let controlSock;
+    try {
+        controlSock = J2();
+    } catch  {
+        controlSock = O() === "windows" ? "\\\\.\\pipe\\cc-daemon-*" : "<unavailable>";
+    }
+    let workersLive = null;
+    let workersSkewed = null;
+    let leaseClients = [];
+    if (n.ok) {
+        let l = {
+            ok: false
+        };
+        let [c, m] = await Promise.all([
+            Jm({
+                op: "list",
+                proto
+            }, {
+                timeoutMs: 1000
+            }).catch(()=>l),
+            Jm({
+                op: "leases",
+                proto
+            }, {
+                timeoutMs: 1000
+            }).catch(()=>l)
+        ]);
+        if (c.ok && "jobs" in c) {
+            workersLive = F(c.jobs, (s)=>!s.outcome);
+            let f = r?.version ?? ({
+                ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues",
+                PACKAGE_URL: "@anthropic-ai/claude-code",
+                README_URL: "https://code.claude.com/docs/en/overview",
+                VERSION: "2.1.296",
+                FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
+                BUILD_TIME: "2026-10-09T01:31:52Z",
+                GIT_SHA: "fdb6c17a97b6e0e3cf15e3566663fca58e7c43a9",
+                HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+                DD_SOURCEMAP_GROUP: "default"
+            }).VERSION;
+            workersSkewed = F(c.jobs, (s)=>!s.outcome && s.cliVersion !== undefined && s.cliVersion !== f);
+        }
+        if (m.ok && "clients" in m) {
+            leaseClients = m.clients.flatMap((f)=>v0e().safeParse(f).data ?? []);
+        }
+    }
+    return {
+        supervisor: r ? {
+            pid: r.pid,
+            version: r.version,
+            uptimeSec: Math.floor((Date.now() - r.startedAt) / 1000)
+        } : null,
+        sockDir: O() === "windows" ? "\\\\.\\pipe\\cc-daemon-*" : NAe(),
+        controlSock,
+        controlReachable: n.ok,
+        controlError: n.ok ? undefined : EE(n.error),
+        workersLive,
+        workersSkewed,
+        workersRoster: Object.keys(a.workers).length,
+        rosterAgeSec: o ? Math.floor((Date.now() - o.mtimeMs) / 1000) : null,
+        bgDisabled: r?.bgDisabled === true,
+        logPath,
+        logSizeBytes: i?.size ?? null,
+        serviceInstalled,
+        configuredWorkers,
+        leaseClients
+    };
+}
+async function S(e) {
+    if (e) {
+        let r = await e.statMeta(PTt()).catch(()=>{});
+        if (r?.ok) {
+            return {
+                mtimeMs: r.value.mtimeMs
+            };
+        }
+        return null;
+    }
+    return stat(X2()).catch(()=>null);
+}
+async function v(logPath, r) {
+    if (r && logPath === Iie()) {
+        let t = await r.statMeta($e.state("daemon-log")).catch(()=>{});
+        if (t?.ok) {
+            return {
+                size: t.value.size
+            };
+        }
+        return null;
+    }
+    return stat(logPath).catch(()=>null);
+}
+async function y(e, r) {
+    let t;
+    if (r && e === oI()) {
+        let o = await Zmt(r);
+        if (o.kind !== "text") {
+            return 0;
+        }
+        t = o.text;
+    } else {
+        try {
+            let o = await stat(e);
+            if (!o.isFile() || o.size > Sje) {
+                return 0;
+            }
+            t = await readFile(e, "utf8");
+        } catch  {
+            return 0;
+        }
+    }
+    let n = mt(t, false);
+    if (n === null || typeof n !== "object") {
+        return 0;
+    }
+    let a = 0;
+    for (let [o, i] of Object.entries(n)){
+        if (o === "$schema") {
+            continue;
+        }
+        a += Array.isArray(i) ? i.length : 1;
+    }
+    return a;
+}
+export function formatBgDaemonStatus(e) {
+    let r = [
+        "",
+        "bg sessions:"
+    ];
+    r.push(`  sock dir:     ${e.sockDir}`);
+    r.push(`  control.sock: ${e.controlReachable ? "reachable" : `unreachable (${e.controlError ?? "unknown"})`}`);
+    if (e.bgDisabled) {
+        r.push("  bg sessions:  disabled (start failure — see daemon.log; restart the service after fixing)");
+    }
+    if (e.workersLive !== null) {
+        r.push(`  bg workers:   ${e.workersLive} running (control.sock), ${e.workersRoster} in roster.json`);
+        if (e.workersSkewed && e.workersSkewed > 0) {
+            r.push(`                ${e.workersSkewed} from a different CLI version (most stay attachable and upgrade automatically once idle \u2014 exec runs never respawn)`);
+        }
+    } else {
+        r.push(`  bg workers:   ${e.workersRoster} in roster.json (${e.controlReachable ? "live count unavailable" : "control unreachable"})`);
+    }
+    r.push(`  roster.json:  ${e.rosterAgeSec === null ? "absent" : `updated ${e.rosterAgeSec}s ago`}`);
+    r.push(`  daemon.log:   ${e.logSizeBytes === null ? "absent" : `${B(e.logSizeBytes)} at ${e.logPath}`}`);
+    if (!e.supervisor && !e.controlReachable && e.workersRoster > 0) {
+        r.push(`  warning:      supervisor not running but ${e.workersRoster} ${I(e.workersRoster, "worker")} in roster \u2014 running \`claude agents\` restarts the daemon and re-adopts still-running sessions; run \`claude daemon stop --any\` to reap them instead`);
+    }
+    return r.join(`
+`);
+}
+function B(logSizeBytes) {
+    if (logSizeBytes < 1024) {
+        return `${logSizeBytes}B`;
+    }
+    if (logSizeBytes < 1048576) {
+        return `${(logSizeBytes / 1024).toFixed(1)}KB`;
+    }
+    return `${(logSizeBytes / 1024 / 1024).toFixed(1)}MB`;
+}

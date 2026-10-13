@@ -1,0 +1,28 @@
+
+Displaying notes found in: .note.ABI-tag
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_ABI_TAG (ABI version tag)
+    OS: Linux, ABI: 3.2.0
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: ca2032b38650b44e05b2074617d524c7475c80f0
+
+Displaying notes found in: .note.stapsdt
+  Owner                Data size 	Description
+  stapsdt              0x0000003b	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libstdcxx
+    Name: catch
+    Location: 0x0000000001aa25a5, Base: 0x0000000000000000, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdx 8@-80(%rbx)
+  stapsdt              0x00000036	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libstdcxx
+    Name: throw
+    Location: 0x0000000001aa34b1, Base: 0x0000000000000000, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi 8@%rsi
+  stapsdt              0x00000038	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libstdcxx
+    Name: rethrow
+    Location: 0x0000000001aa3549, Base: 0x0000000000000000, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdx 8@%rax

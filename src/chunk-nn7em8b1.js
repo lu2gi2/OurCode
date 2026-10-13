@@ -1,0 +1,749 @@
+import "/$bunfs/root/chunk-dn762950.js";
+import "/$bunfs/root/chunk-j27d47mr.js";
+import "/$bunfs/root/chunk-ctt36bn8.js";
+import "/$bunfs/root/chunk-fcerdfs3.js";
+import "/$bunfs/root/chunk-wkmq9ht0.js";
+import "/$bunfs/root/chunk-m1rt7wpr.js";
+import { Ut } from "/$bunfs/root/chunk-jtpfgrzr.js";
+import "/$bunfs/root/chunk-xgw72tt1.js";
+import { id, Bdn, hve, N0r } from "/$bunfs/root/chunk-4nfvaqps.js";
+import "/$bunfs/root/chunk-6kc68p18.js";
+import "/$bunfs/root/chunk-s7bhz6qz.js";
+import { iCo, a } from "/$bunfs/root/chunk-dp4xqs6t.js";
+import "/$bunfs/root/chunk-x0qpydt2.js";
+import "/$bunfs/root/chunk-bd805sh6.js";
+import "/$bunfs/root/chunk-24agvrd9.js";
+import { Ei, I } from "/$bunfs/root/chunk-qch5xj2a.js";
+import { c } from "/$bunfs/root/chunk-etbngzss.js";
+import "/$bunfs/root/chunk-p9frg3mj.js";
+import "/$bunfs/root/chunk-yq147k4z.js";
+import "/$bunfs/root/chunk-ezr23nse.js";
+import { Ci } from "/$bunfs/root/chunk-0ycjphb5.js";
+import { tK, a6n, X$t } from "/$bunfs/root/chunk-066dgc2r.js";
+import { Pe } from "/$bunfs/root/chunk-rkw8s9xd.js";
+import { w } from "/$bunfs/root/chunk-4d2n28cn.js";
+import "/$bunfs/root/chunk-rjfz3g63.js";
+import "/$bunfs/root/chunk-se8vehhp.js";
+import "/$bunfs/root/chunk-ytkshq2j.js";
+import "/$bunfs/root/chunk-n1z3wrvm.js";
+import "/$bunfs/root/chunk-5k7wva7c.js";
+import "/$bunfs/root/chunk-sawpz2mr.js";
+import "/$bunfs/root/chunk-k7dkeqsc.js";
+import "/$bunfs/root/chunk-cgpqvjrr.js";
+import "/$bunfs/root/chunk-x47nahfr.js";
+import "/$bunfs/root/chunk-h6pppnx2.js";
+import { i } from "/$bunfs/root/chunk-kgp7t7yx.js";
+import "/$bunfs/root/chunk-04d4ftnx.js";
+import "/$bunfs/root/chunk-6dwnw6av.js";
+import "/$bunfs/root/chunk-qk3m4n8a.js";
+import "/$bunfs/root/chunk-52bcnmbr.js";
+import "/$bunfs/root/chunk-6gk7mpsm.js";
+import "/$bunfs/root/chunk-r3z1chqx.js";
+import "/$bunfs/root/chunk-6bjtvbt8.js";
+import "/$bunfs/root/chunk-wew3321y.js";
+import "/$bunfs/root/chunk-63xa24b4.js";
+import "/$bunfs/root/chunk-7mawjt4q.js";
+import { Rs } from "/$bunfs/root/chunk-w1n7t02f.js";
+import "/$bunfs/root/chunk-3fj60qgx.js";
+import "/$bunfs/root/chunk-3yz9zdww.js";
+import "/$bunfs/root/chunk-2d9a83dh.js";
+import "/$bunfs/root/chunk-c56kpkt7.js";
+import "/$bunfs/root/chunk-tchztk88.js";
+import "/$bunfs/root/chunk-z0brrd3r.js";
+import "/$bunfs/root/chunk-h7cbghgp.js";
+import "/$bunfs/root/chunk-223dyewd.js";
+import "/$bunfs/root/chunk-zwxj12s4.js";
+import "/$bunfs/root/chunk-9dn6gg6j.js";
+import "/$bunfs/root/chunk-1692wahf.js";
+import { yn, Tn } from "/$bunfs/root/chunk-gc7ea4xt.js";
+import "/$bunfs/root/chunk-craerjpn.js";
+import "/$bunfs/root/chunk-03gkt7r5.js";
+import "/$bunfs/root/chunk-nj0630nv.js";
+import "/$bunfs/root/chunk-n1fq1c8e.js";
+import "/$bunfs/root/chunk-9fa34ggx.js";
+import "/$bunfs/root/chunk-55x53sfe.js";
+import "/$bunfs/root/chunk-xbsy70c7.js";
+import "/$bunfs/root/chunk-ph7a449e.js";
+import "/$bunfs/root/chunk-hz24p3zh.js";
+import "/$bunfs/root/chunk-vpp1psvz.js";
+import "/$bunfs/root/chunk-bckbp4r1.js";
+import "/$bunfs/root/chunk-qbpgcqdd.js";
+import "/$bunfs/root/chunk-pw6z2cbs.js";
+import "/$bunfs/root/chunk-75wzvwyz.js";
+import "/$bunfs/root/chunk-t0b6khh6.js";
+import "/$bunfs/root/chunk-74djrymf.js";
+import "/$bunfs/root/chunk-d2sd20y7.js";
+import "/$bunfs/root/chunk-pp3y3t61.js";
+import "/$bunfs/root/chunk-mqgsnx6k.js";
+import "/$bunfs/root/chunk-xb9cceab.js";
+import "/$bunfs/root/chunk-peahjaep.js";
+import "/$bunfs/root/chunk-6g4165br.js";
+import "/$bunfs/root/chunk-231n9cft.js";
+import "/$bunfs/root/chunk-6s83kxfy.js";
+import "/$bunfs/root/chunk-0sgn6snt.js";
+import "/$bunfs/root/chunk-2321ytcf.js";
+import "/$bunfs/root/chunk-1ej05ybf.js";
+import "/$bunfs/root/chunk-mvz09dzd.js";
+import "/$bunfs/root/chunk-k3tkc302.js";
+import "/$bunfs/root/chunk-jynzk4xv.js";
+import "/$bunfs/root/chunk-tw5t5h13.js";
+import "/$bunfs/root/chunk-wrn3nvp5.js";
+import "/$bunfs/root/chunk-sk5bs87n.js";
+import "/$bunfs/root/chunk-fnj5y75n.js";
+import "/$bunfs/root/chunk-nb5ge4vq.js";
+import "/$bunfs/root/chunk-vqyxznfw.js";
+import "/$bunfs/root/chunk-rk838m7w.js";
+import { s, n } from "/$bunfs/root/chunk-8524cxt8.js";
+import "/$bunfs/root/chunk-va6abnm5.js";
+import { P, R, y, N } from "/$bunfs/root/chunk-j9ep7722.js";
+import "/$bunfs/root/chunk-jyn472pw.js";
+import "/$bunfs/root/chunk-mb842220.js";
+import "/$bunfs/root/chunk-my4c1mw2.js";
+import "/$bunfs/root/chunk-1eajkkr7.js";
+import "/$bunfs/root/chunk-j5p659br.js";
+import "/$bunfs/root/chunk-0ev62b0n.js";
+import "/$bunfs/root/chunk-xmhf4s4k.js";
+import "/$bunfs/root/chunk-9kgj8k7e.js";
+import "/$bunfs/root/chunk-wmhgfdy3.js";
+import "/$bunfs/root/chunk-avb6ma1z.js";
+import "/$bunfs/root/chunk-4ban11rz.js";
+import "/$bunfs/root/chunk-n2p0n845.js";
+import "/$bunfs/root/chunk-p2nmcfaz.js";
+import "/$bunfs/root/chunk-46as0mn8.js";
+import { be } from "/$bunfs/root/chunk-s3tnbfvt.js";
+import { G } from "/$bunfs/root/chunk-8eystn8t.js";
+import "/$bunfs/root/chunk-2mjaqpws.js";
+import "/$bunfs/root/chunk-8kbdmpwx.js";
+import "/$bunfs/root/chunk-9xenmz7v.js";
+import "/$bunfs/root/chunk-5w1ksvdy.js";
+import { E0r } from "/$bunfs/root/chunk-f3cd9jkn.js";
+import { fo } from "/$bunfs/root/chunk-p78rzsw0.js";
+import { _$t } from "/$bunfs/root/chunk-082k5tyq.js";
+import { ts } from "/$bunfs/root/chunk-d0t2hmxp.js";
+import "/$bunfs/root/chunk-qy8kbd4m.js";
+import "/$bunfs/root/chunk-0y2tzgkw.js";
+import { e, r } from "/$bunfs/root/chunk-vybw69ke.js";
+import "/$bunfs/root/chunk-d1aahbgc.js";
+import "/$bunfs/root/chunk-bnmvn3bs.js";
+import "/$bunfs/root/chunk-eamkhb9v.js";
+import "/$bunfs/root/chunk-9fm17gv5.js";
+import "/$bunfs/root/chunk-wtmtca98.js";
+import "/$bunfs/root/chunk-19749pds.js";
+import "/$bunfs/root/chunk-s35892ey.js";
+import "/$bunfs/root/chunk-cg7f88dh.js";
+import "/$bunfs/root/chunk-gw1f0xa7.js";
+import "/$bunfs/root/chunk-4j5kjctm.js";
+import "/$bunfs/root/chunk-28f6aa40.js";
+import "/$bunfs/root/chunk-ghreee2m.js";
+import "/$bunfs/root/chunk-4n16n64p.js";
+import "/$bunfs/root/chunk-2b1rbkfn.js";
+import "/$bunfs/root/chunk-f0v3xmb1.js";
+import "/$bunfs/root/chunk-chd251pa.js";
+import "/$bunfs/root/chunk-wtrd0hw3.js";
+import "/$bunfs/root/chunk-v214ecah.js";
+import "/$bunfs/root/chunk-9nfq6p43.js";
+import "/$bunfs/root/chunk-77t63btp.js";
+import "/$bunfs/root/chunk-yp41169e.js";
+import "/$bunfs/root/chunk-2dp0fzyb.js";
+import "/$bunfs/root/chunk-pj42g5eb.js";
+import "/$bunfs/root/chunk-tfc1vf2h.js";
+import "/$bunfs/root/chunk-6cee9jwv.js";
+import "/$bunfs/root/chunk-yngqe5v3.js";
+import "/$bunfs/root/chunk-nnawdxg4.js";
+import "/$bunfs/root/chunk-svqqgdca.js";
+import "/$bunfs/root/chunk-dze6yaxw.js";
+import "/$bunfs/root/chunk-m6z3m7rx.js";
+import "/$bunfs/root/chunk-tybndaby.js";
+import { wPe } from "/$bunfs/root/chunk-79wfew46.js";
+import { S } from "/$bunfs/root/chunk-cj4xndke.js";
+N();
+function _t() {
+    return process.env[h];
+}
+const me = 1;
+const ge = 0.25;
+const A = 0.25;
+const U = 10;
+function k(t, o) {
+    let D = t < 1 ? Math.round(t / A) * A : Math.round(t);
+    return id(D, o, U);
+}
+var h = "CLAUDE_CODE_SCROLL_SPEED";
+function O(t) {
+    if (t === undefined) {
+        delete process.env[h];
+    } else {
+        process.env[h] = t;
+    }
+    X$t();
+}
+function ce(t) {
+    let l = w(61);
+    let { onDone, showDemoRuler, editorSensitivity } = t;
+    let demoRuler = showDemoRuler === undefined ? true : showDemoRuler;
+    let g = editorSensitivity === undefined ? null : editorSensitivity;
+    let { storageV5 } = Pe();
+    let [C] = y(_t);
+    let u;
+    let je;
+    if (l[0] === S) {
+        u = tK();
+        je = a6n(u.xtermJs, u.wheelFlood, u.wtSession);
+        l[0] = u;
+        l[1] = je;
+    } else {
+        u = l[0];
+        je = l[1];
+    }
+    let scroll_speed_auto = je;
+    let pe = u.useDecayCurve ? me : ge;
+    let We;
+    if (l[2] === S) {
+        We = ()=>k(u.base, pe);
+        l[2] = We;
+    } else {
+        We = l[2];
+    }
+    let [d, Fe] = y(We);
+    let [z, Je] = y(C !== undefined);
+    let Oe = R(false);
+    let Ne = R(false);
+    let F = R(false);
+    let Ge = !u.xtermJs && !u.wheelFlood;
+    let Ie;
+    let Ke;
+    if (l[3] !== demoRuler) {
+        Ie = ()=>{
+            Bdn(true, {
+                demoRuler
+            });
+            let Rt = Ge ? hve(()=>{
+                let Xe = N0r();
+                if (!Xe) {
+                    return;
+                }
+                if (Xe.wheelMode) {
+                    Oe.current = true;
+                } else {
+                    Ne.current = true;
+                }
+            }) : undefined;
+            return ()=>{
+                Rt?.();
+                Bdn(false);
+            };
+        };
+        Ke = [
+            demoRuler,
+            Ge
+        ];
+        l[3] = demoRuler;
+        l[4] = Ie;
+        l[5] = Ke;
+    } else {
+        Ie = l[4];
+        Ke = l[5];
+    }
+    P(Ie, Ke);
+    let Ue;
+    let ze;
+    if (l[6] !== C) {
+        Ue = ()=>{
+            let Be = F;
+            return ()=>{
+                if (Be.current) {
+                    return;
+                }
+                Be.current = true;
+                O(C);
+            };
+        };
+        ze = [
+            C
+        ];
+        l[6] = C;
+        l[7] = Ue;
+        l[8] = ze;
+    } else {
+        Ue = l[7];
+        ze = l[8];
+    }
+    P(Ue, ze);
+    let Qe;
+    if (l[9] !== d) {
+        Qe = function J(bt) {
+            let Tt = bt < 0 ? d <= 1 ? -A : -1 : d < 1 ? A : 1;
+            let fe = k(d + Tt, pe);
+            if (fe === d) {
+                return;
+            }
+            process.env[h] = String(fe);
+            X$t();
+            Je(true);
+            Fe(fe);
+        };
+        l[9] = d;
+        l[10] = Qe;
+    } else {
+        Qe = l[10];
+    }
+    let J = Qe;
+    let Ye;
+    if (l[11] === S) {
+        Ye = function Ze() {
+            delete process.env[h];
+            X$t();
+            Fe(k(scroll_speed_auto, pe));
+            Je(false);
+        };
+        l[11] = Ye;
+    } else {
+        Ye = l[11];
+    }
+    let Ze = Ye;
+    let qe;
+    if (l[12] !== C) {
+        qe = function T() {
+            O(C);
+        };
+        l[12] = C;
+        l[13] = qe;
+    } else {
+        qe = l[13];
+    }
+    let T = qe;
+    let Le;
+    if (l[14] !== onDone || l[15] !== T) {
+        Le = function B() {
+            if (F.current) {
+                return;
+            }
+            F.current = true;
+            T();
+            onDone("Scroll speed unchanged");
+        };
+        l[14] = onDone;
+        l[15] = T;
+        l[16] = Le;
+    } else {
+        Le = l[16];
+    }
+    let B = Le;
+    let He;
+    if (l[17] !== g?.sensitivity || l[18] !== onDone || l[19] !== z || l[20] !== T || l[21] !== d || l[22] !== storageV5) {
+        He = async function Y() {
+            if (F.current) {
+                return;
+            }
+            F.current = true;
+            let reset_to_auto = !z;
+            let env = {
+                [h]: reset_to_auto ? undefined : String(d)
+            };
+            let { error } = await Tn("userSettings", {
+                env
+            }, undefined, storageV5);
+            if (error) {
+                c(error);
+                T();
+                onDone(`Couldn't save scroll speed: ${error.message}`);
+                return;
+            }
+            i("tengu_scroll_speed_set", {
+                scroll_speed: reset_to_auto ? scroll_speed_auto : d,
+                scroll_speed_auto,
+                reset_to_auto,
+                xterm_js: u.xtermJs,
+                wheel_flood: u.wheelFlood,
+                wt_session: u.wtSession,
+                use_decay_curve: u.useDecayCurve,
+                saw_scroll_wheel: Oe.current,
+                saw_trackpad: Ne.current,
+                editor_wheel_sensitivity: g?.sensitivity ?? undefined,
+                term_program: _$t(u.termProgram),
+                term_program_version: Ci(u.termProgramVersion)
+            });
+            let et = `\`${Rs(yn("userSettings") ?? "settings.json")}\``;
+            onDone(reset_to_auto ? `Scroll speed reset to auto (${scroll_speed_auto} ${I(scroll_speed_auto, "line")} per notch) \xB7 removed from ${et}` : `Scroll speed set to ${d} ${I(d, "line")} per notch \xB7 saved to ${et}`);
+        };
+        l[17] = g?.sensitivity;
+        l[18] = onDone;
+        l[19] = z;
+        l[20] = T;
+        l[21] = d;
+        l[22] = storageV5;
+        l[23] = He;
+    } else {
+        He = l[23];
+    }
+    let Y = He;
+    let tt;
+    if (l[24] !== J || l[25] !== B || l[26] !== Y) {
+        tt = function Z(f) {
+            if (f.key === "left") {
+                f.preventDefault();
+                J(-1);
+            } else if (f.key === "right") {
+                f.preventDefault();
+                J(1);
+            } else if (f.key === "return") {
+                f.preventDefault();
+                Y();
+            } else if (f.key === "escape" || f.ctrl && (f.key === "c" || f.key === "d")) {
+                f.preventDefault();
+                B();
+            } else if (f.key === "r") {
+                f.preventDefault();
+                Ze();
+            }
+        };
+        l[24] = J;
+        l[25] = B;
+        l[26] = Y;
+        l[27] = tt;
+    } else {
+        tt = l[27];
+    }
+    let onKeyDown = tt;
+    let x = !z;
+    let rt;
+    let ot;
+    if (l[28] === S) {
+        rt = e(n, {
+            bold: true,
+            children: "Scroll speed"
+        });
+        ot = e(s, {
+            height: 1
+        });
+        l[28] = rt;
+        l[29] = ot;
+    } else {
+        rt = l[28];
+        ot = l[29];
+    }
+    let q;
+    if (l[30] !== d) {
+        q = Me(d);
+        l[30] = d;
+        l[31] = q;
+    } else {
+        q = l[31];
+    }
+    let L;
+    if (l[32] !== q) {
+        L = e(n, {
+            color: "permission",
+            children: q
+        });
+        l[32] = q;
+        l[33] = L;
+    } else {
+        L = l[33];
+    }
+    let H;
+    if (l[34] !== d) {
+        H = I(d, "line");
+        l[34] = d;
+        l[35] = H;
+    } else {
+        H = l[35];
+    }
+    let ee;
+    if (l[36] !== d || l[37] !== H) {
+        ee = r(n, {
+            children: [
+                "  ",
+                d,
+                " ",
+                H,
+                " per wheel notch"
+            ]
+        });
+        l[36] = d;
+        l[37] = H;
+        l[38] = ee;
+    } else {
+        ee = l[38];
+    }
+    let te;
+    if (l[39] !== x) {
+        te = x && e(n, {
+            dimColor: true,
+            children: " (auto)"
+        });
+        l[39] = x;
+        l[40] = te;
+    } else {
+        te = l[40];
+    }
+    let re;
+    if (l[41] !== x) {
+        re = !x && r(n, {
+            dimColor: true,
+            children: [
+                " · auto is ",
+                scroll_speed_auto
+            ]
+        });
+        l[41] = x;
+        l[42] = re;
+    } else {
+        re = l[42];
+    }
+    let oe;
+    if (l[43] !== L || l[44] !== ee || l[45] !== te || l[46] !== re) {
+        oe = r(s, {
+            children: [
+                L,
+                ee,
+                te,
+                re
+            ]
+        });
+        l[43] = L;
+        l[44] = ee;
+        l[45] = te;
+        l[46] = re;
+        l[47] = oe;
+    } else {
+        oe = l[47];
+    }
+    let nt;
+    if (l[48] === S) {
+        nt = e(s, {
+            height: 1
+        });
+        l[48] = nt;
+    } else {
+        nt = l[48];
+    }
+    let st;
+    if (l[49] === S) {
+        st = e(j, {
+            label: "Terminal",
+            value: xe(u)
+        });
+        l[49] = st;
+    } else {
+        st = l[49];
+    }
+    let ne;
+    if (l[50] !== g) {
+        ne = g && e(j, {
+            label: "Editor",
+            value: Ve(g)
+        });
+        l[50] = g;
+        l[51] = ne;
+    } else {
+        ne = l[51];
+    }
+    let it;
+    let at;
+    if (l[52] === S) {
+        it = e(s, {
+            height: 1
+        });
+        at = e(n, {
+            dimColor: true,
+            children: "Scroll to feel it"
+        });
+        l[52] = it;
+        l[53] = at;
+    } else {
+        it = l[52];
+        at = l[53];
+    }
+    let lt;
+    if (l[54] === S) {
+        lt = e(n, {
+            dimColor: true,
+            children: r(be, {
+                children: [
+                    e(G, {
+                        chord: [
+                            "left",
+                            "right"
+                        ],
+                        action: "adjust"
+                    }),
+                    e(G, {
+                        chord: "r",
+                        action: "reset to auto"
+                    }),
+                    e(G, {
+                        chord: "enter",
+                        action: "save"
+                    }),
+                    e(G, {
+                        chord: "escape",
+                        action: "cancel"
+                    })
+                ]
+            })
+        });
+        l[54] = lt;
+    } else {
+        lt = l[54];
+    }
+    let se;
+    if (l[55] !== oe || l[56] !== ne) {
+        se = e(ts, {
+            color: "permission",
+            children: r(s, {
+                flexDirection: "column",
+                children: [
+                    rt,
+                    ot,
+                    oe,
+                    nt,
+                    st,
+                    ne,
+                    it,
+                    at,
+                    lt
+                ]
+            })
+        });
+        l[55] = oe;
+        l[56] = ne;
+        l[57] = se;
+    } else {
+        se = l[57];
+    }
+    let dt;
+    if (l[58] !== onKeyDown || l[59] !== se) {
+        dt = e(fo, {
+            onKeyDown,
+            children: se
+        });
+        l[58] = onKeyDown;
+        l[59] = se;
+        l[60] = dt;
+    } else {
+        dt = l[60];
+    }
+    return dt;
+}
+function j(t) {
+    let b = w(7);
+    let { label, value } = t;
+    let _;
+    if (b[0] !== label) {
+        _ = e(s, {
+            width: 12,
+            children: e(n, {
+                dimColor: true,
+                children: label
+            })
+        });
+        b[0] = label;
+        b[1] = _;
+    } else {
+        _ = b[1];
+    }
+    let g;
+    if (b[2] !== value) {
+        g = e(n, {
+            children: value
+        });
+        b[2] = value;
+        b[3] = g;
+    } else {
+        g = b[3];
+    }
+    let W;
+    if (b[4] !== _ || b[5] !== g) {
+        W = r(s, {
+            children: [
+                _,
+                g
+            ]
+        });
+        b[4] = _;
+        b[5] = g;
+        b[6] = W;
+    } else {
+        W = b[6];
+    }
+    return W;
+}
+function Me(t) {
+    if (t < 1) {
+        return `▪${Ei("·", U - 1)}`;
+    }
+    let o = id(Math.round(t), me, U);
+    return "■".repeat(o) + Ei("·", U - o);
+}
+function xe(t) {
+    let o = [
+        Dt(t),
+        wPe(t.platform)
+    ];
+    if (t.wheelFlood) {
+        o.push("high-rate wheel events");
+    } else if (t.xtermJs) {
+        o.push("xterm.js");
+    } else if (t.wtSession) {
+        o.push("Windows Terminal");
+    }
+    return o.join(" · ");
+}
+function Dt(t) {
+    if (process.env.CURSOR_TRACE_ID !== undefined) {
+        return "Cursor";
+    }
+    let o = a.VSCODE_GIT_ASKPASS_MAIN ?? "";
+    if (o.includes("cursor")) {
+        return "Cursor (remote)";
+    }
+    if (iCo(o)) {
+        return "Devin Desktop";
+    }
+    if (o.includes("antigravity")) {
+        return "Antigravity";
+    }
+    if (t.termProgram === "vscode") {
+        return `VS Code${t.termProgramVersion !== "unset" ? ` ${t.termProgramVersion}` : ""}`;
+    }
+    switch(t.termProgram){
+        case "unset":
+            if (t.wtSession || t.platform === "win32") {
+                return "Windows console";
+            }
+            return "terminal";
+        case "iTerm.app":
+            return "iTerm2";
+        case "Apple_Terminal":
+            return "Terminal.app";
+        case "ghostty":
+            return "Ghostty";
+        case "WezTerm":
+            return "WezTerm";
+        case "WarpTerminal":
+            return "Warp";
+        default:
+            return t.termProgram;
+    }
+}
+function Ve(t) {
+    let o = t.editor === "VSCode" ? "VS Code" : t.editor;
+    if (t.sensitivity === null) {
+        return `${o} wheel sensitivity unset \xB7 /terminal-setup sets it to ${t.recommended}`;
+    }
+    if (t.sensitivity >= t.recommended) {
+        return `${o} wheel sensitivity ${t.sensitivity}`;
+    }
+    return `${o} wheel sensitivity ${t.sensitivity} \xB7 /terminal-setup raises it to ${t.recommended}`;
+}
+const Ct = 20;
+export const call = async (onDone, o)=>{
+    let showDemoRuler = o.messages.length < Ct;
+    let editorSensitivity = await Ut(E0r(o.session.host), 250, "VS Code settings read timed out").catch(()=>null);
+    return e(ce, {
+        onDone,
+        showDemoRuler,
+        editorSensitivity
+    });
+};

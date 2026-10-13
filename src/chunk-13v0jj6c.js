@@ -1,0 +1,387 @@
+import { p } from "/$bunfs/root/chunk-5k7wva7c.js";
+import "/$bunfs/root/chunk-wkmq9ht0.js";
+import "/$bunfs/root/chunk-m1rt7wpr.js";
+import "/$bunfs/root/chunk-bd805sh6.js";
+import "/$bunfs/root/chunk-qch5xj2a.js";
+import "/$bunfs/root/chunk-r3z1chqx.js";
+import { dpe, Un, _n } from "/$bunfs/root/chunk-6bjtvbt8.js";
+import "/$bunfs/root/chunk-dn762950.js";
+import "/$bunfs/root/chunk-j27d47mr.js";
+import "/$bunfs/root/chunk-ctt36bn8.js";
+import "/$bunfs/root/chunk-fcerdfs3.js";
+import "/$bunfs/root/chunk-jtpfgrzr.js";
+import "/$bunfs/root/chunk-xgw72tt1.js";
+import "/$bunfs/root/chunk-se8vehhp.js";
+import "/$bunfs/root/chunk-6kc68p18.js";
+import "/$bunfs/root/chunk-c56kpkt7.js";
+import "/$bunfs/root/chunk-s7bhz6qz.js";
+import "/$bunfs/root/chunk-dp4xqs6t.js";
+import "/$bunfs/root/chunk-x0qpydt2.js";
+import "/$bunfs/root/chunk-24agvrd9.js";
+import "/$bunfs/root/chunk-etbngzss.js";
+import "/$bunfs/root/chunk-p9frg3mj.js";
+import "/$bunfs/root/chunk-1ej05ybf.js";
+import "/$bunfs/root/chunk-tw5t5h13.js";
+import "/$bunfs/root/chunk-wrn3nvp5.js";
+import "/$bunfs/root/chunk-x47nahfr.js";
+import "/$bunfs/root/chunk-h6pppnx2.js";
+import "/$bunfs/root/chunk-craerjpn.js";
+import "/$bunfs/root/chunk-xb9cceab.js";
+import "/$bunfs/root/chunk-6gk7mpsm.js";
+import "/$bunfs/root/chunk-pp3y3t61.js";
+import "/$bunfs/root/chunk-qbpgcqdd.js";
+import { Uy, yn, fe, hH, KFe } from "/$bunfs/root/chunk-gc7ea4xt.js";
+import "/$bunfs/root/chunk-2d9a83dh.js";
+import "/$bunfs/root/chunk-kgp7t7yx.js";
+import "/$bunfs/root/chunk-04d4ftnx.js";
+import "/$bunfs/root/chunk-7mawjt4q.js";
+import "/$bunfs/root/chunk-tchztk88.js";
+import "/$bunfs/root/chunk-z0brrd3r.js";
+import "/$bunfs/root/chunk-h7cbghgp.js";
+import "/$bunfs/root/chunk-wew3321y.js";
+import "/$bunfs/root/chunk-223dyewd.js";
+import "/$bunfs/root/chunk-w1n7t02f.js";
+import "/$bunfs/root/chunk-3fj60qgx.js";
+import "/$bunfs/root/chunk-n1z3wrvm.js";
+import "/$bunfs/root/chunk-zwxj12s4.js";
+import "/$bunfs/root/chunk-3yz9zdww.js";
+import { Lxe } from "/$bunfs/root/chunk-qk3m4n8a.js";
+import "/$bunfs/root/chunk-52bcnmbr.js";
+import "/$bunfs/root/chunk-k7dkeqsc.js";
+import "/$bunfs/root/chunk-63xa24b4.js";
+import { uC, cn, By } from "/$bunfs/root/chunk-9dn6gg6j.js";
+import "/$bunfs/root/chunk-1692wahf.js";
+import "/$bunfs/root/chunk-nj0630nv.js";
+import "/$bunfs/root/chunk-03gkt7r5.js";
+import "/$bunfs/root/chunk-n1fq1c8e.js";
+import "/$bunfs/root/chunk-9fa34ggx.js";
+import "/$bunfs/root/chunk-55x53sfe.js";
+import "/$bunfs/root/chunk-xbsy70c7.js";
+import "/$bunfs/root/chunk-6g4165br.js";
+import "/$bunfs/root/chunk-t0b6khh6.js";
+import "/$bunfs/root/chunk-74djrymf.js";
+import "/$bunfs/root/chunk-0ycjphb5.js";
+import "/$bunfs/root/chunk-6dwnw6av.js";
+import "/$bunfs/root/chunk-fnj5y75n.js";
+import "/$bunfs/root/chunk-hz24p3zh.js";
+import "/$bunfs/root/chunk-sawpz2mr.js";
+import "/$bunfs/root/chunk-ph7a449e.js";
+import "/$bunfs/root/chunk-vpp1psvz.js";
+import "/$bunfs/root/chunk-bckbp4r1.js";
+import "/$bunfs/root/chunk-pw6z2cbs.js";
+import "/$bunfs/root/chunk-75wzvwyz.js";
+import "/$bunfs/root/chunk-d2sd20y7.js";
+import "/$bunfs/root/chunk-mqgsnx6k.js";
+import "/$bunfs/root/chunk-peahjaep.js";
+import "/$bunfs/root/chunk-231n9cft.js";
+import "/$bunfs/root/chunk-6s83kxfy.js";
+import "/$bunfs/root/chunk-0sgn6snt.js";
+import "/$bunfs/root/chunk-2321ytcf.js";
+import "/$bunfs/root/chunk-mvz09dzd.js";
+import "/$bunfs/root/chunk-k3tkc302.js";
+import "/$bunfs/root/chunk-jynzk4xv.js";
+import "/$bunfs/root/chunk-sk5bs87n.js";
+import "/$bunfs/root/chunk-bmzhpr9h.js";
+import "/$bunfs/root/chunk-9fvky64k.js";
+import "/$bunfs/root/chunk-4521ay78.js";
+import { Y$ } from "/$bunfs/root/chunk-tn496ms6.js";
+import { bh, XDn, R5 } from "/$bunfs/root/chunk-pbtb1p2a.js";
+import "/$bunfs/root/chunk-4r6b8efh.js";
+import "/$bunfs/root/chunk-z07je2n9.js";
+import "/$bunfs/root/chunk-0c6rtmqc.js";
+import "/$bunfs/root/chunk-rjfz3g63.js";
+import "/$bunfs/root/chunk-vsa1vts5.js";
+import "/$bunfs/root/chunk-pfdtn0nk.js";
+import "/$bunfs/root/chunk-e0hrcpx7.js";
+import "/$bunfs/root/chunk-45f0zf8d.js";
+import "/$bunfs/root/chunk-y9ay3abt.js";
+import "/$bunfs/root/chunk-dck8836g.js";
+import "/$bunfs/root/chunk-tvg3w9xe.js";
+import "/$bunfs/root/chunk-ssn8w7cj.js";
+import "/$bunfs/root/chunk-7y9jhgf9.js";
+import "/$bunfs/root/chunk-4jkyvhbj.js";
+import "/$bunfs/root/chunk-f41czxrs.js";
+import "/$bunfs/root/chunk-tf8026s8.js";
+import "/$bunfs/root/chunk-nb5ge4vq.js";
+import "/$bunfs/root/chunk-s7aawpq2.js";
+import "/$bunfs/root/chunk-qjzjr1ys.js";
+import "/$bunfs/root/chunk-ye049grx.js";
+import "/$bunfs/root/chunk-38fr02qr.js";
+import "/$bunfs/root/chunk-y9c4grt0.js";
+import "/$bunfs/root/chunk-b6xdb1m9.js";
+import "/$bunfs/root/chunk-6sdmsz4f.js";
+import "/$bunfs/root/chunk-ma873c97.js";
+import "/$bunfs/root/chunk-pkje2p8h.js";
+import "/$bunfs/root/chunk-ncdjpaxf.js";
+import "/$bunfs/root/chunk-6kvd67n5.js";
+import "/$bunfs/root/chunk-80q4zjq4.js";
+import "/$bunfs/root/chunk-xs3re09e.js";
+import "/$bunfs/root/chunk-0g49c63m.js";
+import "/$bunfs/root/chunk-n2j724xe.js";
+import "/$bunfs/root/chunk-8fa0475h.js";
+import "/$bunfs/root/chunk-ghreee2m.js";
+import "/$bunfs/root/chunk-jn6evvyh.js";
+import "/$bunfs/root/chunk-b7w13qrv.js";
+import "/$bunfs/root/chunk-4r70ar86.js";
+import "/$bunfs/root/chunk-tsamgvyd.js";
+import "/$bunfs/root/chunk-fbhagmpx.js";
+import "/$bunfs/root/chunk-pjqd7qee.js";
+import "/$bunfs/root/chunk-f0v3xmb1.js";
+import "/$bunfs/root/chunk-chd251pa.js";
+import "/$bunfs/root/chunk-wtrd0hw3.js";
+import "/$bunfs/root/chunk-v214ecah.js";
+import "/$bunfs/root/chunk-9nfq6p43.js";
+import "/$bunfs/root/chunk-77t63btp.js";
+import "/$bunfs/root/chunk-yp41169e.js";
+import "/$bunfs/root/chunk-2dp0fzyb.js";
+import "/$bunfs/root/chunk-pj42g5eb.js";
+import { o, T, De, Wr, U, A } from "/$bunfs/root/chunk-smx21d0k.js";
+import "/$bunfs/root/chunk-tfc1vf2h.js";
+import "/$bunfs/root/chunk-6cee9jwv.js";
+import "/$bunfs/root/chunk-yngqe5v3.js";
+import "/$bunfs/root/chunk-nnawdxg4.js";
+import "/$bunfs/root/chunk-svqqgdca.js";
+import "/$bunfs/root/chunk-dze6yaxw.js";
+import "/$bunfs/root/chunk-m6z3m7rx.js";
+import "/$bunfs/root/chunk-tybndaby.js";
+import "/$bunfs/root/chunk-79wfew46.js";
+const L = [
+    "allow",
+    "deny",
+    "ask"
+];
+const O = 10000;
+const N = 100;
+const B = p(()=>U(L, {
+        error: "behavior must be one of: allow, deny, ask"
+    }));
+const _ = p(()=>U(By));
+const M = p(()=>De({
+        op: A("add"),
+        rules: T(o().max(O, "each rule must be at most 10000 characters")).min(1, "rules must be an array of 1 to 100 strings").max(N, "rules must be an array of 1 to 100 strings"),
+        behavior: B(),
+        destination: _()
+    }));
+const W = p(()=>De({
+        op: A("remove"),
+        rule: o().min(1, "rule must be a non-empty string of at most 10000 characters").max(O, "rule must be a non-empty string of at most 10000 characters"),
+        behavior: B(),
+        source: _()
+    }));
+const C = p(()=>Wr("op", [
+        M(),
+        W()
+    ]));
+function H(error) {
+    let t = error.issues[0];
+    if (!t) {
+        return "the edit is not a valid permission-rule edit";
+    }
+    let e = t.path.map(String).join(".");
+    if (e === "destination" || e === "source") {
+        if (e === "destination") {
+            return `destination must be one of: ${By.join(", ")}`;
+        }
+        return `rules from this source cannot be removed here (removable sources: ${By.join(", ")})`;
+    }
+    if (e === "op") {
+        return "op must be one of: add, remove";
+    }
+    if (e.startsWith("rules") && t.code === "invalid_type") {
+        return "rules must be an array of 1 to 100 strings";
+    }
+    if (e === "rule" && t.code === "invalid_type") {
+        return "rule must be a non-empty string of at most 10000 characters";
+    }
+    let u = t.path[0] === undefined ? "" : String(t.path[0]);
+    if (e && !t.message.startsWith(u)) {
+        return `${e}: ${t.message}`;
+    }
+    return t.message;
+}
+function X() {
+    if (bh()) {
+        return "enterprise managed settings allow only managed permission rules; rules cannot be added or removed";
+    }
+    if (Y$()) {
+        return "enterprise managed settings could not be read, so permission rules cannot be edited";
+    }
+    return null;
+}
+function x(s) {
+    if (cn(s)) {
+        return null;
+    }
+    return `${uC(s)} are not loaded here, so their rules cannot be edited`;
+}
+function G({ rules, behavior, destination }) {
+    let ruleValues = [];
+    let warnings = [];
+    for (let m of rules){
+        let r = m.trim();
+        if (r.length === 0) {
+            return {
+                ok: false,
+                error: "rules must not be empty"
+            };
+        }
+        let a = Lxe(r, behavior);
+        if (!a.valid) {
+            return {
+                ok: false,
+                error: a.suggestion ? `${a.error} \u2014 ${a.suggestion}` : a.error ?? "invalid permission rule"
+            };
+        }
+        if (a.warning !== undefined) {
+            warnings.push(a.warning);
+        }
+        let S = Un(r);
+        let h = dpe(r);
+        if (h.kind === "call" && h.toolName !== "" && !/\s/.test(h.toolName) && h.rawContent === "*") {
+            let f = _n(S);
+            warnings.push(`"${r}" was saved as the tool-wide rule "${f}", which matches every use of the tool. To limit it, put a specific pattern inside the parentheses.`);
+        }
+        ruleValues.push(S);
+    }
+    return {
+        ok: true,
+        ruleValues,
+        behavior,
+        destination,
+        warnings
+    };
+}
+function Z({ rule, behavior, source }, t) {
+    let storedRaw = t.find((r)=>r === rule);
+    if (storedRaw === undefined) {
+        return {
+            ok: false,
+            error: `rule not found: no ${behavior} rule with this exact value in ${uC(source)} (rules are matched verbatim, as the listing reports them; the file may have been changed outside this dialog)`
+        };
+    }
+    let m = c(storedRaw);
+    if (t.some((r)=>r !== storedRaw && c(r) === m)) {
+        return {
+            ok: false,
+            error: "this rule cannot be removed here: the same settings file holds another spelling of the same rule, and removing one would silently remove both — edit the file by hand to clean these up"
+        };
+    }
+    return {
+        ok: true,
+        rule: {
+            source,
+            ruleBehavior: behavior,
+            ruleValue: Un(storedRaw)
+        },
+        storedRaw
+    };
+}
+function c(s) {
+    return _n(Un(s));
+}
+function R(s, behavior) {
+    return s?.permissions?.[behavior] ?? [];
+}
+export async function runPermissionRuleEdit(s, t) {
+    let e = (error)=>({
+            ok: false,
+            error
+        });
+    let u = X();
+    if (u !== null) {
+        return e(u);
+    }
+    let d = C().safeParse(s);
+    if (!d.success) {
+        return e(H(d.error));
+    }
+    let d_data = d.data;
+    if (d_data.op === "add") {
+        let i = G(d_data);
+        if (!i.ok) {
+            return e(i.error);
+        }
+        let { destination, behavior: behavior_1, ruleValues } = i;
+        let w = x(destination);
+        if (w !== null) {
+            return e(w);
+        }
+        let P = z(destination);
+        if (P !== null) {
+            return e(P);
+        }
+        let F = new Set(R(hH(destination), behavior_1).map(c));
+        let E = ruleValues.find((y)=>F.has(_n(y)));
+        if (E !== undefined) {
+            return e(`"${_n(E)}" is already in the ${behavior_1} rules in ${uC(destination)}`);
+        }
+        if (destination === "localSettings") {
+            let y = new Set(R(fe(destination), behavior_1).map(c));
+            let k = ruleValues.find((I)=>y.has(_n(I)));
+            if (k !== undefined) {
+                return e(`"${_n(k)}" is already in effect from the launch directory\u2019s own .claude/settings.local.json`);
+            }
+        }
+        await R5({
+            type: "addRules",
+            rules: ruleValues,
+            behavior: behavior_1,
+            destination
+        }, t);
+        await KFe();
+        let D = new Set(R(hH(destination), behavior_1).map(c));
+        let v = ruleValues.filter((y)=>!D.has(_n(y)));
+        if (v.length > 0) {
+            return e(v.length === ruleValues.length ? `the rules could not be written to ${uC(destination)}: the settings write was refused or failed` : `${v.length} of ${ruleValues.length} rules could not be written to ${uC(destination)}: the settings write was refused or failed for those`);
+        }
+        return {
+            ok: true,
+            warnings: i.warnings,
+            stored: ruleValues.map(_n)
+        };
+    }
+    let { behavior, source } = d_data;
+    let a = x(source);
+    if (a !== null) {
+        return e(a);
+    }
+    let S = z(source);
+    if (S !== null) {
+        return e(S);
+    }
+    let h = R(hH(source), behavior);
+    if (source === "localSettings" && !h.includes(d_data.rule) && R(fe(source), behavior).includes(d_data.rule)) {
+        return e("that rule is defined in the launch directory’s own .claude/settings.local.json, which is not edited here; edit that file directly");
+    }
+    let f = Z(d_data, h);
+    if (!f.ok) {
+        return e(f.error);
+    }
+    if (source === "localSettings" && R(fe(source), behavior).some((i)=>i !== f.storedRaw && c(i) === c(f.storedRaw))) {
+        return e("this rule cannot be removed here: the launch directory’s own .claude/settings.local.json holds another spelling of the same rule, and removing one would silently remove both — edit that file by hand to clean these up");
+    }
+    let j = await XDn(f.rule, t);
+    await KFe();
+    let V = R(hH(source), behavior).some((i)=>c(i) === c(f.storedRaw));
+    if (!j || V) {
+        return e(`the rule could not be removed from ${uC(source)}: the settings write was refused or failed, so it is still in its settings file`);
+    }
+    return {
+        ok: true,
+        warnings: [],
+        stored: []
+    };
+}
+function z(s) {
+    if (hH(s) !== null) {
+        return null;
+    }
+    let t = yn(s);
+    if (t === undefined) {
+        return null;
+    }
+    if (Uy(t).errors.some((e)=>e.severity !== "warning")) {
+        return `the ${uC(s)} file has errors and could not be loaded; fix it by hand first`;
+    }
+    return null;
+}

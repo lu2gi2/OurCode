@@ -1,0 +1,371 @@
+{
+ "Agent": {
+  "const_defs": [
+   "chunk-30jbnw20.js:Uf",
+   "chunk-f41czxrs.js:yt"
+  ],
+  "tool_def_sites": [
+   "chunk-8j298gya.js@45450 (via yt)"
+  ]
+ },
+ "Artifact": {
+  "const_defs": [
+   "chunk-k3tkc302.js:gn"
+  ],
+  "tool_def_sites": []
+ },
+ "ArtifactComments": {
+  "const_defs": [
+   "chunk-k3tkc302.js:Dy"
+  ],
+  "tool_def_sites": []
+ },
+ "ArtifactData": {
+  "const_defs": [
+   "chunk-k3tkc302.js:Ig"
+  ],
+  "tool_def_sites": []
+ },
+ "AskUserQuestion": {
+  "const_defs": [
+   "chunk-62g69mqc.js:Jo",
+   "chunk-30jbnw20.js:HYe",
+   "chunk-30jbnw20.js:qf"
+  ],
+  "tool_def_sites": [
+   "chunk-v55arm1d.js@13050 (via Jo)"
+  ]
+ },
+ "Bash": {
+  "const_defs": [
+   "chunk-6dwnw6av.js:Be"
+  ],
+  "tool_def_sites": [
+   "chunk-kasbfbhj.js@4332722 (via Be)"
+  ]
+ },
+ "ClaudeDesign": {
+  "const_defs": [
+   "chunk-kasbfbhj.js:MK"
+  ],
+  "tool_def_sites": []
+ },
+ "CronCreate": {
+  "const_defs": [
+   "chunk-yh6j1afs.js:zu"
+  ],
+  "tool_def_sites": [
+   "chunk-y04e1q5q.js@6793 (via zu)"
+  ]
+ },
+ "CronDelete": {
+  "const_defs": [
+   "chunk-yh6j1afs.js:$_"
+  ],
+  "tool_def_sites": []
+ },
+ "CronList": {
+  "const_defs": [
+   "chunk-yh6j1afs.js:Z0e"
+  ],
+  "tool_def_sites": [
+   "chunk-ehs4epbg.js@6189 (via Z0e)"
+  ]
+ },
+ "DesignSync": {
+  "const_defs": [
+   "chunk-gdccsprq.js:l3t"
+  ],
+  "tool_def_sites": [
+   "chunk-9g7gfs7x.js@18447 (via l3t)"
+  ]
+ },
+ "Edit": {
+  "const_defs": [
+   "chunk-6dwnw6av.js:ht"
+  ],
+  "tool_def_sites": [
+   "chunk-kasbfbhj.js@4160199 (via ht)"
+  ]
+ },
+ "EndConversation": {
+  "const_defs": [
+   "chunk-yvky7c2z.js:Xx"
+  ],
+  "tool_def_sites": [
+   "chunk-8d9hxesq.js@14599 (via Xx)"
+  ]
+ },
+ "EnterPlanMode": {
+  "const_defs": [
+   "chunk-62g69mqc.js:Ak"
+  ],
+  "tool_def_sites": [
+   "chunk-m0s4hfby.js@7258 (via Ak)"
+  ]
+ },
+ "EnterWorktree": {
+  "const_defs": [
+   "chunk-12j67n2n.js:DD"
+  ],
+  "tool_def_sites": []
+ },
+ "ExitPlanMode": {
+  "const_defs": [
+   "chunk-r8t1dcyg.js:vw"
+  ],
+  "tool_def_sites": []
+ },
+ "ExitWorktree": {
+  "const_defs": [
+   "chunk-5ne6jp11.js:Q0e"
+  ],
+  "tool_def_sites": []
+ },
+ "Glob": {
+  "const_defs": [
+   "chunk-0ycjphb5.js:co"
+  ],
+  "tool_def_sites": [
+   "chunk-kasbfbhj.js@763501 (via co)"
+  ]
+ },
+ "Grep": {
+  "const_defs": [
+   "chunk-0ycjphb5.js:Jr"
+  ],
+  "tool_def_sites": [
+   "chunk-kasbfbhj.js@769755 (via Jr)"
+  ]
+ },
+ "LSP": {
+  "const_defs": [
+   "chunk-5ne6jp11.js:L$"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@107020 (via L$)"
+  ]
+ },
+ "ListAgents": {
+  "const_defs": [
+   "chunk-f321wyqg.js:xc"
+  ],
+  "tool_def_sites": []
+ },
+ "Monitor": {
+  "const_defs": [
+   "chunk-9t51q67t.js:Pl"
+  ],
+  "tool_def_sites": [
+   "chunk-amw6mwbm.js@15246 (via Pl)"
+  ]
+ },
+ "NotebookEdit": {
+  "const_defs": [
+   "chunk-0ycjphb5.js:Zi"
+  ],
+  "tool_def_sites": [
+   "chunk-kasbfbhj.js@4175237 (via Zi)"
+  ]
+ },
+ "OfferChromeSetup": {
+  "const_defs": [
+   "chunk-5ne6jp11.js:Jye"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@36583 (via Jye)"
+  ]
+ },
+ "PowerShell": {
+  "const_defs": [
+   "chunk-6dwnw6av.js:Ct"
+  ],
+  "tool_def_sites": [
+   "chunk-p5525etb.js@97395 (via Ct)"
+  ]
+ },
+ "Projects": {
+  "const_defs": [
+   "chunk-dpfeshp3.js:X"
+  ],
+  "tool_def_sites": [
+   "chunk-dpfeshp3.js@25959"
+  ]
+ },
+ "ProposeGoal": {
+  "const_defs": [
+   "chunk-fdbb8cx6.js:tMn"
+  ],
+  "tool_def_sites": [
+   "chunk-wygp9s4p.js@7415 (via tMn)"
+  ]
+ },
+ "PushNotification": {
+  "const_defs": [
+   "chunk-ae0vw9s3.js:jx",
+   "chunk-xpqgtv5j.js:Qe"
+  ],
+  "tool_def_sites": [
+   "chunk-13m6fqf8.js@6603 (via jx)"
+  ]
+ },
+ "Read": {
+  "const_defs": [
+   "chunk-xx1j2680.js:rt"
+  ],
+  "tool_def_sites": [
+   "chunk-kasbfbhj.js@3541115 (via rt)"
+  ]
+ },
+ "ReadNotifications": {
+  "const_defs": [
+   "chunk-5ne6jp11.js:HD"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@28066 (via HD)"
+  ]
+ },
+ "RefreshMcpTools": {
+  "const_defs": [
+   "chunk-5ne6jp11.js:wW"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@115822 (via wW)"
+  ]
+ },
+ "RemoteTrigger": {
+  "const_defs": [
+   "chunk-zje6h5az.js:N$"
+  ],
+  "tool_def_sites": [
+   "chunk-5pvna5wz.js@16975 (via N$)"
+  ]
+ },
+ "ReportFindings": {
+  "const_defs": [
+   "chunk-12j67n2n.js:eR"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@61709 (via eR)"
+  ]
+ },
+ "ScheduleWakeup": {
+  "const_defs": [
+   "chunk-zc6kefep.js:wa"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@46447 (via wa)"
+  ]
+ },
+ "SendFeedback": {
+  "const_defs": [
+   "chunk-sfjcyk7w.js:Uo"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@85313"
+  ]
+ },
+ "SendMessage": {
+  "const_defs": [
+   "chunk-jcpp67yk.js:Gn"
+  ],
+  "tool_def_sites": [
+   "chunk-xkmctf5g.js@52781 (via Gn)"
+  ]
+ },
+ "ShowOnboardingRolePicker": {
+  "const_defs": [
+   "chunk-5ne6jp11.js:Qye"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@33724 (via Qye)"
+  ]
+ },
+ "Skill": {
+  "const_defs": [
+   "chunk-5aqxznmv.js:Ro"
+  ],
+  "tool_def_sites": []
+ },
+ "TaskCreate": {
+  "const_defs": [
+   "chunk-5ne6jp11.js:Ek"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@140262 (via Ek)"
+  ]
+ },
+ "TaskGet": {
+  "const_defs": [
+   "chunk-5ne6jp11.js:dQ"
+  ],
+  "tool_def_sites": []
+ },
+ "TaskList": {
+  "const_defs": [
+   "chunk-zc6kefep.js:ZC"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@151615 (via ZC)"
+  ]
+ },
+ "TaskStop": {
+  "const_defs": [
+   "chunk-zc6kefep.js:Uc"
+  ],
+  "tool_def_sites": []
+ },
+ "TaskUpdate": {
+  "const_defs": [
+   "chunk-5ne6jp11.js:$A"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@146765 (via $A)"
+  ]
+ },
+ "TodoWrite": {
+  "const_defs": [
+   "chunk-5ne6jp11.js:Lx",
+   "chunk-mxnkgnv8.js:Qs"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@72538 (via Lx)"
+  ]
+ },
+ "ToolSearch": {
+  "const_defs": [
+   "chunk-qbxhbxwh.js:Sl"
+  ],
+  "tool_def_sites": []
+ },
+ "WebFetch": {
+  "const_defs": [
+   "chunk-e00q6jpd.js:pr"
+  ],
+  "tool_def_sites": [
+   "chunk-kasbfbhj.js@1946752 (via pr)"
+  ]
+ },
+ "WebSearch": {
+  "const_defs": [
+   "chunk-4r6b8efh.js:Af"
+  ],
+  "tool_def_sites": [
+   "chunk-sfjcyk7w.js@53558 (via Af)"
+  ]
+ },
+ "Workflow": {
+  "const_defs": [
+   "chunk-7sgatswa.js:pu"
+  ],
+  "tool_def_sites": []
+ },
+ "Write": {
+  "const_defs": [
+   "chunk-6dwnw6av.js:Xt"
+  ],
+  "tool_def_sites": [
+   "chunk-kasbfbhj.js@734594 (via Xt)"
+  ]
+ }
+}

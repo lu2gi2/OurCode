@@ -1,0 +1,120 @@
+import { hz } from "/$bunfs/root/chunk-0ycjphb5.js";
+import { _, X } from "/$bunfs/root/chunk-bd805sh6.js";
+import { rh } from "/$bunfs/root/chunk-c56kpkt7.js";
+import { p } from "/$bunfs/root/chunk-5k7wva7c.js";
+import { yu } from "/$bunfs/root/chunk-qk3m4n8a.js";
+import { At } from "/$bunfs/root/chunk-9fa34ggx.js";
+import { nQt } from "/$bunfs/root/chunk-sfgejbsr.js";
+import { o, E, M, T, u, _t, ue, A } from "/$bunfs/root/chunk-smx21d0k.js";
+import { Ko } from "/$bunfs/root/chunk-7qc48pza.js";
+const r = {
+    non_exclusive_heartbeat_interval_ms: 0,
+    multisession_poll_interval_ms_not_at_capacity: 2000,
+    multisession_poll_interval_ms_partial_capacity: 2000,
+    multisession_poll_interval_ms_at_capacity: 600000,
+    reclaim_older_than_ms: 5000,
+    session_keepalive_interval_v2_ms: 120000,
+    sse_connect_timeout_ms: 30000
+};
+const c = {
+    message: "must be 0 (disabled) or ≥100ms"
+};
+const m = p(()=>u({
+        non_exclusive_heartbeat_interval_ms: E().int().min(0).default(0),
+        multisession_poll_interval_ms_not_at_capacity: E().int().min(100).default(r.multisession_poll_interval_ms_not_at_capacity),
+        multisession_poll_interval_ms_partial_capacity: E().int().min(100).default(r.multisession_poll_interval_ms_partial_capacity),
+        multisession_poll_interval_ms_at_capacity: E().int().refine((e)=>e === 0 || e >= 100, c).default(r.multisession_poll_interval_ms_at_capacity),
+        reclaim_older_than_ms: E().int().min(1).default(5000),
+        session_keepalive_interval_v2_ms: E().int().min(0).default(120000),
+        sse_connect_timeout_ms: E().int().max(yu).refine((e)=>e === 0 || e >= 20000, {
+            message: "must be 0 (disabled) or ≥20000ms"
+        }).default(r.sse_connect_timeout_ms)
+    }).refine((e)=>e.non_exclusive_heartbeat_interval_ms > 0 || e.multisession_poll_interval_ms_at_capacity > 0, {
+        message: "at-capacity liveness requires non_exclusive_heartbeat_interval_ms > 0 or multisession_poll_interval_ms_at_capacity > 0"
+    }));
+function JX() {
+    let e = hz("tengu_bridge_poll_interval_config", r, 300000);
+    let t = m().safeParse(e);
+    if (t.success) {
+        return t.data;
+    }
+    return r;
+}
+const d = p(()=>_t({
+        version: A(1),
+        session_ingress_token: o().min(1),
+        api_base_url: o(),
+        claude_code_args: ue(o(), o()).optional().catch(undefined),
+        mcp_config: _t({
+            content: o(),
+            path: o().optional(),
+            mode: E().optional()
+        }).optional().catch(undefined),
+        auto_mode_environment: T(o()).optional().catch(undefined),
+        worktree: M().optional().catch(undefined)
+    }));
+const f = {
+    secret_did_not_decode: "Work secret is not valid JSON",
+    unsupported_version: "Unsupported work secret version",
+    missing_session_ingress_token: "Invalid work secret: missing or empty session_ingress_token",
+    missing_api_base_url: "Invalid work secret: missing api_base_url"
+};
+class VMe extends Error {
+    verdict;
+    constructor(e){
+        super(f[e]);
+        this.verdict = e;
+        this.name = "WorkSecretShapeError";
+    }
+}
+function Aae(e) {
+    let t;
+    try {
+        t = X(Buffer.from(e, "base64url").toString("utf-8"));
+    } catch  {
+        throw new VMe("secret_did_not_decode");
+    }
+    let s = d().safeParse(t);
+    if (s.success) {
+        return s.data;
+    }
+    let n = new Set(s.error.issues.map((i)=>i.path[0]));
+    if (n.has(undefined) || n.has("version")) {
+        throw new VMe("unsupported_version");
+    }
+    if (n.has("session_ingress_token")) {
+        throw new VMe("missing_session_ingress_token");
+    }
+    throw new VMe("missing_api_base_url");
+}
+function qMe(e, t) {
+    if (e === t) {
+        return true;
+    }
+    let s = e.slice(e.lastIndexOf("_") + 1);
+    let n = t.slice(t.lastIndexOf("_") + 1);
+    return s.length >= 4 && s === n;
+}
+function KMe(e, t) {
+    rh(t, "sessionId");
+    return `${e.replace(/\/+$/, "")}/v1/code/sessions/${t}`;
+}
+async function $Ze(e, t) {
+    let s = await At.post(`${e}/worker/register`, {}, {
+        headers: {
+            Authorization: `Bearer ${t}`,
+            "Content-Type": "application/json",
+            "anthropic-version": "2023-06-01",
+            "User-Agent": Ko()
+        },
+        timeout: 10000
+    });
+    let n = s.data?.worker_epoch;
+    let i = typeof n === "string" ? Number(n) : n;
+    if (typeof i !== "number" || !Number.isFinite(i) || !Number.isSafeInteger(i)) {
+        let a = nQt(`${_(s.data)}`, "register_worker_response");
+        throw Error(`registerWorker: invalid worker_epoch in response${a === undefined ? " (the response is not quoted: it is too long or is not one plain line)" : `: ${a}`}`);
+    }
+    return i;
+}
+export { JX, VMe, Aae, qMe, KMe, $Ze };

@@ -1,0 +1,680 @@
+import { d0t } from "/$bunfs/root/chunk-ctt36bn8.js";
+import { d } from "/$bunfs/root/chunk-wkmq9ht0.js";
+import { np, l } from "/$bunfs/root/chunk-m1rt7wpr.js";
+import { i } from "/$bunfs/root/chunk-kgp7t7yx.js";
+import { Zr } from "/$bunfs/root/chunk-04d4ftnx.js";
+import { t } from "/$bunfs/root/chunk-bd805sh6.js";
+import { Wyo } from "/$bunfs/root/chunk-0ycjphb5.js";
+import { pt, U1 } from "/$bunfs/root/chunk-223dyewd.js";
+import { ci } from "/$bunfs/root/chunk-6dwnw6av.js";
+import { C5e } from "/$bunfs/root/chunk-2321ytcf.js";
+import { XHe } from "/$bunfs/root/chunk-kasbfbhj.js";
+import { le, P, y, N } from "/$bunfs/root/chunk-j9ep7722.js";
+import { w } from "/$bunfs/root/chunk-4d2n28cn.js";
+import { s, n } from "/$bunfs/root/chunk-8524cxt8.js";
+import { Ze } from "/$bunfs/root/chunk-z47a2vff.js";
+import { G } from "/$bunfs/root/chunk-8eystn8t.js";
+import { ke } from "/$bunfs/root/chunk-8kbdmpwx.js";
+import { ns } from "/$bunfs/root/chunk-2mjaqpws.js";
+import { us } from "/$bunfs/root/chunk-w72c4p0f.js";
+import { Ve } from "/$bunfs/root/chunk-wff73y2a.js";
+import { be } from "/$bunfs/root/chunk-s3tnbfvt.js";
+import { ui } from "/$bunfs/root/chunk-6gb840dt.js";
+import { Hr } from "/$bunfs/root/chunk-wmf7fpt3.js";
+import { Mln } from "/$bunfs/root/chunk-q09zwdyk.js";
+import { rk } from "/$bunfs/root/chunk-2kj77ctk.js";
+import { ut } from "/$bunfs/root/chunk-wy1471a2.js";
+import { Y, e, r } from "/$bunfs/root/chunk-vybw69ke.js";
+import { ye } from "/$bunfs/root/chunk-tybndaby.js";
+import { S } from "/$bunfs/root/chunk-cj4xndke.js";
+N();
+N();
+function U(source) {
+    let g = w(8);
+    let [c, b] = y(false);
+    let [p, k] = y(null);
+    let [u, K] = y(null);
+    let H;
+    if (g[0] !== source) {
+        H = async (a)=>{
+            b(true);
+            k(null);
+            K(a);
+            i("tengu_teleport_resume_session", {
+                source: d(source),
+                session_id: ye(a.id)
+            });
+            ;
+            try {
+                let m = await Zr("teleport_resume", ()=>XHe(a.id));
+                d0t({
+                    sessionId: a.id
+                });
+                b(false);
+                return m;
+            } catch (error) {
+                let C = error;
+                let W = {
+                    message: C instanceof np ? C.message : l(C),
+                    formattedMessage: C instanceof np ? C.formattedMessage : undefined,
+                    isOperationError: C instanceof np
+                };
+                k(W);
+                b(false);
+                return null;
+            }
+        };
+        g[0] = source;
+        g[1] = H;
+    } else {
+        H = g[1];
+    }
+    let resumeSession = H;
+    let x;
+    if (g[2] === S) {
+        x = ()=>{
+            k(null);
+        };
+        g[2] = x;
+    } else {
+        x = g[2];
+    }
+    let clearError = x;
+    let L;
+    if (g[3] !== p || g[4] !== c || g[5] !== resumeSession || g[6] !== u) {
+        L = {
+            resumeSession,
+            isResuming: c,
+            error: p,
+            selectedSession: u,
+            clearError
+        };
+        g[3] = p;
+        g[4] = c;
+        g[5] = resumeSession;
+        g[6] = u;
+        g[7] = L;
+    } else {
+        L = g[7];
+    }
+    return L;
+}
+N();
+const pe = "Updated";
+const fe = "Origin";
+const ge = "Remote Control";
+const ie = Math.max(fe.length, ge.length);
+const O = "  ";
+function ce({ onSelect, onCancel, isEmbedded = false }) {
+    let { rows, columns } = ns(ke());
+    let [u, K] = y([]);
+    let [g, H] = y(null);
+    let [a, x] = y(true);
+    let [m, C] = y(null);
+    let [W, v] = y(false);
+    let [V, L] = y(false);
+    let [j, J] = y(1);
+    let children = us("confirm:no", "Confirmation", "Esc");
+    let M = le(async ()=>{
+        try {
+            x(true);
+            C(null);
+            let o = await C5e();
+            H(o);
+            t(`Current repository: ${o || "not detected"}`);
+            let f = await Wyo();
+            let E = f;
+            if (o) {
+                E = f.filter((B)=>{
+                    if (!B.repo) {
+                        return false;
+                    }
+                    return `${B.repo.owner.login}/${B.repo.name}` === o;
+                });
+                t(`Filtered ${E.length} sessions for repo ${o} from ${f.length} total`);
+            }
+            let re = [
+                ...E
+            ].sort((B, te)=>{
+                let Re = new Date(B.updated_at);
+                return new Date(te.updated_at).getTime() - Re.getTime();
+            });
+            K(re);
+        } catch (error) {
+            let f = error instanceof Error ? error.message : String(error);
+            t(`Error loading code sessions: ${f}`);
+            C(Fe(f));
+        } finally{
+            x(false);
+            v(false);
+        }
+    }, []);
+    let Q = ()=>{
+        v(true);
+        M();
+    };
+    Ze("confirm:no", onCancel, {
+        context: "Confirmation"
+    });
+    function onKeyDown(o) {
+        if (o.ctrl && o.key === "c") {
+            o.preventDefault();
+            onCancel();
+            return;
+        }
+        if (o.ctrl && o.key === "r" && m) {
+            o.preventDefault();
+            Q();
+            return;
+        }
+        if (m !== null && o.key === "return") {
+            o.preventDefault();
+            onCancel();
+            return;
+        }
+    }
+    let onComplete = le(()=>{
+        L(true);
+        M();
+    }, [
+        L,
+        M
+    ]);
+    if (!V) {
+        return e(Mln, {
+            onComplete,
+            onCancel: isEmbedded ? onCancel : undefined
+        });
+    }
+    if (a) {
+        return e(s, {
+            flexDirection: "column",
+            padding: 1,
+            tabIndex: 0,
+            autoFocus: true,
+            onKeyDown,
+            children: e(Hr, {
+                message: "Loading Claude Code sessions…",
+                bold: true,
+                subtitle: W ? "Retrying…" : "Fetching your Claude Code sessions…"
+            })
+        });
+    }
+    if (m) {
+        return r(s, {
+            flexDirection: "column",
+            padding: 1,
+            tabIndex: 0,
+            autoFocus: true,
+            onKeyDown,
+            children: [
+                e(n, {
+                    bold: true,
+                    color: "error",
+                    children: "Error loading Claude Code sessions"
+                }),
+                Ne(m),
+                r(n, {
+                    dimColor: true,
+                    children: [
+                        "Press ",
+                        e(n, {
+                            bold: true,
+                            children: "Ctrl+R"
+                        }),
+                        " to retry · Press",
+                        " ",
+                        e(n, {
+                            bold: true,
+                            children
+                        }),
+                        " to cancel"
+                    ]
+                })
+            ]
+        });
+    }
+    if (u.length === 0) {
+        return r(s, {
+            flexDirection: "column",
+            padding: 1,
+            tabIndex: 0,
+            autoFocus: true,
+            onKeyDown,
+            children: [
+                r(n, {
+                    bold: true,
+                    children: [
+                        "No Claude Code sessions found",
+                        g && r(n, {
+                            children: [
+                                " for ",
+                                g
+                            ]
+                        })
+                    ]
+                }),
+                e(s, {
+                    marginTop: 1,
+                    children: r(n, {
+                        dimColor: true,
+                        children: [
+                            "Press ",
+                            e(n, {
+                                bold: true,
+                                children
+                            }),
+                            " to cancel"
+                        ]
+                    })
+                })
+            ]
+        });
+    }
+    let T = u.map((o)=>({
+            ...o,
+            timeString: U1(new Date(o.updated_at))
+        }));
+    let h = Math.max(pe.length, ...T.map((o)=>o.timeString.length));
+    let A = u.some((o)=>o.environment_kind === "bridge");
+    let Z = A ? ie + O.length : 0;
+    let me = String(u.length).length + 2;
+    let Te = columns - 4 - me - h - O.length - Z;
+    let options = T.map(({ timeString, title, id: value, environment_kind })=>{
+        let B = timeString.padEnd(h, " ");
+        return {
+            label: r(Y, {
+                children: [
+                    B,
+                    O,
+                    A && r(Y, {
+                        children: [
+                            e(n, {
+                                dimColor: true,
+                                children: (environment_kind === "bridge" ? ge : "").padEnd(ie, " ")
+                            }),
+                            O
+                        ]
+                    }),
+                    pt(ci(title).replace(/\s+/g, " ").trim(), Te)
+                ]
+            }),
+            value
+        };
+    });
+    let ee = 7;
+    let visibleOptionCount = Math.max(1, isEmbedded ? Math.min(u.length, 5, rows - 6 - ee) : Math.min(u.length, rows - 1 - ee));
+    let height = visibleOptionCount + ee;
+    let Se = u.length > visibleOptionCount;
+    return r(s, {
+        flexDirection: "column",
+        padding: 1,
+        height,
+        tabIndex: 0,
+        autoFocus: true,
+        onKeyDown,
+        children: [
+            r(n, {
+                bold: true,
+                children: [
+                    "Select a session to resume",
+                    Se && r(n, {
+                        dimColor: true,
+                        children: [
+                            " ",
+                            "(",
+                            j,
+                            " of ",
+                            u.length,
+                            ")"
+                        ]
+                    }),
+                    g && r(n, {
+                        dimColor: true,
+                        children: [
+                            " (",
+                            g,
+                            ")"
+                        ]
+                    }),
+                    ":"
+                ]
+            }),
+            r(s, {
+                flexDirection: "column",
+                marginTop: 1,
+                flexGrow: 1,
+                children: [
+                    e(s, {
+                        marginLeft: 2 + me,
+                        children: r(n, {
+                            bold: true,
+                            children: [
+                                pe.padEnd(h, " "),
+                                O,
+                                A && fe.padEnd(ie, " ") + O,
+                                "Session Title"
+                            ]
+                        })
+                    }),
+                    e(Ve, {
+                        visibleOptionCount,
+                        options,
+                        onChange: (o)=>{
+                            let f = u.find((E)=>E.id === o);
+                            if (f) {
+                                onSelect(f);
+                            }
+                        },
+                        onFocus: (o)=>{
+                            let f = options.findIndex((E)=>E.value === o);
+                            if (f >= 0) {
+                                J(f + 1);
+                            }
+                        }
+                    })
+                ]
+            }),
+            e(s, {
+                flexDirection: "row",
+                children: e(n, {
+                    dimColor: true,
+                    children: r(be, {
+                        children: [
+                            e(G, {
+                                chord: [
+                                    "up",
+                                    "down"
+                                ],
+                                action: "select"
+                            }),
+                            e(G, {
+                                chord: "enter",
+                                action: "confirm"
+                            }),
+                            e(ut, {
+                                action: "confirm:no",
+                                context: "Confirmation",
+                                fallback: "Esc",
+                                description: "cancel"
+                            })
+                        ]
+                    })
+                })
+            })
+        ]
+    });
+}
+function Fe(R) {
+    let c = R.toLowerCase();
+    if (c.includes("fetch") || c.includes("network") || c.includes("timeout")) {
+        return "network";
+    }
+    if (c.includes("auth") || c.includes("token") || c.includes("permission") || c.includes("oauth") || c.includes("not authenticated") || c.includes("/login") || c.includes("console account") || c.includes("403")) {
+        return "auth";
+    }
+    if (c.includes("api") || c.includes("rate limit") || c.includes("500") || c.includes("529")) {
+        return "api";
+    }
+    return "other";
+}
+function Ne(R) {
+    switch(R){
+        case "network":
+            return e(s, {
+                marginY: 1,
+                flexDirection: "column",
+                children: e(n, {
+                    dimColor: true,
+                    children: "Check your internet connection"
+                })
+            });
+        case "auth":
+            return r(s, {
+                marginY: 1,
+                flexDirection: "column",
+                children: [
+                    e(n, {
+                        dimColor: true,
+                        children: "Teleport requires a Claude account"
+                    }),
+                    r(n, {
+                        dimColor: true,
+                        children: [
+                            "Run ",
+                            e(n, {
+                                bold: true,
+                                children: "/login"
+                            }),
+                            ' and select "Claude account with subscription"'
+                        ]
+                    })
+                ]
+            });
+        case "api":
+            return e(s, {
+                marginY: 1,
+                flexDirection: "column",
+                children: e(n, {
+                    dimColor: true,
+                    children: "Sorry, Claude encountered an error"
+                })
+            });
+        case "other":
+            return e(s, {
+                marginY: 1,
+                flexDirection: "row",
+                children: e(n, {
+                    dimColor: true,
+                    children: "Sorry, Claude Code encountered an error"
+                })
+            });
+    }
+}
+function F9e(R) {
+    let m = w(30);
+    let { onComplete, onCancel, onError, isEmbedded, source } = R;
+    let isEmbedded_1 = isEmbedded === undefined ? false : isEmbedded;
+    let { resumeSession, isResuming, error, selectedSession } = U(source);
+    let C;
+    let W;
+    if (m[0] !== source) {
+        C = ()=>{
+            i("tengu_teleport_started", {
+                source: d(source)
+            });
+        };
+        W = [
+            source
+        ];
+        m[0] = source;
+        m[1] = C;
+        m[2] = W;
+    } else {
+        C = m[1];
+        W = m[2];
+    }
+    P(C, W);
+    let v;
+    if (m[3] !== error || m[4] !== onComplete || m[5] !== onError || m[6] !== resumeSession) {
+        v = async (V)=>{
+            let L = await resumeSession(V);
+            if (L) {
+                onComplete(L);
+            } else if (error) {
+                if (onError) {
+                    onError(error.message, error.formattedMessage);
+                }
+            }
+        };
+        m[3] = error;
+        m[4] = onComplete;
+        m[5] = onError;
+        m[6] = resumeSession;
+        m[7] = v;
+    } else {
+        v = m[7];
+    }
+    let onSelect = v;
+    let J;
+    if (m[8] !== onCancel) {
+        J = ()=>{
+            i("tengu_teleport_cancelled", {});
+            onCancel();
+        };
+        m[8] = onCancel;
+        m[9] = J;
+    } else {
+        J = m[9];
+    }
+    let onCancel_1 = J;
+    const M = !!error && !onError;
+    let Q;
+    if (m[10] !== M) {
+        Q = {
+            context: "Global",
+            isActive: M
+        };
+        m[10] = M;
+        m[11] = Q;
+    } else {
+        Q = m[11];
+    }
+    Ze("app:interrupt", onCancel_1, Q);
+    let D;
+    if (m[12] !== error || m[13] !== onError) {
+        D = !!error && !onError && rk();
+        m[12] = error;
+        m[13] = onError;
+        m[14] = D;
+    } else {
+        D = m[14];
+    }
+    let X;
+    if (m[15] !== D) {
+        X = {
+            context: "Confirmation",
+            isActive: D
+        };
+        m[15] = D;
+        m[16] = X;
+    } else {
+        X = m[16];
+    }
+    Ze("confirm:no", onCancel_1, X);
+    if (isResuming && selectedSession) {
+        let T;
+        if (m[17] === S) {
+            T = r(s, {
+                flexDirection: "row",
+                children: [
+                    e(ui, {}),
+                    e(n, {
+                        bold: true,
+                        children: "Resuming session…"
+                    })
+                ]
+            });
+            m[17] = T;
+        } else {
+            T = m[17];
+        }
+        let h;
+        if (m[18] !== selectedSession.title) {
+            h = r(s, {
+                flexDirection: "column",
+                padding: 1,
+                children: [
+                    T,
+                    r(n, {
+                        dimColor: true,
+                        children: [
+                            'Loading "',
+                            selectedSession.title,
+                            '"…'
+                        ]
+                    })
+                ]
+            });
+            m[18] = selectedSession.title;
+            m[19] = h;
+        } else {
+            h = m[19];
+        }
+        return h;
+    }
+    if (error && !onError) {
+        let T;
+        if (m[20] === S) {
+            T = e(n, {
+                bold: true,
+                color: "error",
+                children: "Failed to resume session"
+            });
+            m[20] = T;
+        } else {
+            T = m[20];
+        }
+        let h;
+        if (m[21] !== error.message) {
+            h = e(n, {
+                dimColor: true,
+                children: error.message
+            });
+            m[21] = error.message;
+            m[22] = h;
+        } else {
+            h = m[22];
+        }
+        let A;
+        if (m[23] === S) {
+            A = e(s, {
+                marginTop: 1,
+                children: e(n, {
+                    dimColor: true,
+                    italic: true,
+                    children: e(G, {
+                        chord: "escape",
+                        action: "cancel"
+                    })
+                })
+            });
+            m[23] = A;
+        } else {
+            A = m[23];
+        }
+        let Z;
+        if (m[24] !== h) {
+            Z = r(s, {
+                flexDirection: "column",
+                padding: 1,
+                children: [
+                    T,
+                    h,
+                    A
+                ]
+            });
+            m[24] = h;
+            m[25] = Z;
+        } else {
+            Z = m[25];
+        }
+        return Z;
+    }
+    let T;
+    if (m[26] !== onCancel_1 || m[27] !== onSelect || m[28] !== isEmbedded_1) {
+        T = e(ce, {
+            onSelect,
+            onCancel: onCancel_1,
+            isEmbedded: isEmbedded_1
+        });
+        m[26] = onCancel_1;
+        m[27] = onSelect;
+        m[28] = isEmbedded_1;
+        m[29] = T;
+    } else {
+        T = m[29];
+    }
+    return T;
+}
+export { F9e };

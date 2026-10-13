@@ -1,0 +1,1 @@
+../../src/clipboard-napi.js

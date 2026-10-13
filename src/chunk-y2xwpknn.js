@@ -1,0 +1,15 @@
+import { Pmo } from "/$bunfs/root/chunk-2f3cv0sx.js";
+import "/$bunfs/root/chunk-67wg4vkc.js";
+import "/$bunfs/root/chunk-2e6e7dc3.js";
+import "/$bunfs/root/chunk-4r8zj2v5.js";
+import "/$bunfs/root/chunk-dvxpnma3.js";
+import "/$bunfs/root/chunk-gxstjgam.js";
+import "/$bunfs/root/chunk-sw8e7v35.js";
+import "/$bunfs/root/chunk-53tyrfzz.js";
+import "/$bunfs/root/chunk-964dstky.js";
+import "/$bunfs/root/chunk-nh84xq74.js";
+import "/$bunfs/root/chunk-dze6yaxw.js";
+import { Se } from "/$bunfs/root/chunk-cj4xndke.js";
+const m = Se(Pmo());
+export const AssumeRoleCommand = m.AssumeRoleCommand;
+export const STSClient = m.STSClient;

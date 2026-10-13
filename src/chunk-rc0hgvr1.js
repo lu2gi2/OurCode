@@ -1,0 +1,12 @@
+const _ps = "remote-control-repl";
+const cDn = "remote-control-cli";
+const bps = "rc-child";
+const Sps = "remote-control-app";
+const wps = "remote-control-sdk";
+const dDn = "remote-control-auto";
+const vps = "ccr-mirror";
+const hCt = "remote-control-fork";
+const hgr = "remote-control-fork-seed:";
+const uDn = "remote-control-fork-parent:";
+const bst = "workflow-remote-agent";
+export { _ps, cDn, bps, Sps, wps, dDn, vps, hCt, hgr, uDn, bst };

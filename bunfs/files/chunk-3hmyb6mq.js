@@ -1,0 +1,14 @@
+// @bun @bytecode
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.296
+import{__}from"/$bunfs/root/chunk-jynzk4xv.js";import{Af,Ic,It,vb,YI}from"/$bunfs/root/chunk-4r6b8efh.js";import{Zi,co,Jr}from"/$bunfs/root/chunk-0ycjphb5.js";import{ht,Xt,Be,Ct}from"/$bunfs/root/chunk-6dwnw6av.js";import{yt}from"/$bunfs/root/chunk-f41czxrs.js";import{jfs}from"/$bunfs/root/chunk-pkje2p8h.js";import{ktr,Mte,_I,bI,Nkn,ele,qir,zXr}from"/$bunfs/root/chunk-kasbfbhj.js";import{aSr,Qh,CSs}from"/$bunfs/root/chunk-347xejxn.js";import{kM}from"/$bunfs/root/chunk-1k3a7x55.js";import{J0}from"/$bunfs/root/chunk-sfjcyk7w.js";import{Or}from"/$bunfs/root/chunk-b7w13qrv.js";import{rt}from"/$bunfs/root/chunk-xx1j2680.js";var c=new Set([Be,rt,ht,Xt,Jr,co,Zi,Ct]),kMo=new Set([__]),KPe=ktr;function u9e(e){return`[serve-mode] Stripped client-supplied privilege field(s): ${e.join(", ")}`}function E(e,s){if(e.properties===void 0||s.length===0)return e;let i={...e.properties};for(let n of s)delete i[n];let t=Array.isArray(e.required)?e.required.filter((n)=>!s.includes(n)):e.required;return{...e,properties:i,required:t}}function N0t(e,{skipSearchToolRestore:s=!1}={}){let i=J0(Ic(),{skipReplFilter:!0,skipSimpleModeFilter:e}).filter((o)=>!YI(o));if(!e)return i;let t=i.filter((o)=>c.has(o.name));if(s)return t;let n=Mte(),p=[_I,bI].filter((o)=>n.has(o.name)&&c.has(o.name)&&!t.includes(o)&&o.isEnabled());return[...t,...p]}async function TMo(e,s={},i){let t=e==="http",n=Ic(),p=N0t(t,s),o=s.agentDefinitions??{activeAgents:[],allAgents:[]},a=t?[]:await ele(Nkn(o.activeAgents,[]),o.allowedAgentTypes,n),T=a.length>0?`Available agent types:
+${a.map((r)=>qir(r,!1)).join(`
+`)}`:"",l=()=>Promise.all(p.map(async(r)=>{let f=kM(r.inputSchema),{remoteExecution:_,outputSchemaAcrossProcesses:S,...u}=r,m=await r.prompt({getToolPermissionContext:async()=>n,tools:p,agents:o.activeAgents,...i!==void 0&&{model:i.model,leanPrompt:i.leanPrompt,bashFirstTrimmed:!1}});return{...u,description:It(r,Af)?jfs(m):It(r,yt)?m.replace(zXr,()=>T):m,inputSchema:E(f,[...t?KPe:[],...vb(r).supported?[Or]:[]]),outputSchema:void 0}}));if(!t)return l();let d=Qh();if(d.backgroundTasksDisabled&&d.unsandboxedCommandsDisabled)return l();for(let r of p)r.inputSchema;return CSs(kIr(),l)}function kIr(e=new aSr){return e.disableBackgroundTasks(),e.disableUnsandboxedCommands(),e}
+export{kMo,KPe,u9e,N0t,TMo,kIr};

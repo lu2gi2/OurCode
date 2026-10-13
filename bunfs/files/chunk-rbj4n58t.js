@@ -1,0 +1,12 @@
+// @bun @bytecode
+// Claude Code is a Beta product per Anthropic's Commercial Terms of Service.
+// By using Claude Code, you agree that all code acceptance or rejection decisions you make,
+// and the associated conversations in context, constitute Feedback under Anthropic's Commercial Terms,
+// and may be used to improve Anthropic's products, including training models.
+// You are responsible for reviewing any code suggestions before use.
+
+// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.
+
+// Version: 2.1.296
+import{w}from"/$bunfs/root/chunk-4d2n28cn.js";import{s,n,du,R6,Ks}from"/$bunfs/root/chunk-8524cxt8.js";import{qt,Te,en,R,y,N}from"/$bunfs/root/chunk-j9ep7722.js";import{vU}from"/$bunfs/root/chunk-ddvfb1p1.js";import{ke}from"/$bunfs/root/chunk-8kbdmpwx.js";import{e,r}from"/$bunfs/root/chunk-vybw69ke.js";N();N();N();function A6({children:g,lock:t="always",restartKey:o}){let[c,{isVisible:D},d]=R6(),{rows:i,columns:a}=ke(),f=R(null),[l,m]=y({minHeight:0,rows:i,columns:a,restartKey:o}),p=t==="always"&&(l.rows!==i||l.columns!==a||l.restartKey!==o),P=(t==="always"||!D)&&!p,x=R(0),L=Math.max(l.minHeight,x.current),k=Te(vU)!==null;return en(()=>{if(!f.current)return;let{height:v}=Ks(f.current),h=Math.min(v,i);if(p){m({minHeight:h,rows:i,columns:a,restartKey:o});return}if(v>L){if(k&&t==="offscreen"&&!P&&h>=l.minHeight&&d()){x.current=h;return}x.current=0,m((b)=>b.minHeight===h?b:{...b,minHeight:h})}}),e(s,{minHeight:P?L:void 0,ref:c,children:e(s,{ref:f,flexDirection:"column",children:g})})}function Fe(g){let i=w(11),{children:t,height:o,screenReaderLabel:c}=g;if(Te(u)){return t}const d=c===void 0;let a;if(i[0]!==c||i[1]!==d)a=e(du,{fromLeftEdge:!0,flexShrink:0,children:r(n,{"aria-hidden":d,"aria-label":c,dimColor:!0,children:["  ","\u23BF \xA0"]})}),i[0]=c,i[1]=d,i[2]=a;else a=i[2];let f;if(i[3]!==t)f=e(s,{flexShrink:1,flexGrow:1,children:t}),i[3]=t,i[4]=f;else f=i[4];let l;if(i[5]!==o||i[6]!==a||i[7]!==f)l=e(H,{children:r(s,{flexDirection:"row",height:o,overflowY:"hidden",children:[a,f]})}),i[5]=o,i[6]=a,i[7]=f,i[8]=l;else l=i[8];let m=l;if(o!==void 0){return m}let p;if(i[9]!==m)p=e(A6,{lock:"offscreen",children:m}),i[9]=m,i[10]=p;else p=i[10];return p}var u=qt(!1);function FXe(){return Te(u)}function H(g){let o=w(2),{children:t}=g,c;if(o[0]!==t)c=e(u.Provider,{value:!0,children:t}),o[0]=t,o[1]=c;else c=o[1];return c}
+export{A6,Fe,FXe};

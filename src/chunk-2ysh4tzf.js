@@ -1,0 +1,304 @@
+import { _Re, E7, k } from "/$bunfs/root/chunk-0ycjphb5.js";
+import "/$bunfs/root/chunk-dn762950.js";
+import "/$bunfs/root/chunk-j27d47mr.js";
+import "/$bunfs/root/chunk-ctt36bn8.js";
+import "/$bunfs/root/chunk-fcerdfs3.js";
+import "/$bunfs/root/chunk-wkmq9ht0.js";
+import "/$bunfs/root/chunk-m1rt7wpr.js";
+import "/$bunfs/root/chunk-jtpfgrzr.js";
+import "/$bunfs/root/chunk-xgw72tt1.js";
+import "/$bunfs/root/chunk-6kc68p18.js";
+import "/$bunfs/root/chunk-s7bhz6qz.js";
+import "/$bunfs/root/chunk-dp4xqs6t.js";
+import "/$bunfs/root/chunk-x0qpydt2.js";
+import "/$bunfs/root/chunk-bd805sh6.js";
+import "/$bunfs/root/chunk-24agvrd9.js";
+import { Qe } from "/$bunfs/root/chunk-qch5xj2a.js";
+import "/$bunfs/root/chunk-etbngzss.js";
+import "/$bunfs/root/chunk-p9frg3mj.js";
+import "/$bunfs/root/chunk-2d9a83dh.js";
+import { i } from "/$bunfs/root/chunk-kgp7t7yx.js";
+import "/$bunfs/root/chunk-04d4ftnx.js";
+import "/$bunfs/root/chunk-c56kpkt7.js";
+import "/$bunfs/root/chunk-7mawjt4q.js";
+import "/$bunfs/root/chunk-tchztk88.js";
+import "/$bunfs/root/chunk-z0brrd3r.js";
+import "/$bunfs/root/chunk-h7cbghgp.js";
+import "/$bunfs/root/chunk-h6pppnx2.js";
+import "/$bunfs/root/chunk-wew3321y.js";
+import "/$bunfs/root/chunk-223dyewd.js";
+import "/$bunfs/root/chunk-w1n7t02f.js";
+import "/$bunfs/root/chunk-3fj60qgx.js";
+import "/$bunfs/root/chunk-n1z3wrvm.js";
+import "/$bunfs/root/chunk-zwxj12s4.js";
+import "/$bunfs/root/chunk-3yz9zdww.js";
+import "/$bunfs/root/chunk-se8vehhp.js";
+import "/$bunfs/root/chunk-63xa24b4.js";
+import "/$bunfs/root/chunk-5k7wva7c.js";
+import "/$bunfs/root/chunk-x47nahfr.js";
+import "/$bunfs/root/chunk-xb9cceab.js";
+import "/$bunfs/root/chunk-craerjpn.js";
+import "/$bunfs/root/chunk-6gk7mpsm.js";
+import "/$bunfs/root/chunk-fnj5y75n.js";
+import "/$bunfs/root/chunk-9dn6gg6j.js";
+import "/$bunfs/root/chunk-qk3m4n8a.js";
+import "/$bunfs/root/chunk-52bcnmbr.js";
+import "/$bunfs/root/chunk-k7dkeqsc.js";
+import "/$bunfs/root/chunk-r3z1chqx.js";
+import "/$bunfs/root/chunk-6bjtvbt8.js";
+import "/$bunfs/root/chunk-1692wahf.js";
+import { Qn } from "/$bunfs/root/chunk-gc7ea4xt.js";
+import "/$bunfs/root/chunk-03gkt7r5.js";
+import "/$bunfs/root/chunk-nj0630nv.js";
+import "/$bunfs/root/chunk-n1fq1c8e.js";
+import "/$bunfs/root/chunk-hz24p3zh.js";
+import "/$bunfs/root/chunk-sawpz2mr.js";
+import "/$bunfs/root/chunk-6dwnw6av.js";
+import "/$bunfs/root/chunk-9fa34ggx.js";
+import "/$bunfs/root/chunk-55x53sfe.js";
+import "/$bunfs/root/chunk-xbsy70c7.js";
+import "/$bunfs/root/chunk-ph7a449e.js";
+import "/$bunfs/root/chunk-vpp1psvz.js";
+import "/$bunfs/root/chunk-bckbp4r1.js";
+import "/$bunfs/root/chunk-qbpgcqdd.js";
+import "/$bunfs/root/chunk-pw6z2cbs.js";
+import "/$bunfs/root/chunk-75wzvwyz.js";
+import "/$bunfs/root/chunk-t0b6khh6.js";
+import "/$bunfs/root/chunk-74djrymf.js";
+import "/$bunfs/root/chunk-d2sd20y7.js";
+import "/$bunfs/root/chunk-pp3y3t61.js";
+import "/$bunfs/root/chunk-mqgsnx6k.js";
+import "/$bunfs/root/chunk-peahjaep.js";
+import "/$bunfs/root/chunk-6g4165br.js";
+import "/$bunfs/root/chunk-231n9cft.js";
+import "/$bunfs/root/chunk-6s83kxfy.js";
+import "/$bunfs/root/chunk-0sgn6snt.js";
+import "/$bunfs/root/chunk-2321ytcf.js";
+import "/$bunfs/root/chunk-1ej05ybf.js";
+import "/$bunfs/root/chunk-mvz09dzd.js";
+import "/$bunfs/root/chunk-k3tkc302.js";
+import "/$bunfs/root/chunk-jynzk4xv.js";
+import "/$bunfs/root/chunk-tw5t5h13.js";
+import "/$bunfs/root/chunk-wrn3nvp5.js";
+import "/$bunfs/root/chunk-sk5bs87n.js";
+import "/$bunfs/root/chunk-tn496ms6.js";
+import "/$bunfs/root/chunk-ssn8w7cj.js";
+import "/$bunfs/root/chunk-ytkshq2j.js";
+import "/$bunfs/root/chunk-j6dkn7h7.js";
+import { Kjo } from "/$bunfs/root/chunk-47fxfvr2.js";
+import { EBt, emn } from "/$bunfs/root/chunk-xn9xq28p.js";
+import "/$bunfs/root/chunk-c5mcach4.js";
+import { Gs } from "/$bunfs/root/chunk-7q005g04.js";
+import "/$bunfs/root/chunk-pbtb1p2a.js";
+import "/$bunfs/root/chunk-z07je2n9.js";
+import "/$bunfs/root/chunk-0c6rtmqc.js";
+import "/$bunfs/root/chunk-rjfz3g63.js";
+import "/$bunfs/root/chunk-vsa1vts5.js";
+import "/$bunfs/root/chunk-pfdtn0nk.js";
+import "/$bunfs/root/chunk-bmzhpr9h.js";
+import "/$bunfs/root/chunk-9fvky64k.js";
+import "/$bunfs/root/chunk-4521ay78.js";
+import "/$bunfs/root/chunk-e0hrcpx7.js";
+import "/$bunfs/root/chunk-45f0zf8d.js";
+import "/$bunfs/root/chunk-y9ay3abt.js";
+import "/$bunfs/root/chunk-dck8836g.js";
+import "/$bunfs/root/chunk-4r6b8efh.js";
+import "/$bunfs/root/chunk-tvg3w9xe.js";
+import "/$bunfs/root/chunk-7y9jhgf9.js";
+import "/$bunfs/root/chunk-4jkyvhbj.js";
+import "/$bunfs/root/chunk-f41czxrs.js";
+import "/$bunfs/root/chunk-tf8026s8.js";
+import "/$bunfs/root/chunk-nb5ge4vq.js";
+import "/$bunfs/root/chunk-s7aawpq2.js";
+import "/$bunfs/root/chunk-qjzjr1ys.js";
+import "/$bunfs/root/chunk-ye049grx.js";
+import "/$bunfs/root/chunk-38fr02qr.js";
+import "/$bunfs/root/chunk-y9c4grt0.js";
+import "/$bunfs/root/chunk-b6xdb1m9.js";
+import "/$bunfs/root/chunk-6sdmsz4f.js";
+import "/$bunfs/root/chunk-ma873c97.js";
+import "/$bunfs/root/chunk-pkje2p8h.js";
+import "/$bunfs/root/chunk-ncdjpaxf.js";
+import "/$bunfs/root/chunk-6kvd67n5.js";
+import "/$bunfs/root/chunk-80q4zjq4.js";
+import { KIn } from "/$bunfs/root/chunk-ahdcxwvk.js";
+import "/$bunfs/root/chunk-xs3re09e.js";
+import "/$bunfs/root/chunk-0g49c63m.js";
+import "/$bunfs/root/chunk-n2j724xe.js";
+import "/$bunfs/root/chunk-8fa0475h.js";
+import "/$bunfs/root/chunk-ghreee2m.js";
+import "/$bunfs/root/chunk-jn6evvyh.js";
+import "/$bunfs/root/chunk-b7w13qrv.js";
+import "/$bunfs/root/chunk-4r70ar86.js";
+import "/$bunfs/root/chunk-tsamgvyd.js";
+import "/$bunfs/root/chunk-fbhagmpx.js";
+import "/$bunfs/root/chunk-pjqd7qee.js";
+import "/$bunfs/root/chunk-xv9n7kza.js";
+import "/$bunfs/root/chunk-f0v3xmb1.js";
+import "/$bunfs/root/chunk-chd251pa.js";
+import "/$bunfs/root/chunk-wtrd0hw3.js";
+import "/$bunfs/root/chunk-v214ecah.js";
+import "/$bunfs/root/chunk-9nfq6p43.js";
+import "/$bunfs/root/chunk-77t63btp.js";
+import "/$bunfs/root/chunk-yp41169e.js";
+import "/$bunfs/root/chunk-2dp0fzyb.js";
+import "/$bunfs/root/chunk-pj42g5eb.js";
+import "/$bunfs/root/chunk-tfc1vf2h.js";
+import "/$bunfs/root/chunk-6cee9jwv.js";
+import "/$bunfs/root/chunk-yngqe5v3.js";
+import "/$bunfs/root/chunk-nnawdxg4.js";
+import "/$bunfs/root/chunk-svqqgdca.js";
+import "/$bunfs/root/chunk-dze6yaxw.js";
+import "/$bunfs/root/chunk-m6z3m7rx.js";
+import "/$bunfs/root/chunk-tybndaby.js";
+import "/$bunfs/root/chunk-79wfew46.js";
+function v() {
+    return import("/$bunfs/root/chunk-149c0e7x.js");
+}
+const name = "claude-code-docs";
+const P = `Answer questions about Claude Code itself: commands, flags, settings, hooks, skills, MCP servers, subagents, IDE integrations, sandboxing, deployment, and Claude Tag (Claude in Slack). Verifies against the running build before recommending any command, flag, or setting.
+`;
+const description = `${P + `TRIGGER when: user asks how Claude Code works ("Can Claude\u2026", "Does Claude\u2026", "How do I\u2026", "Is there a way to\u2026"); user asks about a slash command, CLI flag, settings key, hook, skill, MCP server, subagent, keybinding, or .claude/ directory; user wants to configure, customize, or troubleshoot Claude Code; user asks about Claude in Slack or Claude Tag ("what is Claude Tag", "can Claude live in Slack", "@Claude in Slack", "/install-slack-app", "set up Claude for my Slack workspace"); YOU are about to recommend a Claude Code slash command, flag, or setting and have not verified it exists in this build.
+`}SKIP: questions about building applications with the Claude API or Anthropic SDK (use /claude-api), general programming questions, questions about the user's own codebase.`;
+function D(a, s) {
+    let n = [];
+    let o = a.options.commands.filter((e)=>!e.isHidden);
+    let r = (e)=>e.type !== "prompt" || e.source === "builtin" || e.source === "bundled";
+    let u = o.filter(r);
+    if (u.length > 0) {
+        let e = u.map((t)=>{
+            let d = t.aliases?.length ? ` (aliases: ${t.aliases.map((m)=>`/${m}`).join(", ")})` : "";
+            return `- /${t.name}${d}: ${t.description}`;
+        }).sort();
+        n.push(`**Available commands (${u.length} in this build):**
+${e.join(`
+`)}`);
+    }
+    let g = Kjo();
+    n.push(`**\`claude plugin\` CLI subcommands (${g.length} available in this session; run from a shell, not the prompt):**
+` + g.map((e)=>`- claude ${e.usage}${e.aliases ? ` (aliases: ${e.aliases.join(", ")})` : ""}: ${e.description}`).join(`
+`));
+    let p = KIn();
+    let y = p.enabled ? " For any question about it — availability, authoring cases, graders, flags, the results JSON, the report, the sandbox, CI, troubleshooting — or about `/skill-doctor`, read `references/plugin-eval-quickref.md`, then the matching section of `references/plugin-eval.md`; they are the offline floor and there is no public docs page yet." : "";
+    n.push(`**Plugin eval:** ${p.text}${y}`);
+    let f = o.filter((e)=>!r(e));
+    if (f.length > 0) {
+        let e = f.map((t)=>`- /${t.name}: ${t.description}`).sort();
+        n.push(`**Custom skills configured:**
+${e.join(`
+`)}`);
+    }
+    let h = a.options.agentDefinitions.activeAgents.filter((e)=>e.source !== "built-in");
+    if (h.length > 0) {
+        let e = h.map((t)=>`- ${t.agentType}: ${t.whenToUse}`).sort();
+        n.push(`**Custom agents configured:**
+${e.join(`
+`)}`);
+    }
+    let mcpClients = a.options.mcpClients;
+    if (mcpClients && mcpClients.length > 0) {
+        let e = mcpClients.map((t)=>`- ${t.name}`).sort();
+        n.push(`**Configured MCP servers:**
+${e.join(`
+`)}`);
+    }
+    let C = Object.keys(Qn()).sort();
+    if (C.length > 0) {
+        n.push(`**Settings keys configured (values omitted):** ${C.join(", ")}. To see values, the user can run \`claude config list\` or open \`~/.claude/settings.json\`.`);
+    }
+    let S = Qe({
+        ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues",
+        PACKAGE_URL: "@anthropic-ai/claude-code",
+        README_URL: "https://code.claude.com/docs/en/overview",
+        VERSION: "2.1.296",
+        FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
+        BUILD_TIME: "2026-10-09T01:31:52Z",
+        GIT_SHA: "fdb6c17a97b6e0e3cf15e3566663fca58e7c43a9",
+        HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+        DD_SOURCEMAP_GROUP: "default"
+    }.VERSION, "-");
+    let b = emn(s).filter(([e])=>_Re(e, S)).slice(-10).reverse();
+    if (b.length > 0) {
+        let e = b.map(([t, d])=>`### ${t}
+` + d.map((m)=>`- ${m}`).join(`
+`));
+        n.push(`**Recent releases (you are running v${{
+            ISSUES_EXPLAINER: "report the issue at https://github.com/anthropics/claude-code/issues",
+            PACKAGE_URL: "@anthropic-ai/claude-code",
+            README_URL: "https://code.claude.com/docs/en/overview",
+            VERSION: "2.1.296",
+            FEEDBACK_CHANNEL: "https://github.com/anthropics/claude-code/issues",
+            BUILD_TIME: "2026-10-09T01:31:52Z",
+            GIT_SHA: "fdb6c17a97b6e0e3cf15e3566663fca58e7c43a9",
+            HOOKS_WORKER_URL: "/$bunfs/root/src/plugins/functionHooks/hooks-worker/hooks-worker.js",
+            DD_SOURCEMAP_GROUP: "default"
+        }.VERSION}):**
+${e.join(`
+
+`)}`);
+    }
+    if (E7()) {
+        n.push("**Provider context:** This session is not using Anthropic's first-party API. WebSearch may be unavailable, `/feedback` is unavailable, and some features behave differently — check the docs page for the user's specific provider. Direct issues to https://github.com/anthropics/claude-code/issues.");
+    }
+    return n.join(`
+
+`);
+}
+function I(SKILL_PROMPT, s, n, l) {
+    let o = [
+        SKILL_PROMPT
+    ];
+    let r = D(n, l);
+    o.push(`---
+
+# Current Build
+
+Generated from the running Claude Code binary at invocation time. This is ground truth \u2014 it overrides your training data and any documentation when they disagree about what exists in this build.
+
+${r}`);
+    if (s.trim()) {
+        o.push(`---
+
+## User Request
+
+${s}`);
+    }
+    return o.join(`
+
+`);
+}
+export function registerClaudeCodeSkill({ disabled = false } = {}) {
+    Gs({
+        name,
+        menuDescription: "Answer questions about Claude Code features and settings",
+        description,
+        allowedTools: [
+            "Read",
+            "Grep",
+            "Glob",
+            "WebFetch(domain:code.claude.com)",
+            "WebFetch(domain:platform.claude.com)"
+        ],
+        argumentHint: "[question]",
+        userInvocable: true,
+        files: ()=>v().then((s)=>s.SKILL_FILES),
+        isEnabled () {
+            return !disabled && k("tengu_birch_kettle", false);
+        },
+        async getPromptForCommand (s, n) {
+            i("tengu_claude_code_skill_loaded", {
+                has_args: s.trim().length > 0
+            });
+            let [l, { SKILL_PROMPT }] = await Promise.all([
+                EBt(n.storageV5),
+                v()
+            ]);
+            return [
+                {
+                    type: "text",
+                    text: I(SKILL_PROMPT, s, n, l)
+                }
+            ];
+        }
+    });
+}

@@ -1,0 +1,45 @@
+# --- Large / regenerable analysis output ---
+# REA analysis Evidence (~2.3 GB, regenerable from first-party-raw/)
+rea-graph/
+# Raw REA recovery output dirs (inputs + modules + maps); final code is merged into src/
+recovered-*/
+recovered-rest.log
+recovered-rest-logs/
+# Copy of first-party modules from bunfs/ staged for REA input
+first-party-raw/
+# Intermediate prompt dump; categorized version lives in prompts/
+prompts-raw.jsonl
+
+# --- Binary / redundant payload pieces ---
+# JSC bytecode blobs (redundant: every module ships its JS source too)
+*.bytecode
+# zstd originals (decompressed copies sit next to them)
+*.zst
+# Native binaries and raw section dumps
+*.node
+*.bin
+*.exe
+
+# --- Machine-specific tools (reinstall instead of committing) ---
+# Python virtualenv (hard-codes its absolute path)
+tools/pwnvenv/
+# Downloaded Wakaru release binary (fetch again: see ~/rea/docs/javascript-recovery.md)
+tools/wakaru-dl/
+
+# --- Python / Node ---
+__pycache__/
+*.py[cod]
+node_modules/
+*.log
+
+# --- Secrets / env ---
+.env
+.env.*
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
